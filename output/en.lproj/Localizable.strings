@@ -1,0 +1,1114 @@
+"account_locked" = "Your account is locked, please reset your password.";
+
+"action_forgot_password" = "Forgot your password?";
+
+"action_sign_in_short" = "Log in";
+
+"add" = "Add";
+
+"add_justification" = "Add your frequently used journey descriptions here";
+
+"add_new_purpose" = "Or enter a new one";
+
+"agree" = "Agree";
+
+"agreement" = "Do not use this application while driving or in such a way that may interfere with the safe operation of the vehicle. It is your sole responsibility to use this application in a manner that will not cause accidents, personal injury or property damage. Always observe safe driving practices.";
+
+"all" = "all";
+
+"all_journeys_submitted" = "All journeys submitted.";
+
+"amend_error_number_high" = "Distance should not exceed";
+
+"amend_mileage" = "Distance";
+
+"amend_reason" = "Reason for change";
+
+"app_name_expenses" = "Mileage";
+
+"app_name_navigation" = "Navigation";
+
+"app_name_vehicle_checks" = "Vehicle Check";
+
+"app_ok" = "Ok";
+
+"applet_comming_soon" = "Coming soon";
+
+"applet_expenses" = "MILEAGE";
+
+"applet_navigation" = "NAVIGATION";
+
+"applet_score" = "SCORE";
+
+"applet_vehicle_checks" = "VEHICLES";
+
+"applet_wheres_my_car" = "WHERE'S MY CAR";
+
+"bluetooth" = "Bluetooth";
+
+"bt_auto_activation" = "This application requires Bluetooth to connect to the vehicle. Do you wish to authorize Bluetooth activation?";
+
+"bt_deactivated_message" = "You are trying to deactivate Bluetooth. Masternaut application will be disconnected from your vehicle.";
+
+"bt_deactivated_title" = "Warning";
+
+"bt_dialog_info" = "Click Scan to disconnect and search for another vehicle.";
+
+"bt_disconnect" = "Disconnect";
+
+"business_journey_purpose" = "Business journey purpose";
+
+"business_pls_purpose" = "+ purpose";
+
+"cancel" = "Cancel";
+
+"choose_classification" = "Choose a classification for this journey";
+
+"choose_device" = "Please select an available vehicle to proceed";
+
+"classification_forced_message" = "Please classify your journeys here.";
+
+"classification_forced_title" = "Classification";
+
+"classification_saved" = "Classification saved.";
+
+"classify" = "Classify";
+
+"connecting" = "Connecting";
+
+"connecting_to_mbox" = "Connecting to vehicle";
+
+"copyright" = "Copyright © 2017 Masternaut. All rights reserved.";
+
+"currency" = "Currency";
+
+"currency_czech" = "CZK Kč";
+
+"currency_danish" = "DKK kr.";
+
+"currency_euro" = "EUR €";
+
+"currency_great_britain" = "GBP £";
+
+"currency_polish" = "PLN zł";
+
+"currency_swedish" = "SEK kr.";
+
+"currency_swiss" = "CHF";
+
+"dashboard" = "Dashboard";
+
+"data_refreshed" = "Your journeys were updated with server data";
+
+"detail_amount" = "Amount";
+
+"detail_confirm" = "Confirm";
+
+"detail_distance" = "Distance";
+
+"detail_journey" = "Journey";
+
+"detail_journey_purpose" = "Journey purpose";
+
+"detail_notes" = "Comments";
+
+"detail_notes_optional" = "(optional)";
+
+"detail_rate" = "Rate";
+
+"detail_save_distance_changed" = "journey distance";
+
+"detail_save_end_addr_changed" = "end address";
+
+"detail_save_explanation_msg" = "Please provide a reason for this change.";
+
+"detail_save_modifications" = "You have modified the";
+
+"detail_save_start_addr_changed" = "start address";
+
+"detail_tap_to_add_end_address" = "Tap to enter the end location";
+
+"detail_tap_to_add_note" = "Tap to enter general comments or notes";
+
+"detail_tap_to_add_purpose" = "Tap to add a journey purpose";
+
+"detail_tap_to_add_start_address" = "Tap to enter the start location";
+
+"edit_journey" = "Edit journey";
+
+"empty_justifications_warning" = "Add your frequently used journey descriptions in My Account section.";
+
+"end" = "End";
+
+"error_401" = "You are not authorized to access this application.";
+
+"error_could_not_connect" = "Could not connect to server.";
+
+"error_field_required" = "This field is required";
+
+"error_generic" = "Error has occurred.";
+
+"error_incorrect_password" = "This password is incorrect";
+
+"error_incorrect_vehicle" = "This vehicle does not belong to your company!";
+
+"error_invalid_password" = "This password is too short";
+
+"error_mandatory" = "This field is mandatory";
+
+"error_no_connection_to_mbox" = "No connection to vehicle";
+
+"error_no_result" = "No result";
+
+"error_offline" = "No Internet connection.";
+
+"error_settings" = "SETTINGS";
+
+"error_vehicle_disconnected" = "Vehicle disconnected!";
+
+"estimated_value_short" = "Est. value";
+
+"form_submission_close_app" = "Close";
+
+"form_submission_completed" = "Task completed.";
+
+"form_submission_error" = "Oops! Error has occurred.";
+
+"form_submission_note" = "Let's do this again soon.";
+
+"form_submission_offline" = "You are offline. The report will be sent once you are back online.";
+
+"form_submission_sending" = "Sending.";
+
+"get_masternaut_services" = "Get Masternaut services";
+
+"get_masternaut_services_message" = "This application won't run without Masternaut services.";
+
+"google_play_missing" = "Unable to find Google Play on this device.";
+
+"help" = "Help";
+
+"item_removed" = "Item was removed";
+
+"journey_classification" = "Journey classification";
+
+"journey_purpose_empty" = "Journey purpose cannot be empty!";
+
+"journeys" = "Journeys";
+
+"kilometres_short" = "km";
+
+"last_day_of_month" = "Last day of the month";
+
+"last_month" = "Last month";
+
+"last_seven_days" = "last 7 days";
+
+"last_submission" = "Last submission %1$@";
+
+"login_slogan_masternaut_bold" = "masternaut";
+
+"login_slogan_the_regular" = "| the";
+
+"login_slogan_the_smarter_bold" = "smarter";
+
+"login_slogan_the_fleet_platform_regular" = "fleet platform";
+
+"mbox_connection_error" = "Application is not able to connect to your Vehicle. Please get closer or check if your vehicle is not already connected to another device.";
+
+"menu_features" = "Features";
+
+"menu_feedback" = "Give us feedback";
+
+"menu_feedback_subject" = "SmarterDriver App Feedback Experience";
+
+"menu_home" = "Home";
+
+"menu_my_account" = "My account";
+
+"menu_sign_out" = "Log out";
+
+"miles_short" = "mi";
+
+"modify_selection" = "Modify selection";
+
+"navigation_drawer_close" = "Close navigation drawer";
+
+"navigation_drawer_open" = "Open navigation drawer";
+
+"need_classification_message" = "You have %1$@ unclassified journeys (total %2$@). Classify before submission?";
+
+"new_journey" = "New journey";
+
+"new_journey_detail" = "Journey detail";
+
+"new_journey_error" = "Please fill in the fields highlighted in red.";
+
+"new_journey_reason" = "Reason for manual entry";
+
+"new_journey_start_date" = "Start date";
+
+"new_journey_start_time" = "Start time";
+
+"news_feed_journey_completed" = "Journey completed";
+
+"news_feed_tip_header" = "Tips";
+
+"news_feed_tip_message" = "You can add and edit your own frequently used journey purpose in the list to save time. Simply go to My account in main menu and manage them there.";
+
+"news_feed_tip_title" = "Modifying the journey purpose list";
+
+"news_feed_title" = "News and updates";
+
+"no_device_found" = "No vehicle found. Please move in range and scan again.";
+
+"no_journeys" = "You have no %1$@ journeys.";
+
+"onboard_1_message" = "SmarterDriver brings all the mileage <br> data in the palm of your hands. <br> <b><font color=\"#105995\">Classify, submit and save money!</font></b>";
+
+"onboard_1_tip" = "<b>Tip:</b> The Home Screen will show you the latest updates, and provide access to different features.";
+
+"onboard_1_title" = "Welcome Smarter Driver!";
+
+"onboard_2_message" = "Get an overview of all your journeys.<br> <b><font color=\"#105995\">Classify, categorise, and save time.<br></font></b> Swipe left, right and you’re done.";
+
+"onboard_2_tip" = "<b>Tip:</b> Use a long swipe to add a category to your journey classification. Customise the categories in your account settings.";
+
+"onboard_2_title" = "One screen to manage them all";
+
+"onboard_3_message" = "Something doesn’t seem right? Easy.<br> Tap on the tile to see the journey’s details.<br> <b><font color=\"#105995\">Modify, save, and it’s changed!</font>";
+
+"onboard_3_tip" = "<b>Note:</b> The detail screen will ask you for a reason for change when the address or the distance is modified.";
+
+"onboard_3_title" = "Context brings control";
+
+"onboard_4_message" = "The monthly dashboard displays<br> <b><font color=\"#105995\">the what, how and when</font></b><br> of your mileage expenses in one place.";
+
+"onboard_4_tip" = "<b>Tip:</b> Review or change your personal and professional journeys by tapping on each classification label.";
+
+"onboard_4_title" = "Your own control tower";
+
+"only_one_account_supported" = "Only one Smarter Driver account is supported.";
+
+"parser_can_configuration_error" = "CAN configuration error";
+
+"parser_dataid_configuration_error" = "DataID configuration error";
+
+"parser_dataid_configuration_success" = "DataID configuration success";
+
+"parser_error_authentication_failed" = "Authentication failed";
+
+"parser_io_configuration_error" = "IO configuration error";
+
+"permission_needed" = "Permission needed.";
+
+"personal_journey_purpose" = "Personal journey purpose";
+
+"personal_pls_purpose" = "+ purpose";
+
+"placeholder_empty" = "You have no journeys for this period";
+
+"prefs_cost_of_unit" = "Reimbursement rate";
+
+"prefs_csv_contains_all" = "Report contains all journey types";
+
+"prefs_csv_contains_business" = "Report contains only business journeys";
+
+"prefs_email_incorrect" = "Please enter valid email!";
+
+"prefs_my_details" = "My details";
+
+"prefs_my_email" = "My email";
+
+"prefs_name" = "Name";
+
+"prefs_reimbursement_rate" = "Reimbursement Rate";
+
+"prefs_send_csv" = "Send a report";
+
+"prefs_submission_day" = "Monthly submission date";
+
+"prefs_submission_details" = "Submission details";
+
+"prefs_submission_email" = "Submission email";
+
+"price_per_unit_part1" = "per";
+
+"proceed" = "Continue";
+
+"prompt_password" = "Password";
+
+"prompt_username" = "Username";
+
+"ready_to_be_claimed" = "Ready to be claimed";
+
+"reason" = "Reason";
+
+"reimbursement" = "Reimbursement";
+
+"reset_now" = "Reset now";
+
+"response_authentication_successful" = "Authentication successful";
+
+"response_device_connected" = "device_connected";
+
+"response_device_disconnected" = "device disconnected";
+
+"response_device_not_bonded" = "device not bonded";
+
+"response_from_request_for_data_successful" = "requested dataIds";
+
+"response_reconnection_stopped" = "reconnection stopped";
+
+"response_search_finished" = "search finished";
+
+"response_search_stopped" = "search stopped";
+
+"save_journey" = "Save";
+
+"scan" = "Scan";
+
+"searching_for_mbox" = "Searching for a vehicle";
+
+"select_journey_purpose" = "Select journey purpose";
+
+"skip" = "Skip";
+
+"start" = "Start";
+
+"submission_classifying" = "Classifying…";
+
+"submission_day_numeric_part" = "day is submission day.";
+
+"submission_day_text_part" = "is submission day.";
+
+"submission_error_message" = "Please try again later";
+
+"submission_error_title" = "Oops! Error has occurred.";
+
+"submission_offline" = "You are offline. The report will be sent once you are back online.";
+
+"submission_period" = "Submission period";
+
+"submission_sending" = "Sending…";
+
+"submission_success_message_old" = "Your claims have been submitted successfully.";
+
+"submission_success_title" = "Great job!";
+
+"submission_title" = "Submit my claims";
+
+"submit" = "Submit";
+
+"submit_before" = "Submit before %1$@";
+
+"submit_today" = "Please submit your journeys today";
+
+"summary_name_business" = "Business";
+
+"summary_name_personal" = "Personal";
+
+"summary_name_submitted" = "Submitted";
+
+"summary_name_unclassified" = "Unclassified";
+
+"no_journeys_business" = "Business";
+
+"no_journeys_personal" = "Personal";
+
+"no_journeys_unclassified" = "Unclassified";
+
+"tae_applet_ready_for_claim" = "to be claimed";
+
+"tae_applet_unclassified" = "unclassified";
+
+"this_month" = "this Month";
+
+"title_activity_login" = "Masternaut Login";
+
+"today" = "today";
+
+"toolbar_settings" = "Settings";
+
+"total_mileage" = "Distance";
+
+"unclassified" = "Classify my journeys";
+
+"undo" = "UNDO";
+
+"unknown_device" = "Unknown device";
+
+"vehicle_info_updated" = "Vehicle information has been updated!";
+
+"version" = "Version";
+
+"welcome_back" = "Welcome back";
+
+"welcome_back_continue" = "Continue";
+
+"welcome_back_different_login" = "If you are not %1$@, please sign in as another user.";
+
+"welcome_back_sign_in" = "Sign in";
+
+"yes" = "YES";
+
+"yesterday" = "yesterday";
+
+"default_business_purposes_arr_1" = "Customer visit";
+
+"default_business_purposes_arr_2" = "Between Offices";
+
+"default_business_purposes_arr_3" = "Meeting";
+
+"default_business_purposes_arr_4" = "Airport/Travel";
+
+"default_business_purposes_arr_5" = "Errand/Supplies";
+
+"default_personal_purposes_arr_1" = "Commute";
+
+"default_personal_purposes_arr_2" = "Shopping";
+
+"default_personal_purposes_arr_3" = "School";
+
+"settings_unit" = "Unit";
+
+"submit_only_business" = "Submit only Business journeys";
+
+"journey_plural_zero" = "journeys";
+
+"journey_plural_one" = "journey";
+
+"journey_plural_two" = "journeys";
+
+"journey_plural_few" = "journeys";
+
+"journey_plural_many" = "journeys";
+
+"journey_plural_other" = "journeys";
+
+"vehicle_check_list_na" = "N/A";
+
+"vehicle_check_camera_or_library_alert" = "Add photo using";
+
+"app_name" = "SmarterDriver";
+
+"summary_name_business_short" = "Business";
+
+"done" = "Done";
+
+"tap_to_enter_reason" = "Tap to enter a reason for change.";
+
+"vehicle_check_library_option" = "Library";
+
+"vehicle_check_submit_check" = "Submit check";
+
+"menu_tutorial" = "Tutorial";
+
+"app_desc_login" = "Masternaut | the smarter fleet platform";
+
+"vehicle_check_detail_required" = "* Required";
+
+"vehicle_check_no_camera" = "Camera not available.";
+
+"vehicle_check_finish" = "Finish";
+
+"to_be_claimed" = "%1$@ to be claimed";
+
+"submitting_journey_detail_failed" = "Submit of journeys failed.";
+
+"error_invalid_email" = "This email is invalid";
+
+"last_pwd_login_dont_match" = "App offline. last used login/password don't match";
+
+"vehicle_check_odometer_reading_placeholder" = "12345.0";
+
+"vehicle_check_fail" = "Unable to send the report.";
+
+"vehicle_check_driver" = "Driver";
+
+"updating_journey_detail_failed" = "Updating journey detail failed.";
+
+"disabled" = "Disabled";
+
+"keyboard_next" = "Next";
+
+"vehicle_check_detail_photo" = "Photo";
+
+"vehicle_check_list_title" = "Vehicle check";
+
+"vehicle_check_list_date" = "Date";
+
+"vehicle_check_camera_option" = "Camera";
+
+"vehicle_check_odometer_reading" = "Add odometer reading";
+
+"retrieving_person_failed" = "Loading settings failed.";
+
+"vehicle_check_add_comment_placeholder" = "Write your comment";
+
+"getting_journey_detail_failed" = "Getting journey detail failed.";
+
+"vehicle_check_add_comment" = "Add comment";
+
+"placeholder_no_journeys_for_period" = "No journey for this period.\nplease try another date range.";
+
+"prefs_units" = "Units";
+
+"no_mail_service" = "Please check your mail settings";
+
+"vehicle_check_date_of_check" = "Date of check";
+
+"no_data" = "No data";
+
+"vehicle_check_vehicle_registration_number_placeholder" = "Write registration number";
+
+"vehicle_check_detail_description" = "Description";
+
+"vehicle_check_success" = "Vehicle check report has been submitted successfully.";
+
+"dashboard_load_error" = "Please, check your connection and swipe to refresh.";
+
+"vehicle_check_list_time" = "Time";
+
+"summary_name_personal_short" = "Personal";
+
+"vehicle_check_vehicle_registration_number" = "Vehicle registration number";
+
+"vehicle_check_vehicle_name" = "Vehicle";
+
+"vehicle_check_list_nodefect" = "No defect";
+
+"vehicle_check_list_withdefect" = "With defect";
+
+"new_journey_start_location" = "Start location";
+
+"new_journey_end_location" = "End location";
+
+"permission_location_services" = "Allow SmarterDriver to access your location while you are using this app?";
+
+"new_journey_manually_added" = "Journey manually added";
+
+"journey_detail_reason_for_addition" = "Reason for addition";
+
+"vehicle_check_submission_no_location" = "location not enabled.";
+
+"google_play_services_missing" = "Please update Google play services.";
+
+"vehicle_list_guest_vehicle" = "Guest vehicle";
+
+"vehicle_list_title" = "Vehicle list";
+
+"vehicle" = "vehicle";
+
+"tracking" = "tracking";
+
+"start_journey" = "Start journey";
+
+"perform_vehicle_check" = "Perform vehicle check";
+
+"end_journey" = "End journey";
+
+"all_journeys_classified" = "All journeys classified";
+
+"vehicle_check_submitted" = "Vehicle check submitted";
+
+"all_journeys_classified" = "All journeys classified.";
+
+"vehicle_describe_defect" = "Describe the defect";
+
+"vehicle_submit_offline" = "You are offline. Unable to send the report.";
+
+"vehicle_check_submitted" = "Vehicle check submitted";
+
+"unclassified_journeys_count_plural_zero" = "Classify %d journeys";
+
+"unclassified_journeys_count_plural_one" = "Classify %d journey";
+
+"unclassified_journeys_count_plural_two" = "Classify %d journeys";
+
+"unclassified_journeys_count_plural_few" = "Classify %d journeys";
+
+"unclassified_journeys_count_plural_many" = "Classify %d journeys";
+
+"unclassified_journeys_count_plural_other" = "Classify %d journeys";
+
+"track_journey_permission_phone_state" = "SmarterDriver will use your phone's serial number to identify journeys uniquely for this phone.";
+
+"applet_track_journey" = "Tracking";
+
+"track_journey_start" = "Start journey";
+
+"track_journey_end" = "End journey";
+
+"track_journey_permission_disabled" = "Permissions not enabled.";
+
+"track_journey_backend_401" = "This functionality is not available for your account. Please speak with your administrator.";
+
+"track_journey_backend_403" = "You are not set up as a driver. Please speak with your administrator.";
+
+"track_journey_offline_error" = "You are offline. Please reconnect to track your journey.";
+
+"no_vehicles_message" = "You have no assigned vehicles in your group or you are offline.";
+
+"offline" = "You are offline - a vehicle check cannot be completed until you reconnect.";
+
+"warning" = "Warning";
+
+"vch_disabled_new_feature" = "NEW FEATURE";
+
+"vch_disabled_new_desc1" = "Vehicle check allows you to complete your pre-trip checklist according to regulations and submit for record keeping.";
+
+"vch_disabled_new_desc2" = "Discuss with your admin or
+Masternaut account manager to activate.";
+
+"onboarding_1_title" = "Welcome to SmarterDriver!";
+
+"onboarding_1_text" = "With SmarterDriver, you can view information about your journeys, vehicle, and profile directly from your phone.";
+
+"onboarding_2_title" = "Using list swipes";
+
+"onboarding_2_text" = "Use a swipe gesture to the left or the right on a list item to perform a rapid action. You can easily classify your journeys or go through a vehicle checklist using swipes.";
+
+"onboarding_3_title" = "Adding detail with long swipes";
+
+"onboarding_3_text" = "Use a long swipe across the screen to add more information. By swiping longer to the side of the screen, you can add the journey purpose.";
+
+"offline" = "You are offline - a vehicle check cannot be completed until you reconnect.";
+
+"" = "A new version is available in the App Store/ Play Store. Please update to the latest release.";
+
+"" = "Continue without updating";
+
+"error_couldnt_create_dir" = "Couldn't access external directory.";
+
+"adding_manual_journey_progress" = "Adding manual journey";
+
+"journey_addition_offline" = "You are offline. Unable to create journey.";
+
+"navigation_not_available" = "Navigation is not available on your device.";
+
+"permission_message_access_fine_location" = "For proper functionality app needs to ACCESS FINE LOCATION.";
+
+"permission_message_get_accounts" = "For proper functionality app needs to GET ACCOUNTS.";
+
+"" = "Simplify your business driving experience";
+
+"" = "Recap journeys";
+
+"" = "Quickly overview mileage expenses";
+
+"" = "Swipe to classify journeys";
+
+"" = "Categorise trips instantly";
+
+"" = "Check and submit";
+
+"" = "Easily complete a vehicle check before hitting the road";
+
+"" = "Other (describe below)";
+
+"location_services_dissabled" = "Location services need to be enabled to record journey.";
+
+"location_permission_invalid_permission" = "Location access for the app need to be set to 'Always' for journey recording.";
+
+"location_services_switched_off" = "Location services have been switched off, ending journey.";
+
+"location_services_permission_change" = "Location services permission has been changed, ending journey.";
+
+"location_unable_to_get" = "Unable to get your location, please try again later.";
+
+"device_not_found" = "Your device is not registered, ending journey.";
+
+"processing_journey" = "Processing journey...";
+
+"creating_journey_slow_connection" = "Slow connection - your journey was recorded and will display when connection improves.";
+
+"pull_to_refresh_offline" = "Connection issue - pull to refresh when connection improves.";
+
+"update_prompt_title" = "A new version is available in the App Store.";
+
+"update_prompt_subtitle" = "Please update to the latest version.";
+
+"update_prompt_update_button" = "Update";
+
+"update_prompt_continue_button" = "Continue without updating";
+
+"vch_no_checklist_for_account" = "No vehicle check list is available for your account.";
+
+"enter_other_purpose" = "Other (describe below)";
+
+"submission_email_empty_question" = "Who should receive your submission?";
+
+"submission_email_info" = "You can edit this email address in the future by accessing your account settings.";
+
+"journey_distance_validation_error" = "Please provide a value greater than 0.";
+
+"try_again" = "Try again";
+
+"login_placeholder_message" = "You cannot log in when you are offline.";
+
+"you_are_still_offline" = "You are still offline. Try again when you reconnect.";
+
+"last_seven_days" = "Last 7 days";
+
+"hours" = "hrs";
+
+"smoother" = "Smoother";
+
+"good_job" = "Good job!";
+
+"better_next_time" = "You'll do better next time!";
+
+"harsh_more" = "%@ point decrease in your smooth driving compared to last week.";
+
+"harsh_less" = "%@ point increase in your smooth driving compared to last week.";
+
+"driving_behavior" = "Your driving behaviour";
+
+"safer" = "Safer";
+
+"speeding_more" = "%@ point increase in speeding than last week.";
+
+"speeding_less" = "%@ point increase in driving at safe speeds than last week.";
+
+"cleaner" = "Cleaner";
+
+"idling_more" = "%@ point increase in idling than last week.";
+
+"idling_less" = "%@ point increase in driving without idling than last week.";
+
+"smoother_description" = "Here you can see how smoothly you are driving. Your score goes down when you accelerate or brake harshly. As a guide, 100 means 0 harsh events, 80 means 1 harsh event per 100 %@, and 50 means 4 harsh events per 100 %@.";
+
+"my_average" = "My average";
+
+"in_group" = "in group";
+
+"in_company" = "in company";
+
+"safer_description" = "To stay safe on the road, we recommend driving within the regulated speed limits. Here, you can see what percentage of your journeys you are driving at safe speeds (less than 10% over the road speed limit).";
+
+"average_events" = "My average events per 100 %@";
+
+"cleaner_description" = "You can reduce emissions and make a cleaner environment by minimising idling. Here, you can see what percentage of time you spent driving while your engine was on. Your percentage decreases when you spend time with the engine idling.";
+
+"recommended_and_above" = "Recommended is %@%% or above.";
+
+"recommended_per_100" = "Recommended is %@%% or below.";
+
+"graph_popup_title" = "What’s this number?";
+
+"smoother_popup_desc1" = "This value is based on the average Masternaut Connect van driver.";
+
+"smoother_popup_desc2" = "For HGVs, this value is %1$@ %%.";
+
+"smoother_popup_desc3" = "For cars, this value is %1$@ %%.";
+
+"metrics_no_data_both_weeks" = "Let's get going!";
+
+"metrics_no_data_this_week" = "Start driving today to see your trend!";
+
+"metrics_no_data_last_week" = "Keep driving to see your trend soon!";
+
+"metrics_no_data_last_week_smoother" = "Find out more about your smoothness.";
+
+"metrics_no_data_last_week_safer" = "Find out more about your speeding.";
+
+"metrics_no_data_last_week_cleaner" = "Find out more about your idling.";
+
+"safer_popup_desc1" = "This value is based on the average Masternaut Connect van driver.";
+
+"safer_popup_desc2" = "For HGVs, this value is %1$@%%.";
+
+"safer_popup_desc3" = "For cars, this value is %1$@%%.";
+
+"cleaner_popup_desc1" = "This value is based on the average Masternaut Connect van driver.";
+
+"cleaner_popup_desc2" = "For HGVs, this value is %1$@%%.";
+
+"cleaner_popup_desc3" = "For cars, this value is %1$@%%.";
+
+"submission_success_message" = "Submission successful.";
+
+"and" = "and";
+
+"submission_success_message_subtitle" = "Don\'t forget your %1$@ journeys!";
+
+"menu_company_hotline" = "My company hotline";
+
+"recall_no_longer_pending" = "Journey(s) no longer pending.";
+
+"summary_name_pending" = "Pending";
+
+"summary_name_approved" = "Approved";
+
+"recall_action" = "Recall";
+
+"google_signin_generic_error" = "An error occurred with Google Sign In, please try again or use your standard Connect Login (email/password).";
+
+"max_photos_per_defect" = "(max 1 per defect)";
+
+"total_photos_per_report" = "Total photos %1$@ per report";
+
+"photos_attached" = "Photos attached";
+
+"" = "Reduce the hassles of driving for business so you can get back to what matters.";
+
+"" = "Get control over your business driving experience with the Masternaut SmarterDriver app. Review your driving journeys and your driving behaviour - synced automatically from your Masternaut tracking device. With a few simple clicks, you can submit your classified journeys or daily commercial vehicle check directly to your manager. 
+As a Smarter Driver, you save the time and hassle wasted on paper submissions so you can focus on your driving and your work.
+
+
+Note: In order to use SmarterDriver, you must have an existing Masternaut Connect account. Visit our website for more information.
+";
+
+"last_vehicle_check_view_title" = "View your last vehicle check";
+
+"last_vehicle_check_regnum" = "Vehicle";
+
+"last_vehicle_check_date_submitted" = "Submitted";
+
+"last_vehicle_check_driver" = "Driver";
+
+"last_vehicle_check_time" = "Time of check";
+
+"last_vehicle_check_odometer_reading" = "Odometer reading";
+
+"last_vehicle_check_with_defect" = "With defect";
+
+"last_vehicle_check_no_defect" = "No defect";
+
+"last_vehicle_check_report" = "Vehicle check report";
+
+"vehicle_check_notes" = "Notes";
+
+"KEY" = "EN";
+
+"" = "Jobs";
+
+"" = "Job Management";
+
+"" = "Job Manager";
+
+"" = "Job Viewer";
+
+"" = "Job Driver";
+
+"jobs-table-title" = "Title";
+
+"jobs-table-customer" = "Customer";
+
+"jobs-table-no-jobs-found" = "No jobs available";
+
+"save-button" = "Save";
+
+"cancel-button" = "Cancel";
+
+"new-button" = "New";
+
+"job-address" = "Job address";
+
+"create-job-job-address-placeholder" = "Add job address";
+
+"customer-name" = "Customer name";
+
+"create-job-customer-name-placeholder" = "Add customer name";
+
+"job-name" = "Job name";
+
+"create-job-job-name-placeholder" = "Add job name";
+
+"new-job" = "New Job";
+
+"job" = "Job";
+
+"close-button" = "Close";
+
+"job-created-successfully" = "Job {id} has been created";
+
+"job-updated-successfully" = "Job {id} has been updated";
+
+"jobs-table-assignee" = "Assignee";
+
+"jobs-table-button-assign-to" = "ASSIGN TO";
+
+"hierarchy-tree-remove-assignment" = "Remove assignment";
+
+"job_arrival" = "ARRIVAL";
+
+"job_duration" = "DURATION";
+
+"job_customer" = "CUSTOMER";
+
+"jobs_title" = "Jobs";
+
+"no_jobs" = "You have no jobs";
+
+"jobs_select_date" = "Select date";
+
+"job-status-NEW" = "New";
+
+"job-status-ASSIGNED" = "Assigned";
+
+"job_removed_number" = "Job %@ removed";
+
+"job_removed_name" = "Job %@ - %@";
+
+"jobs_removed" = "Jobs removed";
+
+"job_removed_suffix" = "has been removed.";
+
+"jobs_removed_suffix" = "have been removed.";
+
+"start-date" = "Start date";
+
+"duration" = "Duration";
+
+"arrival-window" = "Arrival window";
+
+"job-popup-start-date-placeholder" = "Add start date";
+
+"job-popup-duration-placeholder" = "Add duration";
+
+"job-popup-arrival-window-to" = "to";
+
+"job-popup-arrival-window-from-placeholder" = "Add earliest start time";
+
+"job-popup-arrival-window-to-placeholder" = "Add latest start time";
+
+"next-day" = "next day";
+
+"address-search-error-required" = "Address is required";
+
+"address-search-error-not-found" = "No location found for this address.";
+
+"job-popup-group-placeholder" = "Choose group";
+
+"group" = "Group";
+
+"job-status-IN_PROGRESS" = "In progress";
+
+"job-status-VISITED" = "Visited";
+
+"job-status-CANCELLED" = "Cancelled";
+
+"job-status" = "Status";
+
+"yes-button" = "Yes";
+
+"job-popup-status-confirmation" = "Are you sure you want to override the automated status?";
+
+"job-popup-delete-confirmation" = "Are you sure you want to delete this job?";
+
+"job-deleted-successfully" = "Job {id} has been deleted";
+
+"job_in_progress" = "In progress";
+
+"job_assigned" = "Assigned";
+
+"job_visited" = "Visited";
+
+"job_planned" = "Planned";
+
+"job_actual" = "Actual";
+
+"job_actual_duration" = "Actual duration";
+
+"job_notes" = "Job notes";
+
+"job_order_number" = "Order number(s)";
+
+"job_customer_info" = "Customer info";
+
+"job_notest_only" = "Notes";
+
+"job_add_note" = "Add a note";
+
+"job_recorded" = "Recorded";
+
+"job_target_end" = "Target end";
+
+"job_todo" = "TO DO";
+
+"job_done" = "DONE";
+
+"job_list" = "Job list";
+
+"account-number" = "Customer account number";
+
+"job-popup-account-number-placeholder" = "Add customer account number";
+
+"contact-name" = "Contact name";
+
+"job-popup-contact-name-placeholder" = "Add contact name";
+
+"contact-phone" = "Contact phone";
+
+"job-popup-contact-phone-placeholder" = "Add contact phone";
+
+"contact-email" = "Contact email";
+
+"job-popup-contact-email-placeholder" = "Add contact email";
+
+"order-numbers" = "Order number(s)";
+
+"job-popup-order-numbers-placeholder" = "Add order number";
+
+"notes" = "Notes";
+
+"job-popup-notes-placeholder" = "Add note";
+
+"tag-selector-hint" = "Max of {maxLength} tags with max length {maxCharacters} characters";
+
+"job-notification-refresh-message" = "Refresh to get the latest";
+
+"jobs-loading" = "Loading...";
+
+"job_arrived" = "Arrived";
+
+"jobs-table-arrival" = "Arrival";
+
+"unscheduled-jobs" = "Unscheduled jobs";
+
+"no_jobs_done" = "You have no Visited jobs";
+
+"job_changes_saved" = "Job changes saved";
+
+"time-period" = "Time Period";
+
+"date-range-exceeded" = "Please select less than {dateRange} days";
+
+"driver-comments" = "Driver Comments";
+
+"jobs-table-actual-time" = "Actual time";
+
+"jobs-table-actual-duration" = "Actual duration";
+
+"jobs_date_range" = "Date range";
+
+"jobs_not_complete" = "Complete";
+
+"job_singular" = "job";
+
+"jobs_plural" = "jobs";
+
+"jobs_completed" = "All jobs completed";
+
+"start-time" = "Start time";
+
+"job-popup-start-time-placeholder" = "Add start time";
+
+"jobs_select_navigation" = "Select navigation";
+
+"jobs_apple_maps" = "Apple Maps";
+
+"jobs_google_maps" = "Google Maps";
+
+"job_vehicle_list" = "Vehicle list";
+
+"all" = "All";
+
+"none" = "None";
+
+"selection" = "Selection";
+
+"show" = "Show";
+

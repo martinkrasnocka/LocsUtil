@@ -1,0 +1,10 @@
+"NSLocationWhenInUseUsageDescription" = "SmarterDriver kræver kun din aktuelle placering for at indsende køretøjstjek.";
+
+"NSCameraUsageDescription" = "SmarterDriver kræver adgang til dit kamera til dokumentation af køretøjstjek";
+
+"NSPhotoLibraryUsageDescription" = "SmarterDriver kræver adgang til dit fotobibliotek til dokumentation af køretøjstjek";
+
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "SmarterDriver bruger din placering til at beregne kilometerstand, når du registrerer en tur.";
+
+"NSPhotoLibraryAddUsageDescription" = "Giv SmarterDriver tilladelse til at gemme fotos, du tager i appen, i dit fotobibliotek?";
+

@@ -1,0 +1,10 @@
+"NSLocationWhenInUseUsageDescription" = "SmarterDriver ne nécessite que votre position actuelle pour soumettre les vérifications du véhicule.";
+
+"NSCameraUsageDescription" = "SmarterDriver nécessite l'accès à votre caméra pour documenter la vérification du véhicule";
+
+"NSPhotoLibraryUsageDescription" = "SmarterDriver nécessite l'accès à vos photos pour documenter la vérification du véhicule";
+
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "SmartDriver utilisera votre position pour le calcul du kilométrage lorsque vous enregistrez un trajet.";
+
+"NSPhotoLibraryAddUsageDescription" = "";
+

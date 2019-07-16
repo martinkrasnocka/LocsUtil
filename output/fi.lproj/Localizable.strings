@@ -1,0 +1,864 @@
+"account_locked" = "Tilisi on lukittu, nollaa salasanasi.";
+
+"action_forgot_password" = "Unohtuiko salasana?";
+
+"action_sign_in_short" = "Kirjaudu sisään";
+
+"add" = "Lisää";
+
+"add_justification" = "Lisää usein käytetyn matkan kuvaus tähän";
+
+"add_new_purpose" = "Tai syötä uusi";
+
+"agree" = "Hyväksy";
+
+"agreement" = "Älä käytä tätä sovellusta ajaessasi tai sellaisella tavalla, joka voisi haitata ajoneuvon turvallista käyttöä. Tämän sovelluksen käyttö sellaisella tavalla, joka ei aiheuta onnettomuuksia, loukkaantumista tai omaisuusvaurioita, on yksinomaan sinun vastuullasi. Noudata aina turvallisia ajotapoja.";
+
+"all" = "kaikki";
+
+"all_journeys_submitted" = "Kaikki matkat lähetetty.";
+
+"amend_error_number_high" = "Etäisyyttä ei saa ylittää";
+
+"amend_mileage" = "Etäisyys";
+
+"amend_reason" = "Muutoksen syy";
+
+"app_name_expenses" = "Matka";
+
+"app_name_navigation" = "Navigointi";
+
+"app_name_vehicle_checks" = "Ajoneuvon tarkistus";
+
+"app_ok" = "OK";
+
+"applet_comming_soon" = "Tulossa pian";
+
+"applet_expenses" = "MATKA";
+
+"applet_navigation" = "NAVIGOINTI";
+
+"applet_score" = "TULOS";
+
+"applet_vehicle_checks" = "AJONEUVON TARKISTUS";
+
+"applet_wheres_my_car" = "MISSÄ AUTONI ON";
+
+"bluetooth" = "Bluetooth";
+
+"bt_auto_activation" = "Tämä sovellus vaatii Bluetoothin voidakseen muodostaa yhteyden ajoneuvoon. Haluatko valtuuttaa Bluetoothin käytön?";
+
+"bt_deactivated_message" = "Yrität poistaa Bluetoothia käytöstä. Masternaut-sovelluksen yhteys ajoneuvoosi katkeaa.";
+
+"bt_deactivated_title" = "Varoitus";
+
+"bt_dialog_info" = "Napsauta Skannaa purkaaksesi yhteyden ja hae toista ajoneuvoa.";
+
+"bt_disconnect" = "Pura yhteys";
+
+"business_journey_purpose" = "Liikematkan tarkoitus";
+
+"business_pls_purpose" = "+ tarkoitus";
+
+"cancel" = "Peruuta";
+
+"choose_classification" = "Valitse tämän matkan luokitus";
+
+"choose_device" = "Jatka valitsemalla vapaa ajoneuvo";
+
+"classification_forced_message" = "Luokittele matkasi täällä.";
+
+"classification_forced_title" = "Luokitus";
+
+"classification_saved" = "Luokitus tallennettu.";
+
+"classify" = "Luokittele";
+
+"connecting" = "Yhdistetään";
+
+"connecting_to_mbox" = "Yhdistetään ajoneuvoon";
+
+"copyright" = "Copyright © 2017 Masternaut. Kaikki oikeudet pidätetään.";
+
+"currency" = "Valuutta";
+
+"currency_czech" = "CZK Kč";
+
+"currency_danish" = "DKK kr.";
+
+"currency_euro" = "EUR €";
+
+"currency_great_britain" = "GBP £";
+
+"currency_polish" = "PLN zł";
+
+"currency_swedish" = "SEK kr.";
+
+"currency_swiss" = "CHF";
+
+"dashboard" = "Koontinäyttö";
+
+"data_refreshed" = "Matkasi on päivitetty palvelimen tiedoilla";
+
+"detail_amount" = "Määrä";
+
+"detail_confirm" = "Vahvista";
+
+"detail_distance" = "Etäisyys";
+
+"detail_journey" = "Matka";
+
+"detail_journey_purpose" = "Matkan tarkoitus";
+
+"detail_notes" = "Huomautukset";
+
+"detail_notes_optional" = "(valinnainen)";
+
+"detail_rate" = "Hinta";
+
+"detail_save_distance_changed" = "välimatka";
+
+"detail_save_end_addr_changed" = "määränpään osoite";
+
+"detail_save_explanation_msg" = "Ilmoita tämän muutoksen syy.";
+
+"detail_save_modifications" = "Olet muuttanut";
+
+"detail_save_start_addr_changed" = "lähtöosoitetta";
+
+"detail_tap_to_add_end_address" = "Napauta syöttääksesi määränpääosoite";
+
+"detail_tap_to_add_note" = "Napauta syöttääksesi yleishuomautuksia tai -muistiinpanoja";
+
+"detail_tap_to_add_purpose" = "Napauta lisätäksesi matkan tarkoitus";
+
+"detail_tap_to_add_start_address" = "Napauta syöttääksesi aloituspaikka";
+
+"edit_journey" = "Muokkaa matkaa";
+
+"empty_justifications_warning" = "Lisää usein käytetyn matkan kuvaus Oma tili -osioon.";
+
+"end" = "Loppu";
+
+"error_401" = "Sinulla ei ole lupaa käyttää tätä sovellusta.";
+
+"error_could_not_connect" = "Palvelimeen ei saatu yhteyttä.";
+
+"error_field_required" = "Tämä kenttä on pakollinen";
+
+"error_generic" = "On tapahtunut virhe.";
+
+"error_incorrect_password" = "Tämä salasana on virheellinen";
+
+"error_incorrect_vehicle" = "Tämä ajoneuvo ei kuulu yrityksellesi!";
+
+"error_invalid_password" = "Tämä salasana on liian lyhyt";
+
+"error_mandatory" = "Tämä kenttä on pakollinen";
+
+"error_no_connection_to_mbox" = "Ei yhteyttä ajoneuvoon";
+
+"error_no_result" = "Ei tulosta";
+
+"error_offline" = "Ei Internet-yhteyttä.";
+
+"error_settings" = "ASETUKSET";
+
+"error_vehicle_disconnected" = "Ajoneuvon yhteys katkaistu!";
+
+"estimated_value_short" = "Arvioitu arvo";
+
+"form_submission_close_app" = "Sulje";
+
+"form_submission_completed" = "Tehtävä suoritettu.";
+
+"form_submission_error" = "Hups! Tapahtui virhe.";
+
+"form_submission_note" = "Tehdään se uudelleen pian.";
+
+"form_submission_offline" = "Olet offline. Raportti lähetetään, kun olet taas online.";
+
+"form_submission_sending" = "Lähetetään.";
+
+"get_masternaut_services" = "Hanki Masternaut-palveluita";
+
+"get_masternaut_services_message" = "Tämä sovellus ei toimi ilman Masternaut-palveluita.";
+
+"google_play_missing" = "Tästä laitteesta ei löydy Google Playtä.";
+
+"help" = "Ohje";
+
+"item_removed" = "Kohta on poistettu";
+
+"journey_classification" = "Matkan luokittelu";
+
+"journey_purpose_empty" = "Matkan tarkoitus ei voi olla tyhjä!";
+
+"journeys" = "Matkat";
+
+"kilometres_short" = "km";
+
+"last_day_of_month" = "Kuun viimeinen päivä";
+
+"last_month" = "viime kuu";
+
+"last_seven_days" = "viimeiset 7 päivää";
+
+"last_submission" = "Viimeinen lähetys %1$@";
+
+"login_slogan_masternaut_bold" = "masternaut";
+
+"login_slogan_the_regular" = "| the";
+
+"login_slogan_the_smarter_bold" = "smarter";
+
+"login_slogan_the_fleet_platform_regular" = "fleet platform";
+
+"mbox_connection_error" = "Sovellus ei pysty muodostamaan yhteyttä ajoneuvoosi. Siirry lähemmäs tai tarkista, onko ajoneuvosi jo yhdistetty toiseen laitteeseen.";
+
+"menu_features" = "Ominaisuudet";
+
+"menu_feedback" = "Anna palautetta";
+
+"menu_feedback_subject" = "SmarterDriver App Feedback Experience";
+
+"menu_home" = "Aloitusnäyttö";
+
+"menu_my_account" = "Oma tili";
+
+"menu_sign_out" = "Kirjaudu ulos";
+
+"miles_short" = "mi";
+
+"modify_selection" = "Muokkaa valintaa";
+
+"navigation_drawer_close" = "Sulje navigaatiolokero";
+
+"navigation_drawer_open" = "Avaa navigaatiolokero";
+
+"need_classification_message" = "Sinulla on %1$@ luokittelematonta matkaa (yhteensä %2$@). Luokitellaanko ne ennen lähettämistä?";
+
+"new_journey" = "Uusi matka";
+
+"new_journey_detail" = "Matkan tiedot";
+
+"new_journey_error" = "Täytä punaisella korostetut kentät.";
+
+"new_journey_reason" = "Manuaalisen syötteen syy";
+
+"new_journey_start_date" = "Aloituspäivämäärä";
+
+"new_journey_start_time" = "Aloitusaika";
+
+"news_feed_journey_completed" = "Matka suoritettu";
+
+"news_feed_tip_header" = "Vinkkejä";
+
+"news_feed_tip_message" = "Voit lisätä ja muokata omaa, usein käytettyä matkan tarkoitusta luettelossa säästääksesi aikaa. Siirry kohtaan Oma tili päävalikossa ja hallinno niitä siellä.";
+
+"news_feed_tip_title" = "Matkan tarkoitusluetteloa muutetaan";
+
+"news_feed_title" = "Uutiset ja päivitykset";
+
+"no_device_found" = "No vehicle found. Please move in range and scan again.";
+
+"no_journeys" = "Sinulla ei ole %1$@-matkoja.";
+
+"onboard_1_message" = "SmarterDriver tuo kaikki kilometritiedot <br> kätesi ulottuville. <br> <b><font color=\"#105995\">Luokittele, lähetä ja säästä rahaa!</font></b>";
+
+"onboard_1_tip" = "<b>Vinkki:</b> Aloitusnäytössä näytetään uusimmat päivitykset ja tarjotaan pääsy eri ominaisuuksiin.";
+
+"onboard_1_title" = "Tervetuloa, Smarter Driver!";
+
+"onboard_2_message" = "Saa yhteenveto kaikista matkoistasi.<br> <b><font color=\"#105995\">Luokittele, kategorisoi ja säästä aikaa.<br></font></b> Pyyhkäise vasemmalle ja oikealle, niin olet valmis.";
+
+"onboard_2_tip" = "<b>Vinkki:</b> Lisää luokka matkan luokitteluun pitkällä pyyhkäisyllä. Mukauta luokat tilisi asetuksista.";
+
+"onboard_2_title" = "Hallinnoi kaikkea yhdeltä näytöltä";
+
+"onboard_3_message" = "Eikö jokin tunnu olevan oikein? Helppoa.<br> Napauta ruutua nähdäksesi matkan tiedot.<br> <b><font color=\"#105995\">Muokkaa ja tallenna, ja tiedot on muutettu!</font>";
+
+"onboard_3_tip" = "<b>Huomautus:</b> Tietonäytössä kysytään muutoksen syytä, jos muutat osoitetta tai etäisyyttä.";
+
+"onboard_3_title" = "Asiayhteys auttaa hallinnoimaan";
+
+"onboard_4_message" = "Kuukausittainen koontinäyttö esittää<br> <b><font color=\"#105995\">kilometrikustannusten tiedot, syyt ja ajat</font></b><br> yhdessä paikassa.";
+
+"onboard_4_tip" = "<b>Vinkki:</b> Tarkista tai muuta henkilökohtaisia tai työmatkoja napauttamalla kutakin luokittelunimikettä.";
+
+"onboard_4_title" = "Oma lennonjohtotornisi";
+
+"only_one_account_supported" = "Vain yhtä Smarter Driver -tiliä tuetaan.";
+
+"parser_can_configuration_error" = "CAN-konfigurointivirhe";
+
+"parser_dataid_configuration_error" = "DataID-konfigurointivirhe";
+
+"parser_dataid_configuration_success" = "DataID-konfigurointi onnistui";
+
+"parser_error_authentication_failed" = "Todennus epäonnistui";
+
+"parser_io_configuration_error" = "IO-konfigurointivirhe";
+
+"permission_needed" = "Käyttöoikeus tarvitaan.";
+
+"personal_journey_purpose" = "Henkilökohtaisen matkan tarkoitus";
+
+"personal_pls_purpose" = "+ tarkoitus";
+
+"placeholder_empty" = "Sinulla ei ole matkoja tälle ajalle";
+
+"prefs_cost_of_unit" = "Kilometrikorvaus";
+
+"prefs_csv_contains_all" = "Raportti sisältää kaikki matkatyypit";
+
+"prefs_csv_contains_business" = "Raportti sisältää vain työmatkat";
+
+"prefs_email_incorrect" = "Anna pätevä sähköposti!";
+
+"prefs_my_details" = "Omat tiedot";
+
+"prefs_my_email" = "Oma sähköposti";
+
+"prefs_name" = "Nimi";
+
+"prefs_reimbursement_rate" = "Kilometrikorvaus";
+
+"prefs_send_csv" = "Lähetä raportti";
+
+"prefs_submission_day" = "Kuukausittainen lähetyspäivä";
+
+"prefs_submission_details" = "Lähetyksen tiedot";
+
+"prefs_submission_email" = "Lähetyssähköposti";
+
+"price_per_unit_part1" = "per";
+
+"proceed" = "Jatka";
+
+"prompt_password" = "Salasana";
+
+"prompt_username" = "Käyttäjätunnus";
+
+"ready_to_be_claimed" = "Valmis vaadittavaksi";
+
+"reason" = "Syy";
+
+"reimbursement" = "Kilometrikorvaus";
+
+"reset_now" = "Nollaa heti";
+
+"response_authentication_successful" = "Todennus onnistui";
+
+"response_device_connected" = "laite_yhdistetty";
+
+"response_device_disconnected" = "laitteen yhteys katkaistu";
+
+"response_device_not_bonded" = "laitetta ei ole sidottu";
+
+"response_from_request_for_data_successful" = "pyydetyt dataId-tunnukset";
+
+"response_reconnection_stopped" = "uudelleen yhdistäminen pysäytetty";
+
+"response_search_finished" = "haku valmis";
+
+"response_search_stopped" = "haku pysäytetty";
+
+"save_journey" = "Tallenna";
+
+"scan" = "Skannaa";
+
+"searching_for_mbox" = "Haetaan ajoneuvoa";
+
+"select_journey_purpose" = "Valitse matkan tarkoitus";
+
+"skip" = "Ohita";
+
+"start" = "Aloita";
+
+"submission_classifying" = "Luokitellaan...";
+
+"submission_day_numeric_part" = "päivä on lähetyspäivä.";
+
+"submission_day_text_part" = "on lähetyspäivä.";
+
+"submission_error_message" = "Yritä uudelleen myöhemmin";
+
+"submission_error_title" = "Hups! Tapahtui virhe.";
+
+"submission_offline" = "Olet offline. Raportti lähetetään, kun olet taas online.";
+
+"submission_period" = "Lähetysajanjakso";
+
+"submission_sending" = "Lähetetään...";
+
+"submission_success_message_old" = "Vaatimuksesi on lähetetty.";
+
+"submission_success_title" = "Hyvin tehty!";
+
+"submission_title" = "Lähetä vaatimukseni";
+
+"submit" = "Lähetä";
+
+"submit_before" = "Lähetä ennen %1$@";
+
+"submit_today" = "Lähetä matkasi tänään";
+
+"summary_name_business" = "Työ";
+
+"summary_name_personal" = "Henkilökohtainen";
+
+"summary_name_submitted" = "Lähetetty";
+
+"summary_name_unclassified" = "Ei luokiteltu";
+
+"no_journeys_business" = "Työ";
+
+"no_journeys_personal" = "Henkilökohtainen";
+
+"no_journeys_unclassified" = "Ei luokiteltu";
+
+"tae_applet_ready_for_claim" = "valmis vaadittavaksi";
+
+"tae_applet_unclassified" = "ei luokiteltu";
+
+"this_month" = "tämä kuukausi";
+
+"title_activity_login" = "Masternaut-kirjautuminen";
+
+"today" = "tänään";
+
+"toolbar_settings" = "Asetukset";
+
+"total_mileage" = "Etäisyys";
+
+"unclassified" = "Luokittele matkani";
+
+"undo" = "KUMOA";
+
+"unknown_device" = "Tuntematon laite";
+
+"vehicle_info_updated" = "Ajoneuvotiedot on päivitetty!";
+
+"version" = "Versio";
+
+"welcome_back" = "Tervetuloa takaisin";
+
+"welcome_back_continue" = "Jatka";
+
+"welcome_back_different_login" = "Jos et ole %1$@, kirjaudu sisään toisena käyttäjänä.";
+
+"welcome_back_sign_in" = "Kirjaudu sisään";
+
+"yes" = "KYLLÄ";
+
+"yesterday" = "eilen";
+
+"default_business_purposes_arr_1" = "Asiakaskäynti";
+
+"default_business_purposes_arr_2" = "Toimistojen välillä";
+
+"default_business_purposes_arr_3" = "Kokous";
+
+"default_business_purposes_arr_4" = "Lentokenttä/matka";
+
+"default_business_purposes_arr_5" = "Työtehtävä/tarvikkeet";
+
+"default_personal_purposes_arr_1" = "Työliikenne";
+
+"default_personal_purposes_arr_2" = "Ostokset";
+
+"default_personal_purposes_arr_3" = "Koulu";
+
+"submit_only_business" = "Lähetä vain työmatkat";
+
+"journey_plural_zero" = "matkaa";
+
+"journey_plural_one" = "matka";
+
+"journey_plural_two" = "matkaa";
+
+"journey_plural_few" = "matkaa";
+
+"journey_plural_many" = "matkaa";
+
+"journey_plural_other" = "matkaa";
+
+"vehicle_check_list_na" = "-";
+
+"vehicle_check_camera_or_library_alert" = "Lisää valokuva käyttäen";
+
+"app_name" = "SmarterDriver";
+
+"summary_name_business_short" = "Työ";
+
+"done" = "Valmis";
+
+"tap_to_enter_reason" = "Napauta syöttääksesi syyn muutokselle.";
+
+"vehicle_check_library_option" = "Kirjasto";
+
+"vehicle_check_submit_check" = "Lähetä tarkistus";
+
+"menu_tutorial" = "Opetusohjelma";
+
+"app_desc_login" = "Masternaut | älykkäämpi ajoneuvokanta-alusta";
+
+"vehicle_check_detail_required" = "* Pakollinen";
+
+"vehicle_check_no_camera" = "Kamera ei ole käytettävissä";
+
+"vehicle_check_finish" = "Valmis";
+
+"to_be_claimed" = "%1$@ valmis vaadittavaksi";
+
+"submitting_journey_detail_failed" = "Matkojen lähettäminen epäonnistui.";
+
+"error_invalid_email" = "Tämä sähköposti on virheellinen";
+
+"last_pwd_login_dont_match" = "Sovellus ei ole verkossa, viimeksi käytetty käyttäjätunnus/salasana ei täsmännyt";
+
+"vehicle_check_fail" = "Raporttia ei voi lähettää.";
+
+"vehicle_check_driver" = "Kuljettaja";
+
+"updating_journey_detail_failed" = "Matkatietojen päivitys epäonnistui.";
+
+"disabled" = "Poistettu käytöstä";
+
+"keyboard_next" = "Seuraava";
+
+"vehicle_check_detail_photo" = "Valokuva";
+
+"vehicle_check_list_title" = "Ajoneuvon tarkistus";
+
+"vehicle_check_list_date" = "Päivämäärä";
+
+"vehicle_check_camera_option" = "Kamera";
+
+"vehicle_check_odometer_reading" = "Lisää matkamittarin lukema";
+
+"retrieving_person_failed" = "Asetusten lataaminen epäonnistui.";
+
+"vehicle_check_add_comment_placeholder" = "Kirjoita huomautuksesi";
+
+"getting_journey_detail_failed" = "Matkatietojen saaminen epäonnistui.";
+
+"vehicle_check_add_comment" = "Lisää huomautus";
+
+"placeholder_no_journeys_for_period" = "Tälle ajalle ei ole matkaa.\nKokeile toista päivämääräväliä.";
+
+"prefs_units" = "Yksiköt";
+
+"no_mail_service" = "Tarkista postiasetuksesi";
+
+"vehicle_check_date_of_check" = "Tarkistuspäivä";
+
+"no_data" = "Ei tietoja";
+
+"vehicle_check_vehicle_registration_number_placeholder" = "Kirjoita rekisteritunnus";
+
+"vehicle_check_detail_description" = "Kuvaus";
+
+"vehicle_check_success" = "Ajoneuvon tarkistusraportti on lähetetty.";
+
+"dashboard_load_error" = "Tarkista yhteys ja virkistä pyyhkäisemällä.";
+
+"vehicle_check_list_time" = "Aika";
+
+"summary_name_personal_short" = "Henkilökohtainen";
+
+"vehicle_check_vehicle_registration_number" = "Ajoneuvon rekisteritunnus";
+
+"vehicle_check_list_nodefect" = "Ei vikaa";
+
+"vehicle_check_list_withdefect" = "Viallinen";
+
+"new_journey_start_location" = "Lähtöpaikka";
+
+"new_journey_end_location" = "Saapumispaikka";
+
+"permission_location_services" = "Sallitko SmarterDriverin käyttää sijaintiasi käyttäessäsi tätä sovellusta?";
+
+"new_journey_manually_added" = "Matka lisätty manuaalisesti";
+
+"journey_detail_reason_for_addition" = "Lisäämisen syy";
+
+"vehicle_check_submission_no_location" = "sijainti ei ole käytössä.";
+
+"google_play_services_missing" = "Päivitä Google Play -palvelut.";
+
+"vehicle_list_guest_vehicle" = "Vierasajoneuvo";
+
+"vehicle_list_title" = "Ajoneuvoluettelo";
+
+"vehicle" = "ajoneuvo";
+
+"tracking" = "seurataan";
+
+"start_journey" = "Aloita matka";
+
+"perform_vehicle_check" = "Suorita ajoneuvon tarkistus";
+
+"end_journey" = "Päätä matka";
+
+"all_journeys_classified" = "Kaikki matkat luokiteltu";
+
+"vehicle_check_submitted" = "Ajoneuvon tarkistus lähetetty";
+
+"all_journeys_classified" = "Kaikki matkat luokiteltu.";
+
+"vehicle_describe_defect" = "Kuvaile vikaa";
+
+"vehicle_submit_offline" = "Et ole verkossa. Raporttia ei voi lähettää.";
+
+"vehicle_check_submitted" = "Ajoneuvon tarkistus lähetetty";
+
+"unclassified_journeys_count_plural_zero" = "Luokittele %d matkaa";
+
+"unclassified_journeys_count_plural_one" = "Luokittele %d matka";
+
+"unclassified_journeys_count_plural_two" = "Luokittele %d matkaa";
+
+"unclassified_journeys_count_plural_few" = "Luokittele %d matkaa";
+
+"unclassified_journeys_count_plural_many" = "Luokittele %d matkaa";
+
+"unclassified_journeys_count_plural_other" = "Luokittele %d matkaa";
+
+"track_journey_permission_phone_state" = "SmarterDriver käyttää puhelimesi sarjanumeroa tunnistaakseen matkat ainutkertaisesti tälle puhelimelle.";
+
+"applet_track_journey" = "Seurataan";
+
+"track_journey_start" = "Aloita matka";
+
+"track_journey_end" = "Päätä matka";
+
+"track_journey_permission_disabled" = "Käyttöoikeuksia ei ole myönnetty.";
+
+"track_journey_backend_401" = "Tämä toiminto ei ole käytettävissä tililläsi. Puhu esimiehesi kanssa.";
+
+"track_journey_backend_403" = "Sinua ei ole määritetty kuljettajaksi. Puhu esimiehesi kanssa.";
+
+"track_journey_offline_error" = "Et ole verkossa. Muodosta yhteys seurataksesi matkaasi.";
+
+"no_vehicles_message" = "Sinulle ei ole nimetty ajoneuvoja ryhmässäsi tai et ole verkossa.";
+
+"offline" = "Et ole verkossa - ajoneuvon tarkistusta ei voi suorittaa, ennen kuin muodostat yhteyden.";
+
+"warning" = "Varoitus";
+
+"vch_disabled_new_feature" = "UUSI OMINAISUUS";
+
+"vch_disabled_new_desc1" = "Ajoneuvon tarkistuksella voit suorittaa matkaa edeltävän tarkistuslistan säädösten mukaisesti ja lähettää sen säilytettäväksi.";
+
+"vch_disabled_new_desc2" = "Keskustele esimiehesi tai Masternautin tilipäällikön kanssa aktivoidaksesi.";
+
+"onboarding_1_title" = "Tervetuloa SmarterDriver-sovellukseen!";
+
+"onboarding_1_text" = "SmarterDriverilla voit esittää matkasi, ajoneuvosi ja profiilisi tiedot suoraan puhelimessasi.";
+
+"onboarding_2_title" = "Listan käyttö pyyhkäisyillä";
+
+"onboarding_2_text" = "Voit pyyhkäistä listan kohtia vasemmalle tai oikealle suorittaaksesi pikatoiminnon. Voit helposti luokitella matkasi tai käydä ajoneuvon tarkistuslistan läpi pyyhkäisemällä.";
+
+"onboarding_3_title" = "Lisätietojen lisääminen pitkällä pyyhkäisyllä";
+
+"onboarding_3_text" = "Voit lisätä tietoja pitkällä pyyhkäisyllä näytön poikki. Kun pyyhkäiset pidemmälle näytön reunaan, voit lisätä matkan tarkoituksen.";
+
+"offline" = "Et ole verkossa - ajoneuvon tarkistusta ei voi suorittaa, ennen kuin muodostat yhteyden.";
+
+"" = "Uusi versio on saatavilla App Storessa/Play Storessa. Päivitä tuoreimpaan versioon.";
+
+"" = "Jatka päivittämättä";
+
+"error_couldnt_create_dir" = "Ulkoista hakemistoa ei voitu käyttää.";
+
+"adding_manual_journey_progress" = "Matkan lisääminen manuaalisesti";
+
+"journey_addition_offline" = "Et ole verkossa. Matkaa ei voi luoda.";
+
+"navigation_not_available" = "Navigointi ei ole käytettävissä laitteessasi.";
+
+"permission_message_access_fine_location" = "Jotta sovellus toimisi kunnolla, sen täytyy KÄYTTÄÄ TARKKAA SIJAINTIA.";
+
+"permission_message_get_accounts" = "Jotta sovellus toimisi kunnolla, sen on SAATAVA TILIT.";
+
+"" = "Yksinkertaista työmatkakokemustasi";
+
+"" = "Kertaa matkat";
+
+"" = "Katso kilometrikustannusten yhteenveto";
+
+"" = "Luokittele matkat pyyhkäisemällä";
+
+"" = "Luokittele matkat välittömästi";
+
+"" = "Tarkista ja lähetä";
+
+"" = "Suorita ajoneuvon tarkistus helposti ennen matkaan lähtöä";
+
+"" = "Muu (kuvaa alla)";
+
+"location_services_dissabled" = "Sijaintipalveluiden on oltava käytössä, jotta matka voidaan tallentaa.";
+
+"location_permission_invalid_permission" = "Sovelluksen sijainnin käyttöoikeuden on oltava “Aina”, jotta matka voidaan tallentaa.";
+
+"location_services_switched_off" = "Sijaintipalvelut on poistettu käytöstä, matka päätetään.";
+
+"location_services_permission_change" = "Sijaintipalveluiden käyttöoikeus on muuttunut, matka päätetään.";
+
+"location_unable_to_get" = "Sijaintiasi ei saada, yritä uudelleen myöhemmin.";
+
+"device_not_found" = "Laitettasi ei ole rekisteröity, matka päätetään.";
+
+"processing_journey" = "Matkaa käsitellään...";
+
+"creating_journey_slow_connection" = "Hidas yhteys - matkasi on tallennettu, ja se esitetään, kun yhteys on parempi.";
+
+"pull_to_refresh_offline" = "Yhteysongelma - virkistä vetämällä, kun yhteys on parempi.";
+
+"update_prompt_title" = "App Storessa on uusi versio.";
+
+"update_prompt_subtitle" = "Päivitä tuoreimpaan versioon.";
+
+"update_prompt_update_button" = "Päivitä";
+
+"update_prompt_continue_button" = "Jatka päivittämättä";
+
+"vch_no_checklist_for_account" = "Tilillesi ei ole saatavilla ajoneuvon tarkistuslistaa.";
+
+"enter_other_purpose" = "Muu (kuvaa alla)";
+
+"submission_email_empty_question" = "Kenen tulisi saada lähetyksesi?";
+
+"submission_email_info" = "Voit muokata tätä sähköpostiosoitetta myöhemmin siirtymällä tilisi asetuksiin.";
+
+"journey_distance_validation_error" = "Anna nollaa suurempi arvo.";
+
+"try_again" = "Yritä uudelleen";
+
+"login_placeholder_message" = "Et voi kirjautua sisään, kun et ole verkossa.";
+
+"you_are_still_offline" = "Et edelleenkään ole verkossa. Yritä uudelleen muodostettuasi yhteyden.";
+
+"last_seven_days" = "Viimeiset 7 päivää";
+
+"hours" = "h";
+
+"smoother" = "Sujuvampi";
+
+"good_job" = "Hyvin tehty!";
+
+"better_next_time" = "Seuraavalla kerralla sujuu paremmin!";
+
+"harsh_more" = "%@ rajua ajotapahtumaa enemmän / 100 %@ viime viikkoon verrattuna.";
+
+"harsh_less" = "%@ rajua ajotapahtumaa vähemmän / 100 %@ viime viikkoon verrattuna.";
+
+"driving_behavior" = "Ajokäyttäytymisesi";
+
+"safer" = "Turvallisempi";
+
+"speeding_more" = "%@ pistettä enemmän ylinopeuksia kuin viime viikolla.";
+
+"speeding_less" = "%@ pistettä enemmän ajamista turvallisella nopeudella kuin viime viikolla.";
+
+"cleaner" = "Puhtaampi";
+
+"idling_more" = "%@ pistettä enemmän joutokäyntiä kuin viimeviikolla.";
+
+"idling_less" = "%@ pistettä enemmän ajamista ilman joutokäyntiä kuin viime viikolla.";
+
+"smoother_description" = "Tasaisempi kiihdytys ja jarrutus on turvallisempaa ja parempi ajoneuvolle. Tässä näet, montako kertaa kiihdytit tai jarrutit liian nopeasti. Tämä arvo esitetään muodossa yhteensä / 100 %@.";
+
+"my_average" = "Oma keskiarvo";
+
+"in_group" = "ryhmässä";
+
+"in_company" = "yrityksessä";
+
+"safer_description" = "Jotta pysyt tiellä turvassa, suosittelemme ajamaan nopeusrajoitusten mukaisesti. Tässä näet, montako prosenttia matkoistasi ajettiin turvallisella nopeudella (alle 10 % nopeusrajoituksen yli).";
+
+"average_events" = "Tapahtumia keskimäärin / 100 %@";
+
+"cleaner_description" = "Voit vähentää päästöjä ja pitää ympäristön puhtaampana minimoimalla joutokäynnin. Tässä näet, montako prosenttia ajastasi käytit ajamiseen moottorin ollessa käynnissä. Prosenttisi laskee, kun moottori on joutokäynnillä.";
+
+"recommended_and_above" = "Suositus on %@%% tai enemmän.";
+
+"recommended_per_100" = "Suositus on %@ / 100 %@ tai vähemmän.";
+
+"graph_popup_title" = "Mikä tämä luku on?";
+
+"smoother_popup_desc1" = "Tämä arvo perustuu keskinkertaiseen Masternaut Connectin pakettiauton kuljettajaan.";
+
+"smoother_popup_desc2" = "Raskaille ajoneuvoille tämä arvo on %1$@ tapahtumaa / 100 %2$@.";
+
+"smoother_popup_desc3" = "Henkilöautoille tämä arvo on %1$@ tapahtumaa / 100 %2$@.";
+
+"metrics_no_data_both_weeks" = "Aloitetaan!";
+
+"metrics_no_data_this_week" = "Ala ajamaan tänään nähdäksesi trendisi!";
+
+"metrics_no_data_last_week" = "Jatka ajamista nähdäksesi trendisi pian!";
+
+"metrics_no_data_last_week_smoother" = "Lisätietoja ajosi tasaisuudesta!";
+
+"metrics_no_data_last_week_safer" = "Lisätietoja ajosi ylinopeuksista!";
+
+"metrics_no_data_last_week_cleaner" = "Lisätietoja ajosi joutokäynnistä!";
+
+"safer_popup_desc1" = "Tämä arvo perustuu keskinkertaiseen Masternaut Connectin pakettiauton kuljettajaan.";
+
+"safer_popup_desc2" = "Raskaille ajoneuvoille tämä arvo on %1$@%%.";
+
+"safer_popup_desc3" = "Henkilöautoille tämä arvo on %1$@%%.";
+
+"cleaner_popup_desc1" = "Tämä arvo perustuu keskinkertaiseen Masternaut Connectin pakettiauton kuljettajaan.";
+
+"cleaner_popup_desc2" = "Raskaille ajoneuvoille tämä arvo on %1$@%%.";
+
+"cleaner_popup_desc3" = "Henkilöautoille tämä arvo on %1$@%%.";
+
+"submission_success_message" = "Lähetetty.";
+
+"and" = "ja";
+
+"submission_success_message_subtitle" = "Ethän unohda %1$@ matkojasi!";
+
+"menu_company_hotline" = "Yritykseni tukinumero";
+
+"recall_no_longer_pending" = "Matkoja ei ole enää vireillä.";
+
+"summary_name_pending" = "Vireillä";
+
+"summary_name_approved" = "Hyväksytty";
+
+"recall_action" = "Vedä takaisin";
+
+"google_signin_generic_error" = "Google-kirjautumisessa tapahtui virhe. Yritä uudelleen tai käytä tavallista Connect-kirjautumista (sähköposti/salasana).";
+
+"max_photos_per_defect" = "(enintään 1 / vika)";
+
+"total_photos_per_report" = "Valokuvia yhteensä %1$@ raporttia kohden";
+
+"photos_attached" = "Valokuvat liitetty";
+
+"" = "Vähennä työmatkojen hässäköitä, jotta voit palata tärkeiden asioiden pariin.";
+
+"" = "Ota työmatkakokemuksesi hallintaasi Masternaut SmarterDriver -sovelluksella. Käy läpi matkasi - ne synkronoidaan automaattisesti Masternautin seurantalaitteelta - ja luokittele ne työ- tai henkilökohtaisiksi matkoiksi. Muutamalla yksinkertaisella napsautuksella voit lähettää luokitellut matkasi tai päivittäiset kaupallisen ajoneuvon tarkistukset suoraan esimiehellesi. 
+ 
+ Älykkäänä kuljettajana säästät paperityöhön kuluvaa aikaa ja vaivaa, jotta voit keskittyä ajamiseen ja työhösi.
+ 
+ Huomautus: Jotta voit käyttää SmarterDriveria, sinulla on oltava Masternaut Connect -tili. Lisätietoja on sivustollamme.";
+
+"last_vehicle_check_date_submitted" = "Lähetetty";
+
+"last_vehicle_check_driver" = "Kuljettaja";
+
+"last_vehicle_check_with_defect" = "Viallinen";
+
+"last_vehicle_check_no_defect" = "Ei vikaa";
+
+"KEY" = "FI";
+

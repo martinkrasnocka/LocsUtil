@@ -1,0 +1,865 @@
+"account_locked" = "Váš účet byl uzamčen, resetujte prosím vaše heslo.";
+
+"action_forgot_password" = "Zapomenuté heslo?";
+
+"action_sign_in_short" = "Přihlásit";
+
+"add" = "Přidat";
+
+"add_justification" = "Zde přidejte popisy často používaných cest";
+
+"add_new_purpose" = "Nebo zadejte novou";
+
+"agree" = "Souhlasím";
+
+"agreement" = "Tuto aplikaci nepoužívejte, když řídíte, nebo způsoby, které mohou ovlivňovat bezpečný provoz vozidla. Nesete zodpovědnost za použití aplikace tak, aby nedošlo k nehodám, poraněním či škodám na majetku. Vždy dodržujte postupy bezpečného provozu.";
+
+"all" = "vše";
+
+"all_journeys_submitted" = "Všechny cesty byly odeslány.";
+
+"amend_error_number_high" = "Vzdálenost nesmí být větší než";
+
+"amend_mileage" = "Vzdálenost";
+
+"amend_reason" = "Důvod pro změnu";
+
+"app_name_expenses" = "Spotřeba";
+
+"app_name_navigation" = "Navigace";
+
+"app_name_vehicle_checks" = "Kontroly vozidel";
+
+"app_ok" = "Ok";
+
+"applet_comming_soon" = "Brzo k dispozici";
+
+"applet_expenses" = "SPOTŘEBA";
+
+"applet_navigation" = "NAVIGACE";
+
+"applet_score" = "SKÓRE";
+
+"applet_vehicle_checks" = "KONTROLA VOZIDLA";
+
+"applet_wheres_my_car" = "KDE JE MÉ VOZIDLO";
+
+"bluetooth" = "Bluetooth";
+
+"bt_auto_activation" = "Tato aplikace pro připojení k vozidlu požaduje funkci Bluetooth. Chcete schválit aktivaci funkce Bluetooth?";
+
+"bt_deactivated_message" = "Pokoušíte se deaktivovat funkci Bluetooth. Aplikace Masternaut bude odpojena od vašeho vozidla.";
+
+"bt_deactivated_title" = "Varování";
+
+"bt_dialog_info" = "Klikněte na Sken k odpojení a nalezení jiného vozidla.";
+
+"bt_disconnect" = "Odpojit";
+
+"business_journey_purpose" = "Obchodní účel cesty";
+
+"business_pls_purpose" = "+ účel";
+
+"cancel" = "Storno";
+
+"choose_classification" = "Zvolte klasifikaci pro tuto cestu";
+
+"choose_device" = "Zvolte prosím dostupné vozidlo k pokračování";
+
+"classification_forced_message" = "Vaše cesty prosím klasifikujte zde.";
+
+"classification_forced_title" = "Klasifikace";
+
+"classification_saved" = "Klasifikace byla uložena.";
+
+"classify" = "Klasifikovat";
+
+"connecting" = "Probíhá připojení";
+
+"connecting_to_mbox" = "Probíhá připojení k vozidlu";
+
+"copyright" = "Copyright © 2017 Masternaut. Všechna práva vyhrazena.";
+
+"currency" = "Měna";
+
+"currency_czech" = "CZK Kč";
+
+"currency_danish" = "DKK kr.";
+
+"currency_euro" = "EUR €";
+
+"currency_great_britain" = "GBP £";
+
+"currency_polish" = "PLN zł";
+
+"currency_swedish" = "SEK kr.";
+
+"currency_swiss" = "CHF";
+
+"dashboard" = "Přehled";
+
+"data_refreshed" = "Vaše cesty byly aktualizovány s údaji serveru";
+
+"detail_amount" = "Množství";
+
+"detail_confirm" = "Potvrdit";
+
+"detail_distance" = "Vzdálenost";
+
+"detail_journey" = "Cesta";
+
+"detail_journey_purpose" = "Účel cesty";
+
+"detail_notes" = "Komentáře";
+
+"detail_notes_optional" = "(nepovinné)";
+
+"detail_rate" = "Sazba";
+
+"detail_save_distance_changed" = "délka cesty";
+
+"detail_save_end_addr_changed" = "konečná adresa";
+
+"detail_save_explanation_msg" = "Zadejte prosím důvod pro tuto změnu.";
+
+"detail_save_modifications" = "Pozměnili jste";
+
+"detail_save_start_addr_changed" = "počáteční adresa";
+
+"detail_tap_to_add_end_address" = "Klepněte k zadání konečného místa";
+
+"detail_tap_to_add_note" = "Klepněte k zadání obecných poznámek";
+
+"detail_tap_to_add_purpose" = "Klepněte k přidání účelu cesty";
+
+"detail_tap_to_add_start_address" = "Klepněte k zadání počátečního místa";
+
+"edit_journey" = "Upravit cestu";
+
+"empty_justifications_warning" = "Zde přidejte popisy často používaných cest do části Můj účet.";
+
+"end" = "Konec";
+
+"error_401" = "Nemáte oprávnění k přístupu do této aplikace.";
+
+"error_could_not_connect" = "Připojení k serveru nebylo úspěšné.";
+
+"error_field_required" = "Toto políčko je povinné";
+
+"error_generic" = "Došlo k chybě.";
+
+"error_incorrect_password" = "Toto heslo je chybné";
+
+"error_incorrect_vehicle" = "Toto vozidlo nepatří do vaší společnosti.";
+
+"error_invalid_password" = "Toto heslo je příliš krátké";
+
+"error_mandatory" = "Toto políčko je povinné";
+
+"error_no_connection_to_mbox" = "Vozidlo není připojeno";
+
+"error_no_result" = "Žádné výsledky";
+
+"error_offline" = "Chybí připojení k internetu.";
+
+"error_settings" = "NASTAVENÍ";
+
+"error_vehicle_disconnected" = "Vozidlo bylo odpojeno!";
+
+"estimated_value_short" = "Odhadovaná hodnota";
+
+"form_submission_close_app" = "Zavřít";
+
+"form_submission_completed" = "Úkol byl dokončen.";
+
+"form_submission_error" = "Došlo k chybě.";
+
+"form_submission_note" = "Zkusme to brzo znovu.";
+
+"form_submission_offline" = "Jste offline. Zpráva bude odeslána, až budete zpět online.";
+
+"form_submission_sending" = "Probíhá odesílání.";
+
+"get_masternaut_services" = "Získejte služby Masternaut";
+
+"get_masternaut_services_message" = "Tato aplikace nebude fungovat bez služeb Masternaut.";
+
+"google_play_missing" = "Na zařízení nebyla nalezena aplikace Google Play.";
+
+"help" = "Nápověda";
+
+"item_removed" = "Položka byla odstraněna";
+
+"journey_classification" = "Klasifikace cesty";
+
+"journey_purpose_empty" = "Účel cesty nesmí být prázdný.";
+
+"journeys" = "Cesty";
+
+"kilometres_short" = "km";
+
+"last_day_of_month" = "Poslední den v měsíci";
+
+"last_month" = "poslední Měsíc";
+
+"last_seven_days" = "posledních 7 dnů";
+
+"last_submission" = "Poslední odeslání %1$@";
+
+"login_slogan_masternaut_bold" = "masternaut";
+
+"login_slogan_the_regular" = "| the";
+
+"login_slogan_the_smarter_bold" = "smarter";
+
+"login_slogan_the_fleet_platform_regular" = "fleet platform";
+
+"mbox_connection_error" = "Aplikace se nemůže připojit k vašemu vozidlu. Přibližte se prosím nebo překontrolujte, zda vozidlo již není připojeno k jinému zařízení.";
+
+"menu_features" = "Funkce";
+
+"menu_feedback" = "Poskytněte nám zpětnou vazbu";
+
+"menu_feedback_subject" = "Lepší zážitek při podávání zpětné vazby k aplikaci SmarterDriver";
+
+"menu_home" = "Domů";
+
+"menu_my_account" = "Můj účet";
+
+"menu_sign_out" = "Odhlásit";
+
+"miles_short" = "míle";
+
+"modify_selection" = "Upravit výběr";
+
+"navigation_drawer_close" = "Zavřít nabídku navigace";
+
+"navigation_drawer_open" = "Otevřít nabídku navigace";
+
+"need_classification_message" = "Máte %1$@ neklasifikovaných cest (celkem %2$@). Klasifikovat před odesláním?";
+
+"new_journey" = "Nová cesta";
+
+"new_journey_detail" = "Údaje o cestě";
+
+"new_journey_error" = "Vyplňte políčka zvýrazněná červeně.";
+
+"new_journey_reason" = "Důvod pro ruční vstup";
+
+"new_journey_start_date" = "Počáteční datum";
+
+"new_journey_start_time" = "Počáteční čas";
+
+"news_feed_journey_completed" = "Cesta byla dokončena";
+
+"news_feed_tip_header" = "Tipy";
+
+"news_feed_tip_message" = "Abyste ušetřili čas, do seznamu můžete přidat vaše často používané účely cest a můžete je upravovat. Jednoduše v hlavní nabídce přejděte do Mého účtu a spravujte je z něj.";
+
+"news_feed_tip_title" = "Změny seznamu účelu cest";
+
+"news_feed_title" = "Zprávy a aktualizace";
+
+"no_device_found" = "No vehicle found. Please move in range and scan again.";
+
+"no_journeys" = "Nemáte žádné %1$@ cesty.";
+
+"onboard_1_message" = "SmarterDriver přináší veškeré údaje u ujeté vzdálenosti <br> na dosah ruky. <br> <b><font color=\"#105995\">Klasifikujte, odesílejte a šetřete!</font></b>";
+
+"onboard_1_tip" = "<b>Tip:</b> Domácí obrazovka zobrazí vaše nejnovější aktualizace a poskytne vám přístup k různým funkcím.";
+
+"onboard_1_title" = "Vítejte v aplikaci Smarter Driver.";
+
+"onboard_2_message" = "Získejte přehled o všech vašich cestách.<br> <b><font color=\"#105995\">Klasifikujte, řaďte do kategorií a šetřete čas  <br></font></b> Potáhněte doleva, doprava a hotovo.";
+
+"onboard_2_tip" = "<b>Tip:</b> Použijte dlouhé tažení k přidání kategorie k vaší klasifikaci cesty. Upravte kategorie ve vašich nastaveních účtu.";
+
+"onboard_2_title" = "Jedna obrazovka ke správě všech";
+
+"onboard_3_message" = "Nezdá se vám něco? Je to jednoduché.<br> Klepněte na dlaždici k zobrazení údajů o cestě.<br> <b><font color=\"#105995\">Pozměňte, uložte a je to změněno. </font>";
+
+"onboard_3_tip" = "<b>Poznámka:</b> Stránka s bližšími údaji vás požádá o důvod ke změně, jestliže došlo ke změně adresy či vzdálenosti.";
+
+"onboard_3_title" = "Kontext znamená kontrolu";
+
+"onboard_4_message" = "Měsíční přehled zobrazuje<br> <b><font color=\"#105995\">co, jak a kdy</font></b><br> o vašich nákladech spojených s jízdou v jednom místě.";
+
+"onboard_4_tip" = "<b>Tip:</b> Kontrolujte nebo upravujte vaše osobní či pracovní cesty poklepem na označení klasifikace.";
+
+"onboard_4_title" = "Vaše vlastní řídicí věž";
+
+"only_one_account_supported" = "Podporován je pouze jeden účet Smarter Driver.";
+
+"parser_can_configuration_error" = "Chyba při konfiguraci CAN";
+
+"parser_dataid_configuration_error" = "Chyba konfigurace IDdat";
+
+"parser_dataid_configuration_success" = "Konfigurace IDdat byla úspěšná";
+
+"parser_error_authentication_failed" = "Ověření selhalo";
+
+"parser_io_configuration_error" = "Chyba při konfiguraci vstupu a výstupu";
+
+"permission_needed" = "Požaduje se oprávnění.";
+
+"personal_journey_purpose" = "Osobní účel cesty";
+
+"personal_pls_purpose" = "+ účel";
+
+"placeholder_empty" = "Pro toto období nemáte žádné cesty";
+
+"prefs_cost_of_unit" = "Poměr proplacení";
+
+"prefs_csv_contains_all" = "Zpráva obsahuje všechny typy cest";
+
+"prefs_csv_contains_business" = "Zpráva obsahuje pouze pracovní cesty";
+
+"prefs_email_incorrect" = "Zadejte prosím platnou emailovou adresu";
+
+"prefs_my_details" = "Mé údaje";
+
+"prefs_my_email" = "Má emailová adresa";
+
+"prefs_name" = "Jméno";
+
+"prefs_reimbursement_rate" = "Poměr proplacení";
+
+"prefs_send_csv" = "Odeslat zprávu";
+
+"prefs_submission_day" = "Datum pro měsíční odeslání";
+
+"prefs_submission_details" = "Údaje o odeslání";
+
+"prefs_submission_email" = "Email s podáním";
+
+"price_per_unit_part1" = "za";
+
+"proceed" = "Pokračovat";
+
+"prompt_password" = "Heslo";
+
+"prompt_username" = "Uživatelské jméno";
+
+"ready_to_be_claimed" = "Připraveno k uplatnění";
+
+"reason" = "Důvod";
+
+"reimbursement" = "Proplacení";
+
+"reset_now" = "Resetovat nyní";
+
+"response_authentication_successful" = "Ověření bylo úspěšné";
+
+"response_device_connected" = "zařízení_připojeno";
+
+"response_device_disconnected" = "zařízení bylo odpojeno";
+
+"response_device_not_bonded" = "zařízení nebylo připojeno";
+
+"response_from_request_for_data_successful" = "ID vyžádaných dat";
+
+"response_reconnection_stopped" = "další připojení bylo zastaveno";
+
+"response_search_finished" = "vyhledávání skončilo";
+
+"response_search_stopped" = "vyhledávání bylo zastaveno";
+
+"save_journey" = "Uložit";
+
+"scan" = "Skenovat";
+
+"searching_for_mbox" = "Probíhá vyhledávání vozidla";
+
+"select_journey_purpose" = "Zvolte účel cesty";
+
+"skip" = "Vynechat";
+
+"start" = "Začátek";
+
+"submission_classifying" = "Probíhá klasifikace ...";
+
+"submission_day_numeric_part" = "den je datum odeslání.";
+
+"submission_day_text_part" = "je datum odeslání.";
+
+"submission_error_message" = "Zkuste to prosím znovu později";
+
+"submission_error_title" = "Došlo k chybě.";
+
+"submission_offline" = "Jste offline. Zpráva bude odeslána, až budete zpět online.";
+
+"submission_period" = "Období pro podání";
+
+"submission_sending" = "Probíhá odesílání ...";
+
+"submission_success_message_old" = "Vaše nároky  byly úspěšně odeslány.";
+
+"submission_success_title" = "Výborně.";
+
+"submission_title" = "Odeslat mé nároky";
+
+"submit" = "Odeslat";
+
+"submit_before" = "Odeslat do %1$@";
+
+"submit_today" = "Odešlete prosím vaše cesty dnes";
+
+"summary_name_business" = "Pracovní";
+
+"summary_name_personal" = "Osobní";
+
+"summary_name_submitted" = "Odesláno";
+
+"summary_name_unclassified" = "Neklasifikováno";
+
+"no_journeys_business" = "Pracovní";
+
+"no_journeys_personal" = "Osobní";
+
+"no_journeys_unclassified" = "Neklasifikováno";
+
+"tae_applet_ready_for_claim" = "k podání";
+
+"tae_applet_unclassified" = "neklasifikováno";
+
+"this_month" = "tento Měsíc";
+
+"title_activity_login" = "Přihlášení do aplikace Masternaut";
+
+"today" = "dnes";
+
+"toolbar_settings" = "Nastavení";
+
+"total_mileage" = "Vzdálenost";
+
+"unclassified" = "Klasifikovat mé cesty";
+
+"undo" = "ZRUŠIT";
+
+"unknown_device" = "Neznámé zařízení";
+
+"vehicle_info_updated" = "Informace o vozidle byly aktualizovány.";
+
+"version" = "Verze";
+
+"welcome_back" = "Vítejte zpět";
+
+"welcome_back_continue" = "Pokračovat";
+
+"welcome_back_different_login" = "Jestliže nejste %1$@,přihlaste se prosím jako jiný uživatel.";
+
+"welcome_back_sign_in" = "Přihlášení";
+
+"yes" = "ANO";
+
+"yesterday" = "včera";
+
+"default_business_purposes_arr_1" = "Návštěva zákazníka";
+
+"default_business_purposes_arr_2" = "Mezi kancelářemi";
+
+"default_business_purposes_arr_3" = "Schůzka";
+
+"default_business_purposes_arr_4" = "Letiště/cesta";
+
+"default_business_purposes_arr_5" = "Pochůzka/zásoby";
+
+"default_personal_purposes_arr_1" = "Dojíždění";
+
+"default_personal_purposes_arr_2" = "Nákup";
+
+"default_personal_purposes_arr_3" = "Škola";
+
+"submit_only_business" = "Odeslat pouze pracovní cesty";
+
+"journey_plural_zero" = "cest";
+
+"journey_plural_one" = "cesta";
+
+"journey_plural_two" = "cesty";
+
+"journey_plural_few" = "cesty";
+
+"journey_plural_many" = "cest";
+
+"journey_plural_other" = "cest";
+
+"vehicle_check_list_na" = "---";
+
+"vehicle_check_camera_or_library_alert" = "Přidat fotku pomocí";
+
+"app_name" = "SmarterDriver";
+
+"summary_name_business_short" = "Pracovní";
+
+"done" = "Dokončeno";
+
+"tap_to_enter_reason" = "Klepnutím vložte důvod změny.";
+
+"vehicle_check_library_option" = "Knihovna";
+
+"vehicle_check_submit_check" = "Odeslat kontrolu";
+
+"menu_tutorial" = "Tutorial";
+
+"app_desc_login" = "Masternaut | chytřejší platforma pro správu vozového parku";
+
+"vehicle_check_detail_required" = "* Povinné";
+
+"vehicle_check_no_camera" = "Fotoaparát není dostupný.";
+
+"vehicle_check_finish" = "Dokončit";
+
+"to_be_claimed" = "%1$@ k uplatnění";
+
+"submitting_journey_detail_failed" = "Odesílání cest selhalo.";
+
+"error_invalid_email" = "Tato e-mailová adresa je neplatná";
+
+"last_pwd_login_dont_match" = "Jste odhlášeni od aplikace. Naposledy použité přihlašovací údaje jsou nesprávné.";
+
+"vehicle_check_fail" = "Zprávu nelze odeslat.";
+
+"vehicle_check_driver" = "Řidič";
+
+"updating_journey_detail_failed" = "Aktualizace podrobností o cestě selhala.";
+
+"disabled" = "Zakázáno";
+
+"keyboard_next" = "Pokračovat";
+
+"vehicle_check_detail_photo" = "Fotografie";
+
+"vehicle_check_list_title" = "Kontrola vozidla";
+
+"vehicle_check_list_date" = "Datum";
+
+"vehicle_check_camera_option" = "Fotoaparát";
+
+"vehicle_check_odometer_reading" = "Přidat odečet z odometru";
+
+"retrieving_person_failed" = "Načítání nastavení selhalo.";
+
+"vehicle_check_add_comment_placeholder" = "Přidejte komentář";
+
+"getting_journey_detail_failed" = "Zjišťování podrobností o cestě selhalo.";
+
+"vehicle_check_add_comment" = "Přidat poznámku";
+
+"placeholder_no_journeys_for_period" = "V tomto období nejsou žádné cesty.\nZkuste jiné časové období.";
+
+"prefs_units" = "Jednotky";
+
+"no_mail_service" = "Zkontrolujte si nastavení pošty";
+
+"vehicle_check_date_of_check" = "Datum kontroly";
+
+"no_data" = "Žádná data";
+
+"vehicle_check_vehicle_registration_number_placeholder" = "Zadejte registrační značku";
+
+"vehicle_check_detail_description" = "Popis";
+
+"vehicle_check_success" = "Zpráva o kontrole vozidla byla úspěšně odeslána.";
+
+"dashboard_load_error" = "Zkontrolujte připojení k síti a znovu načtěte přejetím prstem.";
+
+"vehicle_check_list_time" = "Čas";
+
+"summary_name_personal_short" = "Osobní";
+
+"vehicle_check_vehicle_registration_number" = "Registrační značka vozidla";
+
+"vehicle_check_list_nodefect" = "Bez závady";
+
+"vehicle_check_list_withdefect" = "Se závadou";
+
+"new_journey_start_location" = "Počáteční poloha";
+
+"new_journey_end_location" = "Konečná poloha";
+
+"permission_location_services" = "Povolit SmarterDriveru přístup k vaší poloze při používání aplikace?";
+
+"new_journey_manually_added" = "Cesta přidaná ručně";
+
+"journey_detail_reason_for_addition" = "Důvod k přidání";
+
+"vehicle_check_submission_no_location" = "zjišťování polohy není povoleno.";
+
+"google_play_services_missing" = "Aktualizujte služby Google Play";
+
+"vehicle_list_guest_vehicle" = "Hostující vozidlo";
+
+"vehicle_list_title" = "Seznam vozidel";
+
+"vehicle" = "vozidlo";
+
+"tracking" = "sledování";
+
+"start_journey" = "Zahájit cestu";
+
+"perform_vehicle_check" = "Provést kontrolu vozidla";
+
+"end_journey" = "Ukončit cestu";
+
+"all_journeys_classified" = "Všechny cesty jsou klasifikované";
+
+"vehicle_check_submitted" = "Kontrola vozidla odeslána";
+
+"all_journeys_classified" = "Všechny cesty jsou klasifikované.";
+
+"vehicle_describe_defect" = "Popište závadu";
+
+"vehicle_submit_offline" = "Nejste připojeni. Zprávu nelze odeslat.";
+
+"vehicle_check_submitted" = "Kontrola vozidla odeslána";
+
+"unclassified_journeys_count_plural_zero" = "Klasifikovat %d cesty";
+
+"unclassified_journeys_count_plural_one" = "Klasifikovat %d cestu";
+
+"unclassified_journeys_count_plural_two" = "Klasifikovat %d cesty";
+
+"unclassified_journeys_count_plural_few" = "Klasifikovat %d cesty";
+
+"unclassified_journeys_count_plural_many" = "Klasifikovat %d cesty";
+
+"unclassified_journeys_count_plural_other" = "Klasifikovat %d cesty";
+
+"track_journey_permission_phone_state" = "SmarterDriver použije výrobní číslo telefonu k přiřazení cest výhradně k tomuto telefonu.";
+
+"applet_track_journey" = "Sledování";
+
+"track_journey_start" = "Zahájit cestu";
+
+"track_journey_end" = "Ukončit cestu";
+
+"track_journey_permission_disabled" = "Oprávnění nejsou povolena.";
+
+"track_journey_backend_401" = "Tato funkce není ve vašem účtu dostupná. Obraťte se na svého správce.";
+
+"track_journey_backend_403" = "Nejste vedeni jako řidič. Obraťte se na svého správce.";
+
+"track_journey_offline_error" = "Nejste připojeni. Pro sledování cesty je nutné obnovit připojení.";
+
+"no_vehicles_message" = "Ve skupině nemáte přidělená žádná vozidla nebo nejste připojeni.";
+
+"offline" = "Nejste připojeni. Kontrolu vozidla nelze dokončit, dokud neobnovíte připojení.";
+
+"warning" = "Varování";
+
+"vch_disabled_new_feature" = "NOVÁ FUNKCE";
+
+"vch_disabled_new_desc1" = "Kontrola vozidla umožňuje provést ještě před jízdou všechny položky v kontrolním seznamu podle předpisů a odeslat příslušnou zprávu k archivaci.";
+
+"vch_disabled_new_desc2" = "Možnosti aktivace proberte se svým správcem
+ nebo správcem účtu Masternaut.";
+
+"onboarding_1_title" = "Vítejte v aplikaci SmarterDriver!";
+
+"onboarding_1_text" = "Ve SmarterDriveru si přímo na svém telefonu můžete procházet údaje o cestách, vozidlech i svůj profil.";
+
+"onboarding_2_title" = "Ovládání jedním tahem";
+
+"onboarding_2_text" = "Přejetím prstem doleva nebo doprava provedete některou z rychlých akcí v seznamu položek. Dá se tak snadno klasifikovat cesta nebo projít seznam kontroly vozidla.";
+
+"onboarding_3_title" = "Dlouhým tahem přidáte podrobnosti";
+
+"onboarding_3_text" = "Pro přidání dalších informací dlouze přejeďte prstem přes obrazovku. Dlouhým přejetím k okraji obrazovky můžete přidat účel cesty.";
+
+"offline" = "Nejste připojeni. Kontrolu vozidla nelze dokončit, dokud neobnovíte připojení.";
+
+"" = "V App Storu / Obchodě Play je k dispozici nová verze aplikace. Proveďte aktualizaci na nejnovější verzi.";
+
+"" = "Pokračovat bez aktualizace";
+
+"error_couldnt_create_dir" = "Přístup k externímu adresáři není možný.";
+
+"adding_manual_journey_progress" = "Ruční přidání cesty";
+
+"journey_addition_offline" = "Nejste připojeni. Cestu nelze vytvořit.";
+
+"navigation_not_available" = "Na vašem zařízení není k dispozici navigace.";
+
+"permission_message_access_fine_location" = "Aplikace potřebuje funkci PŘÍSTUP K PŘESNÉMU STANOVENÍ POLOHY, aby mohla fungovat správně.";
+
+"permission_message_get_accounts" = "Aplikace potřebuje funkci PŘÍSTUP K ÚČTŮM, aby mohla fungovat správně.";
+
+"" = "Zjednodušte si řízení i práci";
+
+"" = "Shrnutí cest";
+
+"" = "Rychlý přehled cestovních nákladů";
+
+"" = "Klasifikace cest přejetím prstem";
+
+"" = "Okamžité zařazení cest do kategorií";
+
+"" = "Kontrola a odeslání";
+
+"" = "Jednoduché dokončení kontroly vozidla než vyjedete";
+
+"" = "Ostatní (popište níže)";
+
+"location_services_dissabled" = "Zaznamenání cesty vyžaduje, aby bylo zapnuté zjišťování polohy.";
+
+"location_permission_invalid_permission" = "Aby bylo možné zaznamenávat cesty v aplikaci, je nutné nastavit přístup ke zjišťování polohy na Vždy.";
+
+"location_services_switched_off" = "Zjišťování polohy je vypnuté, ukončování cesty.";
+
+"location_services_permission_change" = "Oprávnění ke zjišťování polohy se změnilo, ukončování cesty.";
+
+"location_unable_to_get" = "Vaši polohu nelze zjistit, zkuste to později.";
+
+"device_not_found" = "Vaše zařízení není registrováno, ukončování cesty.";
+
+"processing_journey" = "Zpracovávám cestu...";
+
+"creating_journey_slow_connection" = "Pomalé připojení − vaše cesta byla zaznamenána a zobrazí se, jakmile se zlepší kvalita připojení.";
+
+"pull_to_refresh_offline" = "Problém s připojením − tahem obnovte, jakmile se zlepší kvalita připojení.";
+
+"update_prompt_title" = "V App Storu je k dispozici nová verze aplikace.";
+
+"update_prompt_subtitle" = "Aktualizujte aplikaci na nejnovější verzi.";
+
+"update_prompt_update_button" = "Aktualizovat";
+
+"update_prompt_continue_button" = "Pokračovat bez aktualizace";
+
+"vch_no_checklist_for_account" = "Pro váš účet není k dispozici žádný kontrolní seznam vozidla.";
+
+"enter_other_purpose" = "Ostatní (popište níže)";
+
+"submission_email_empty_question" = "Kdo má dostat data, která jste odeslali?";
+
+"submission_email_info" = "Tuto e-mailovou adresu můžete v budoucnu změnit v nastavení svého účtu.";
+
+"journey_distance_validation_error" = "Zadejte hodnotu větší než 0.";
+
+"try_again" = "Zkuste to znovu";
+
+"login_placeholder_message" = "Pokud nejste připojeni, nemůžete se přihlásit.";
+
+"you_are_still_offline" = "Stále jste odpojeni. Zkuste to znovu, jakmile se připojíte.";
+
+"last_seven_days" = "Posledních 7 dnů";
+
+"hours" = "hod.";
+
+"smoother" = "Hladší";
+
+"good_job" = "Dobrá práce!";
+
+"better_next_time" = "Příště to půjde líp!";
+
+"harsh_more" = "O %@ více hrubých porušení pravidel na 100 %@ než minulý týden.";
+
+"harsh_less" = "O %@ méně hrubých porušení pravidel na 100 %@ než minulý týden.";
+
+"driving_behavior" = "Vaše chování při jízdě";
+
+"safer" = "Bezpečnější";
+
+"speeding_more" = "Proti minulému týdnu se překročení rychlostního limitu zvýšilo o %@ bodů.";
+
+"speeding_less" = "Proti minulému týdnu se jízda bezpečnou rychlostí zvýšila o %@ bodů.";
+
+"cleaner" = "Čistší";
+
+"idling_more" = "Proti minulému týdnu se stání na volnoběh zvýšilo o %@ bodů.";
+
+"idling_less" = "Proti minulému týdnu se jízda bez volnoběhu zvýšila o %@ bodů.";
+
+"smoother_description" = "Hladké zrychlení a brzdění je pro vás bezpečnější a lepší pro vozidlo. Tady uvidíte počet situací, kdy jste zrychlovali nebo brzdili příliš rychle. Hodnota se zobrazuje jako celkový počet na 100 %@.";
+
+"my_average" = "Můj průměr";
+
+"in_group" = "ve skupině";
+
+"in_company" = "ve firmě";
+
+"safer_description" = "Dodržujte povolenou rychlost, abyste na silnici byli v bezpečí. Tady vidíte procento cest, při kterých jste jeli bezpečnou rychlostí (méně než o 10 % rychleji, než je povolená rychlost).";
+
+"average_events" = "Můj průměr událostí na 100 %@";
+
+"cleaner_description" = "Když omezíte stání na volnoběh, přispějete k čistotě životního prostředí. Tady vidíte procento času stráveného jízdou se zapnutým motorem. Jakmile budete stát na volnoběh, toto procento klesne.";
+
+"recommended_and_above" = "Doporučuje se %@%% nebo vyšší.";
+
+"recommended_per_100" = "Doporučuje se %@ na 100 %@ nebo nižší.";
+
+"graph_popup_title" = "Co je tohle za číslo?";
+
+"smoother_popup_desc1" = "Hodnota vychází z průměru běžného řidiče v Masternaut Connect.";
+
+"smoother_popup_desc2" = "Pro nákladní vozidla je tato hodnota %1$@ událostí na 100 %2$@.";
+
+"smoother_popup_desc3" = "Pro osobní vozidla je tato hodnota %1$@ událostí na 100 %2$@.";
+
+"metrics_no_data_both_weeks" = "Jdeme na to!";
+
+"metrics_no_data_this_week" = "Vyjeďte, ať můžete sledovat svůj trend.";
+
+"metrics_no_data_last_week" = "Jeďte dál a brzy uvidíte svůj trend.";
+
+"metrics_no_data_last_week_smoother" = "Zjistěte víc o tom, jak hladce jezdíte.";
+
+"metrics_no_data_last_week_safer" = "Zjistěte víc o tom, jak překračujete rychlost.";
+
+"metrics_no_data_last_week_cleaner" = "Zjistěte víc o tom, jak často stojíte na volnoběh.";
+
+"safer_popup_desc1" = "Hodnota vychází z průměru běžného řidiče v Masternaut Connect.";
+
+"safer_popup_desc2" = "Pro nákladní vozidla je tato hodnota %1$@%%.";
+
+"safer_popup_desc3" = "Pro osobní vozidla je tato hodnota %1$@%%.";
+
+"cleaner_popup_desc1" = "Hodnota vychází z průměru běžného řidiče v Masternaut Connect.";
+
+"cleaner_popup_desc2" = "Pro nákladní vozidla je tato hodnota %1$@%%.";
+
+"cleaner_popup_desc3" = "Pro osobní vozidla je tato hodnota %1$@%%.";
+
+"submission_success_message" = "Úspěšně odesláno";
+
+"and" = "a";
+
+"submission_success_message_subtitle" = "Nezapomeňte na svoje cesty za %1$@!";
+
+"menu_company_hotline" = "Moje firemní horká linka";
+
+"recall_no_longer_pending" = "Cesty už nečekají na vyřízení.";
+
+"summary_name_pending" = "Čekající";
+
+"summary_name_approved" = "Schváleno";
+
+"recall_action" = "Odvolat";
+
+"google_signin_generic_error" = "Během přihlášení prostřednictvím Googlu došlo k chybě. Zkuste se znovu přihlásit pomocí svých přihlašovacích údajů (e-mail/heslo) ke standardnímu účtu Connect.";
+
+"max_photos_per_defect" = "(max. 1 na závadu)";
+
+"total_photos_per_report" = "Celkem fotek %1$@ na zprávu";
+
+"photos_attached" = "Připojené fotky";
+
+"" = "Neztrácejte čas správou pracovních jízd a vraťte se k tomu, na čem opravdu záleží.";
+
+"" = "Díky aplikaci Masternaut SmarterDriver budete mít jízdy ve své firmě znovu pod kontrolou. Přehledy vašich cest se automaticky synchronizují s vaším sledovacím zařízením Masternaut, takže je můžete klasifikovat jako pracovní nebo osobní. Jenom pár kliknutí navíc stačí, abyste klasifikované cesty nebo zprávy o každodenních kontrolách vozidla odeslali svému manažerovi.
+ 
+ Budete jezdit chytře, takže ušetříte čas a starosti s papírováním a můžete se soustředit na řízení a práci.
+ 
+ Poznámka: aplikaci SmarterDriver můžete používat, pokud už máte účet Masternaut Connect. Další informace najdete na našem webu.";
+
+"last_vehicle_check_date_submitted" = "Odesláno";
+
+"last_vehicle_check_driver" = "Řidič";
+
+"last_vehicle_check_with_defect" = "Se závadou";
+
+"last_vehicle_check_no_defect" = "Bez závady";
+
+"KEY" = "CS";
+

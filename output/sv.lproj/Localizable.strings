@@ -1,0 +1,878 @@
+"account_locked" = "Ditt konto har låsts. Återställ ditt lösenord.";
+
+"action_forgot_password" = "Glömt lösenordet?";
+
+"action_sign_in_short" = "Logga in";
+
+"add" = "Lägg till";
+
+"add_justification" = "Lägg till dina vanligaste resebeskrivningar här";
+
+"add_new_purpose" = "Eller skapa en ny";
+
+"agree" = "Acceptera";
+
+"agreement" = "Använd inte applikationen under pågående körning eller på ett sätt som kan inverka på framförandet av fordonet. Du ensam ansvarar för att din användning av applikationen inte ger upphov till olyckor, personskador eller skada på egendom. Kör alltid säkert.";
+
+"all" = "alla";
+
+"all_journeys_submitted" = "Alla resor har skickats in.";
+
+"amend_error_number_high" = "Avstånd bör inte överstiga";
+
+"amend_mileage" = "Avstånd";
+
+"amend_reason" = "Orsak till ändring";
+
+"app_name_expenses" = "Körjournal";
+
+"app_name_navigation" = "Navigering";
+
+"app_name_vehicle_checks" = "Fordonskontroller";
+
+"app_ok" = "OK";
+
+"applet_comming_soon" = "Kommer snart";
+
+"applet_expenses" = "KÖRJOURNAL";
+
+"applet_navigation" = "NAVIGERING";
+
+"applet_score" = "POÄNG";
+
+"applet_vehicle_checks" = "FORDONSKONTROLLER";
+
+"applet_wheres_my_car" = "VAR ÄR MIN BIL";
+
+"bluetooth" = "Bluetooth";
+
+"bt_auto_activation" = "Applikationen kräver Bluetooth för att ansluta till fordonet. Vill du auktorisera aktivering av Bluetooth?";
+
+"bt_deactivated_message" = "Du försöker avaktivera Bluetooth. Anslutningen till Masternauts applikation kommer att avbrytas.";
+
+"bt_deactivated_title" = "OBS!";
+
+"bt_dialog_info" = "Klicka på Skanna för att avbryta anslutningen och söka efter ett annat fordon.";
+
+"bt_disconnect" = "Avbryt anslutning";
+
+"business_journey_purpose" = "Syfte med tjänsteresa";
+
+"business_pls_purpose" = "+ syfte";
+
+"cancel" = "Avbryt";
+
+"choose_classification" = "Välj en klassificering för resan";
+
+"choose_device" = "Välj ett tillgängligt fordon för att fortsätta";
+
+"classification_forced_message" = "Klassificera dina resor här.";
+
+"classification_forced_title" = "Klassificering";
+
+"classification_saved" = "Klassificering sparad.";
+
+"classify" = "Klassificera";
+
+"connecting" = "Ansluter";
+
+"connecting_to_mbox" = "Ansluter till fordon";
+
+"copyright" = "Upphovsrätt © 2017 Masternaut. Alla rättigheter förbehålls.";
+
+"currency" = "Valuta";
+
+"currency_czech" = "CZK Kč";
+
+"currency_danish" = "DKK kr.";
+
+"currency_euro" = "EUR €";
+
+"currency_great_britain" = "GBP £";
+
+"currency_polish" = "PLN zł";
+
+"currency_swedish" = "SEK kr.";
+
+"currency_swiss" = "CHF";
+
+"dashboard" = "Kontrollpanel";
+
+"data_refreshed" = "Dina resor har uppdaterats med data från servern";
+
+"detail_amount" = "Summa";
+
+"detail_confirm" = "Bekräfta";
+
+"detail_distance" = "Avstånd";
+
+"detail_journey" = "Resa";
+
+"detail_journey_purpose" = "Resans syfte";
+
+"detail_notes" = "Kommentarer";
+
+"detail_notes_optional" = "(valfritt)";
+
+"detail_rate" = "Ersättningsnivå";
+
+"detail_save_distance_changed" = "körsträcka";
+
+"detail_save_end_addr_changed" = "slutadress";
+
+"detail_save_explanation_msg" = "Ange en anledning till ändringen.";
+
+"detail_save_modifications" = "Du har modifierat";
+
+"detail_save_start_addr_changed" = "startadressen";
+
+"detail_tap_to_add_end_address" = "Knacka för att fylla i slutadress";
+
+"detail_tap_to_add_note" = "Knacka för att fylla i allmänna kommentarer eller anteckningar";
+
+"detail_tap_to_add_purpose" = "Knacka för att lägga till syftet med en resa";
+
+"detail_tap_to_add_start_address" = "Knacka för att fylla i startadress";
+
+"edit_journey" = "Redigera resa";
+
+"empty_justifications_warning" = "Lägg till dina vanligaste resebeskrivningar under Mitt konto.";
+
+"end" = "Slut";
+
+"error_401" = "Du har inte behörighet att använda den här applikationen.";
+
+"error_could_not_connect" = "Kan inte ansluta till servern.";
+
+"error_field_required" = "Fältet är obligatoriskt";
+
+"error_generic" = "Ett fel har uppstått.";
+
+"error_incorrect_password" = "Lösenordet är felaktigt";
+
+"error_incorrect_vehicle" = "Fordonet tillhör inte ditt företag!";
+
+"error_invalid_password" = "Lösenordet är för kort";
+
+"error_mandatory" = "Fältet är obligatoriskt";
+
+"error_no_connection_to_mbox" = "Ingen anslutning till fordonet";
+
+"error_no_result" = "Inget resultat";
+
+"error_offline" = "Ingen internetanslutning.";
+
+"error_settings" = "INSTÄLLNINGAR";
+
+"error_vehicle_disconnected" = "Anslutningen till fordonet bruten!";
+
+"estimated_value_short" = "Uppskattat värde";
+
+"form_submission_close_app" = "Stäng";
+
+"form_submission_completed" = "Uppgiften slutförd.";
+
+"form_submission_error" = "Hoppsan! Ett fel har uppstått.";
+
+"form_submission_note" = "Hoppas vi kan göra det här snart igen.";
+
+"form_submission_offline" = "Du är offline. Rapporten skickas så snart du är online igen.";
+
+"form_submission_sending" = "Skickar.";
+
+"get_masternaut_services" = "Skaffa Masternauts tjänster";
+
+"get_masternaut_services_message" = "Den här applikationen går inte att använda utan registrering för Masternauts tjänster.";
+
+"google_play_missing" = "Kan inte hitta Google Play på enheten.";
+
+"help" = "Hjälp";
+
+"item_removed" = "Posten har raderats";
+
+"journey_classification" = "Klassificering av resa";
+
+"journey_purpose_empty" = "Syftet med resan kan inte lämnas tomt!";
+
+"journeys" = "Resor";
+
+"kilometres_short" = "km";
+
+"last_day_of_month" = "Sista dagen i månaden";
+
+"last_month" = "Förra månaden";
+
+"last_seven_days" = "senaste 7 dagarna";
+
+"last_submission" = "Föregående inlämning %1$@";
+
+"login_slogan_masternaut_bold" = "masternaut";
+
+"login_slogan_the_regular" = "| the";
+
+"login_slogan_the_smarter_bold" = "smarter";
+
+"login_slogan_the_fleet_platform_regular" = "fleet platform";
+
+"mbox_connection_error" = "Applikationen kan inte ansluta till ditt fordon. Flytta dig närmare eller kontrollera om ditt fordon redan är anslutet till en annan enhet.";
+
+"menu_features" = "Funktioner";
+
+"menu_feedback" = "Lämna återkoppling";
+
+"menu_feedback_subject" = "SmarterDriver App Feedback Experience";
+
+"menu_home" = "Hem";
+
+"menu_my_account" = "Mitt konto";
+
+"menu_sign_out" = "Logga  ut";
+
+"miles_short" = "engelska miles";
+
+"modify_selection" = "Modifiera urval";
+
+"navigation_drawer_close" = "Stäng navigeringsmeny";
+
+"navigation_drawer_open" = "Öppna navigeringsmeny";
+
+"need_classification_message" = "Du har %1$@ oklassificerade resor (totalt %2$@). Klassificera innan inlämning?";
+
+"new_journey" = "Ny resa";
+
+"new_journey_detail" = "Resedetaljer";
+
+"new_journey_error" = "Fyll i de fält som markerats med rött.";
+
+"new_journey_reason" = "Anledning till manuell inmatning";
+
+"new_journey_start_date" = "Startdatum";
+
+"new_journey_start_time" = "Starttid";
+
+"news_feed_journey_completed" = "Resa slutförd";
+
+"news_feed_tip_header" = "Tips";
+
+"news_feed_tip_message" = "Du kan lägga till och redigera de resesyften som du använder oftast på listan för att spara tid. Gå bara till Mitt konto i huvudmenyn och hantera dem där.";
+
+"news_feed_tip_title" = "Modifiera listan med resesyften";
+
+"news_feed_title" = "Nyheter och uppdateringar";
+
+"no_device_found" = "Inget fordon har hittats. Flytta närmare och skanna igen.";
+
+"no_journeys" = "Du har inga %1$@ resor.";
+
+"onboard_1_message" = "SmarterDriver gör att alla dina<br> reseuppgifter ryms i din hand. <br> <b><font color=\"#105995\">Klassificera, kategorisera och spara pengar!</font></b>";
+
+"onboard_1_tip" = "<b>Tips:</b> Hemskärmen visar de senaste uppdateringarna och ger dig tillgång till olika funktioner.";
+
+"onboard_1_title" = "Välkommen Smarter Driver!";
+
+"onboard_2_message" = "Få en överblick över alla dina resor.<br> <b><font color=\"#105995\">Klassificera, kategorisera och spara tid.<br></font></b> Svep åt vänster, åt höger och det är klart.";
+
+"onboard_2_tip" = "<b>Tips:</b> Svep långsamt för att lägga till en kategori till din reseklassificering. Anpassa kategorierna under dina kontoinställningar.";
+
+"onboard_2_title" = "En skärm för att hantera dem alla";
+
+"onboard_3_message" = "Verkar något inte stämma? Enkelt.<br> Knacka på panelen för att se reseuppgifterna.<br> <b><font color=\"#105995\">Modifiera, spara och ändringen har gjorts!</font>";
+
+"onboard_3_tip" = "<b>OBS!</b> När detaljerna för en adress eller ett avstånd ändras på skärmen måste du ange en anledning till ändringen.";
+
+"onboard_3_title" = "Kontext ger kontroll";
+
+"onboard_4_message" = "Månadspanelen visar dina resekostnaders <br> <b><font color=\"#105995\">vad, hur och varför</font></b><br> på ett enda ställe.";
+
+"onboard_4_tip" = "<b>Tips:</b> Granska eller ändra de resor du gör privat eller i tjänsten genom att knacka på respektive klassificeringsetikett.";
+
+"onboard_4_title" = "Ditt eget kontrolltorn";
+
+"only_one_account_supported" = "Bara ett Smarter Driver-konto stöds.";
+
+"parser_can_configuration_error" = "Fel vid CAN-konfiguration";
+
+"parser_dataid_configuration_error" = "Fel vid dataID-konfiguration";
+
+"parser_dataid_configuration_success" = "DataID-konfiguration genomförd";
+
+"parser_error_authentication_failed" = "Autentisering misslyckades";
+
+"parser_io_configuration_error" = "Fel vid IO-konfiguration";
+
+"permission_needed" = "Tillstånd behövs.";
+
+"personal_journey_purpose" = "Syfte med privat resa";
+
+"personal_pls_purpose" = "+ syfte";
+
+"placeholder_empty" = "Du har inga resor för den här tidsperioden";
+
+"prefs_cost_of_unit" = "Ersättningsnivå";
+
+"prefs_csv_contains_all" = "Rapporten innehåller alla typer av resor";
+
+"prefs_csv_contains_business" = "Rapporten innehåller enbart tjänsteresor";
+
+"prefs_email_incorrect" = "Fyll i en giltig e-postadress!";
+
+"prefs_my_details" = "Mina uppgifter";
+
+"prefs_my_email" = "Min e-postadress";
+
+"prefs_name" = "Namn";
+
+"prefs_reimbursement_rate" = "Ersättningsnivå";
+
+"prefs_send_csv" = "Skicka en rapport";
+
+"prefs_submission_day" = "Månatligt inlämningsdatum";
+
+"prefs_submission_details" = "Inlämningsdetaljer";
+
+"prefs_submission_email" = "E-postadress för inlämning";
+
+"price_per_unit_part1" = "per";
+
+"proceed" = "Fortsätt";
+
+"prompt_password" = "Lösenord";
+
+"prompt_username" = "Användarnamn";
+
+"ready_to_be_claimed" = "Klar att begäras";
+
+"reason" = "Anledning";
+
+"reimbursement" = "Ersättning";
+
+"reset_now" = "Återställ nu";
+
+"response_authentication_successful" = "Autentisering genomförd";
+
+"response_device_connected" = "enhet_ansluten";
+
+"response_device_disconnected" = "enhetens anslutning bruten";
+
+"response_device_not_bonded" = "enhet inte parkopplad";
+
+"response_from_request_for_data_successful" = "begärda data-ID";
+
+"response_reconnection_stopped" = "återanslutning avbruten";
+
+"response_search_finished" = "sökning avslutad";
+
+"response_search_stopped" = "sökning avbruten";
+
+"save_journey" = "Spara";
+
+"scan" = "Skanna";
+
+"searching_for_mbox" = "Letar efter fordon";
+
+"select_journey_purpose" = "Välj syfte med resa";
+
+"skip" = "Hoppa över";
+
+"start" = "Starta";
+
+"submission_classifying" = "Klassificerar...";
+
+"submission_day_numeric_part" = "dag är inlämningsdag.";
+
+"submission_day_text_part" = "är inlämningsdag.";
+
+"submission_error_message" = "Försök igen senare";
+
+"submission_error_title" = "Hoppsan! Ett fel har uppstått.";
+
+"submission_offline" = "Du är offline. Rapporten skickas så snart du är online igen.";
+
+"submission_period" = "Inlämningsperiod";
+
+"submission_sending" = "Skickar...";
+
+"submission_success_message_old" = "Din lörjournal har lämnats in.";
+
+"submission_success_title" = "Bra jobbat!";
+
+"submission_title" = "Lämna in reseräkning";
+
+"submit" = "Lämna in";
+
+"submit_before" = "Lämna in innan %1$@";
+
+"submit_today" = "Lämna in dina resor idag";
+
+"summary_name_business" = "I tjänsten";
+
+"summary_name_personal" = "Privat";
+
+"summary_name_submitted" = "Inlämnad";
+
+"summary_name_unclassified" = "Oklassificerad";
+
+"no_journeys_business" = "I tjänsten";
+
+"no_journeys_personal" = "Privat";
+
+"no_journeys_unclassified" = "Oklassificerad";
+
+"tae_applet_ready_for_claim" = "klar att begäras";
+
+"tae_applet_unclassified" = "oklassificerad";
+
+"this_month" = "denna månad";
+
+"title_activity_login" = "Inloggning till Masternaut";
+
+"today" = "idag";
+
+"toolbar_settings" = "Inställningar";
+
+"total_mileage" = "Avstånd";
+
+"unclassified" = "Klassificera mina resor";
+
+"undo" = "ÅNGRA";
+
+"unknown_device" = "Okänd enhet";
+
+"vehicle_info_updated" = "Fordonsuppgifterna har uppdaterats!";
+
+"version" = "Version";
+
+"welcome_back" = "Välkommen tillbaka";
+
+"welcome_back_continue" = "Fortsätt";
+
+"welcome_back_different_login" = "Om du inte är %1$@ loggar du in som en annan användare.";
+
+"welcome_back_sign_in" = "Logga in";
+
+"yes" = "JA";
+
+"yesterday" = "igår";
+
+"default_business_purposes_arr_1" = "Kundbesök";
+
+"default_business_purposes_arr_2" = "Mellan kontor";
+
+"default_business_purposes_arr_3" = "Möte";
+
+"default_business_purposes_arr_4" = "Flygplats/resa";
+
+"default_business_purposes_arr_5" = "Uträtta ärende/skaffa material";
+
+"default_personal_purposes_arr_1" = "Pendling";
+
+"default_personal_purposes_arr_2" = "Inköp";
+
+"default_personal_purposes_arr_3" = "Skola";
+
+"settings_unit" = "Enheter";
+
+"submit_only_business" = "Lämna endast in tjänsteresor";
+
+"journey_plural_zero" = "resor";
+
+"journey_plural_one" = "resa";
+
+"journey_plural_two" = "resor";
+
+"journey_plural_few" = "resor";
+
+"journey_plural_many" = "resor";
+
+"journey_plural_other" = "resor";
+
+"vehicle_check_list_na" = "Ej tillämplig";
+
+"vehicle_check_camera_or_library_alert" = "Lägg till foto med";
+
+"app_name" = "SmarterDriver";
+
+"summary_name_business_short" = "I tjänsten";
+
+"done" = "Klar";
+
+"tap_to_enter_reason" = "Klicka för att fylla i orsak till ändring.";
+
+"vehicle_check_library_option" = "Bibliotek";
+
+"vehicle_check_submit_check" = "Lämna in kontroll";
+
+"menu_tutorial" = "Handledning";
+
+"app_desc_login" = "Masternaut | den smartare plattformen för fordonsparker";
+
+"vehicle_check_detail_required" = "*obligatoriskt";
+
+"vehicle_check_no_camera" = "Kamera inte tillgänglig.";
+
+"vehicle_check_finish" = "Avsluta";
+
+"to_be_claimed" = "%1$@ att begäras";
+
+"submitting_journey_detail_failed" = "Resor kunde inte lämnas in.";
+
+"error_invalid_email" = "E-postadressen är ogiltig";
+
+"last_pwd_login_dont_match" = "Appen är offline. Senast använda inloggningsuppgifter/lösenord stämmer inte";
+
+"vehicle_check_fail" = "Rapporten kan inte skickas.";
+
+"vehicle_check_driver" = "Förare";
+
+"updating_journey_detail_failed" = "Det uppstod ett fel när uppgifterna om resor uppdaterades.";
+
+"disabled" = "Avaktiverad";
+
+"keyboard_next" = "Nästa";
+
+"vehicle_check_detail_photo" = "Foto";
+
+"vehicle_check_list_title" = "Fordonskontroll";
+
+"vehicle_check_list_date" = "Datum";
+
+"vehicle_check_camera_option" = "Kamera";
+
+"vehicle_check_odometer_reading" = "Lägg till mätarställning";
+
+"retrieving_person_failed" = "Det uppstod ett fel när inställningarna lästes in.";
+
+"vehicle_check_add_comment_placeholder" = "Lägg till en kommentar";
+
+"getting_journey_detail_failed" = "Det uppstod ett fel när uppgifterna om resor hämtades.";
+
+"vehicle_check_add_comment" = "Lägg till kommentar";
+
+"placeholder_no_journeys_for_period" = "Inga resor finns för den här perioden.\nprova ett annat datumintervall.";
+
+"prefs_units" = "Enheter";
+
+"no_mail_service" = "Kontrollera dina e-postinställningar";
+
+"vehicle_check_date_of_check" = "Datum för kontroll";
+
+"no_data" = "Inga data";
+
+"vehicle_check_vehicle_registration_number_placeholder" = "Fyll i registreringsnummer";
+
+"vehicle_check_detail_description" = "Beskrivning";
+
+"vehicle_check_success" = "Rapport om fordonskontroll har lämnats in.";
+
+"dashboard_load_error" = "Kontrollera din anslutning och svep för att uppdatera.";
+
+"vehicle_check_list_time" = "Tid";
+
+"summary_name_personal_short" = "Privat";
+
+"vehicle_check_vehicle_registration_number" = "Registreringsnummer för fordon";
+
+"vehicle_check_list_nodefect" = "Utan skador";
+
+"vehicle_check_list_withdefect" = "Skador";
+
+"new_journey_start_location" = "Startplats";
+
+"new_journey_end_location" = "Stopplats";
+
+"permission_location_services" = "Vill du låta SmarterDriver få tillgång till din plats medan du använder appen?";
+
+"new_journey_manually_added" = "Resa har lagts till manuellt";
+
+"journey_detail_reason_for_addition" = "Orsak till tillägg";
+
+"vehicle_check_submission_no_location" = "plats har inte aktiverats.";
+
+"google_play_services_missing" = "Uppdatera Google Play-tjänster.";
+
+"vehicle_list_guest_vehicle" = "Gästfordon";
+
+"vehicle_list_title" = "Fordonslista";
+
+"vehicle" = "fordon";
+
+"tracking" = "spårning";
+
+"start_journey" = "Starta resa";
+
+"perform_vehicle_check" = "Utför fordonskontroll";
+
+"end_journey" = "Avsluta resa";
+
+"all_journeys_classified" = "Alla resor har klassificerats";
+
+"vehicle_check_submitted" = "Fordonskontroll har lämnats in";
+
+"all_journeys_classified" = "Alla resor har klassificerats.";
+
+"vehicle_describe_defect" = "Beskriv skadan";
+
+"vehicle_submit_offline" = "Du är offline. Rapporten kan inte skickas.";
+
+"vehicle_check_submitted" = "Fordonskontroll har lämnats in";
+
+"unclassified_journeys_count_plural_zero" = "Klassificera %d resor";
+
+"unclassified_journeys_count_plural_one" = "Klassificera %d resa";
+
+"unclassified_journeys_count_plural_two" = "Klassificera %d resor";
+
+"unclassified_journeys_count_plural_few" = "Klassificera %d resor";
+
+"unclassified_journeys_count_plural_many" = "Klassificera %d resor";
+
+"unclassified_journeys_count_plural_other" = "Klassificera %d resor";
+
+"track_journey_permission_phone_state" = "SmarterDriver använder din mobils serienummer för att identifiera körningar som är unika för mobilen.";
+
+"applet_track_journey" = "Positionering";
+
+"track_journey_start" = "Starta resa";
+
+"track_journey_end" = "Avsluta resa";
+
+"track_journey_permission_disabled" = "Behörighet har inte aktiverats.";
+
+"track_journey_backend_401" = "Den här funktionen finns inte tillgänglig för ditt konto. Kontakta din administratör.";
+
+"track_journey_backend_403" = "Du finns inte registrerad som förare. Kontakta din administratör.";
+
+"track_journey_offline_error" = "Du är offline. Återställ anslutningen för att spåra din körning.";
+
+"no_vehicles_message" = "Det finns inga registrerade fordon i din grupp eller du är offline.";
+
+"offline" = "Du är offline – anslutning behövs för att fordonskontroller ska kunna genomföras.";
+
+"warning" = "OBS!";
+
+"vch_disabled_new_feature" = "NY FUNKTION";
+
+"vch_disabled_new_desc1" = "Fordonskontroll hjälper dig att fylla i din checklista före avfärd i enlighet med gällande regler och lämna in den för registerföring.";
+
+"vch_disabled_new_desc2" = "Kontakta din administratör eller kontoansvarig på Masternaut för aktivering.";
+
+"onboarding_1_title" = "Välkommen till SmarterDriver!";
+
+"onboarding_1_text" = "SmarterDriver låter dig granska uppgifter om dina körningar, ditt fordon och din profil direkt på din mobil.";
+
+"onboarding_2_title" = "Hur du använder svepfunktionen för listor";
+
+"onboarding_2_text" = "Arbeta snabbare genom att svepa till vänster eller höger på ett listobjekt. Svepfunktionen förenklar både klassificering av körningar och genomgång av checklistor för fordonskontroller.";
+
+"onboarding_3_title" = "Lägg till uppgifter med hjälp av långa svep";
+
+"onboarding_3_text" = "Du kan lägga till fler uppgifter med hjälp av ett långt svep över skärmen. Ett längre svep till skärmkanten låter dig lägga till syftet med körningen.";
+
+"offline" = "Du är offline – anslutning behövs för att fordonskontroller ska kunna genomföras.";
+
+"" = "En ny version finns tillgänglig i App Store/Play Store. Uppdatera till den senaste versionen.";
+
+"" = "Fortsätt utan att uppdatera";
+
+"error_couldnt_create_dir" = "Det gick inte att få åtkomst till externt register.";
+
+"adding_manual_journey_progress" = "Lägger till resa manuellt";
+
+"journey_addition_offline" = "Du är offline. Resa kan inte skapas.";
+
+"navigation_not_available" = "Navigering finns inte tillgängligt på din enhet.";
+
+"permission_message_access_fine_location" = "För att fungera korrekt måste appen HÄMTA EXAKT PLATS.";
+
+"permission_message_get_accounts" = "För att fungera korrekt måste appen HÄMTA KONTON.";
+
+"" = "Förenkla din upplevelse av tjänstekörningar";
+
+"" = "Granska resor";
+
+"" = "Få en snabb överblick över körjournaler";
+
+"" = "Svep för att klassificera resor";
+
+"" = "Kategorisera resor omedelbart";
+
+"" = "Kontrollera och lämna in";
+
+"" = "Snabba och enkla fordonskontroller innan avfärd";
+
+"" = "Annat (beskriv nedan)";
+
+"location_services_dissabled" = "Platstjänster måste aktiveras för att resor ska kunna registreras.";
+
+"location_permission_invalid_permission" = "Platsåtkomst måste vara inställt på \"Alltid\" i appen för att möjliggöra registrering av resor.";
+
+"location_services_switched_off" = "Platstjänster har avaktiverats. Registreringen av resa har avslutats.";
+
+"location_services_permission_change" = "Behörighetsinställningarna för platstjänster har ändrats. Registreringen av resa har avslutats.";
+
+"location_unable_to_get" = "Din plats kan inte hämtas. Försök igen senare.";
+
+"device_not_found" = "Din enhet har inte registrerats. Registreringen av resa har avslutats.";
+
+"processing_journey" = "Behandlar resa...";
+
+"creating_journey_slow_connection" = "Långsam anslutning – din resa har registrerats och visas när anslutningen förbättras.";
+
+"pull_to_refresh_offline" = "Anslutningsproblem – dra nedåt för att uppdatera när anslutningen förbättras.";
+
+"update_prompt_title" = "En ny version finns tillgänglig i App Store.";
+
+"update_prompt_subtitle" = "Uppdatera till den senaste versionen.";
+
+"update_prompt_update_button" = "Uppdatera";
+
+"update_prompt_continue_button" = "Fortsätt utan att uppdatera";
+
+"vch_no_checklist_for_account" = "Ingen kontrollista för fordon finns tillgänglig för ditt konto.";
+
+"enter_other_purpose" = "Annat (beskriv nedan)";
+
+"submission_email_empty_question" = "Vem ska ta emot de uppgifter du lämnar in?";
+
+"submission_email_info" = "Du kan ändra e-postadressen i dina kontoinställningar senare om så behövs.";
+
+"journey_distance_validation_error" = "Ange ett värde större än 0.";
+
+"try_again" = "Försök igen";
+
+"login_placeholder_message" = "Du kan inte logga in medan du är offline.";
+
+"you_are_still_offline" = "Du är fortfarande offline. Försök igen när anslutningen har återställts.";
+
+"last_seven_days" = "Senaste 7 dagarna";
+
+"hours" = "timmar";
+
+"smoother" = "Smidigare";
+
+"good_job" = "Bra jobbat!";
+
+"better_next_time" = "Det går bättre nästa gång!";
+
+"harsh_more" = "%@ fler hårda trafikmanövrar 100 %@ än förra veckan.";
+
+"harsh_less" = "%@ färre hårda trafikmanövrar 100 %@ än förra veckan.";
+
+"driving_behavior" = "Ditt körbeteende";
+
+"safer" = "Säkrare";
+
+"speeding_more" = "Fortkörning har ökat med %@ procentenheter jämfört med förra veckan.";
+
+"speeding_less" = "Körtid vid tillåten hastighet har ökat med %@ procentenheter jämfört med förra veckan.";
+
+"cleaner" = "Renare";
+
+"idling_more" = "Tomgångskörning har ökat med %@ procentenheter jämfört med förra veckan.";
+
+"idling_less" = "Tomgångsfri körtid har ökat med %@ procentenheter jämfört med förra veckan.";
+
+"smoother_description" = "Mjuka hastighetsökningar och inbromsningar är trafiksäkrare och bättre för ditt fordon. Här visas det antal gånger du accelererat eller bromsat in för hårt. Värdet visas som en totalsumma per 100 %@.";
+
+"my_average" = "Mitt genomsnitt";
+
+"in_group" = "i gruppen";
+
+"in_company" = "i företaget";
+
+"safer_description" = "För ökad säkerhet i trafiken rekommenderar vi att du alltid kör inom de reglerade hastighetsgränserna. Här visas den procentandel av dina körningar då du hållit en säker hastighet (mindre än 10 % över högsta tillåtna hastighet).";
+
+"average_events" = "Genomsnitt per 100 %@";
+
+"cleaner_description" = "Du kan bidra till minskade avgasutsläpp och en renare miljö genom att minimera din tomgångstid. Här visas den procentandel tid du kört med motorn igång. Procentsiffran minskar när motorn går på tomgång.";
+
+"recommended_and_above" = "Rekommendationen är %@%% eller mer.";
+
+"recommended_per_100" = "Rekommendationen är %@ per 100 %@ eller mindre.";
+
+"graph_popup_title" = "Vad visar den här siffran?";
+
+"smoother_popup_desc1" = "Värdet baseras på den genomsnittlige Masternaut Connect-skåpbilsföraren.";
+
+"smoother_popup_desc2" = "För lastbilar är värdet %1$@ tillfällen per 100 %2$@.";
+
+"smoother_popup_desc3" = "För personbilar är värdet %1$@ tillfällen per 100 %2$@.";
+
+"metrics_no_data_both_weeks" = "Nu kör vi!";
+
+"metrics_no_data_this_week" = "Börja köra idag för att se din trend!";
+
+"metrics_no_data_last_week" = "Fortsätt köra och se din trend snart!";
+
+"metrics_no_data_last_week_smoother" = "Ta reda på mer om hur smidigt du kör!";
+
+"metrics_no_data_last_week_safer" = "Ta reda på mer om din fortkörning!";
+
+"metrics_no_data_last_week_cleaner" = "Ta reda på mer om din tomgångskörning!";
+
+"safer_popup_desc1" = "Värdet baseras på den genomsnittlige Masternaut Connect-skåpbilsföraren.";
+
+"safer_popup_desc2" = "För lastbilar är värdet %1$@%%.";
+
+"safer_popup_desc3" = "För personbilar är värdet %1$@%%.";
+
+"cleaner_popup_desc1" = "Värdet baseras på den genomsnittlige Masternaut Connect-skåpbilsföraren.";
+
+"cleaner_popup_desc2" = "För lastbilar är värdet %1$@%%.";
+
+"cleaner_popup_desc3" = "För personbilar är värdet %1$@%%.";
+
+"submission_success_message" = "Inlämningen har genomförts.";
+
+"and" = "och";
+
+"submission_success_message_subtitle" = "Glöm inte dina %1$@-resor!";
+
+"menu_company_hotline" = "Mitt företags direktnummer";
+
+"recall_no_longer_pending" = "Resa/resor är godkända.";
+
+"summary_name_pending" = "Väntar på godkännande";
+
+"summary_name_approved" = "Godkänd";
+
+"recall_action" = "Återkalla";
+
+"google_signin_generic_error" = "Ett fel uppstod med din Google-inloggning. Försök igen eller använd din standardinloggning till Connect (e-postadress och lösenord).";
+
+"max_photos_per_defect" = "(max 1 per skada)";
+
+"total_photos_per_report" = "Totalt antal foton %1$@ per rapport";
+
+"photos_attached" = "Foton har bifogats";
+
+"" = "Minska krånglet kring din körjournal, så att du kan fokusera på det som är viktigt.";
+
+"" = "Ta kontroll över din körjournal med hjälp av Masternauts SmarterDriver-app. Granska dina resor – som automatiskt synkas via din Masternaut-enhet – och klassificera dem som privata eller i tjänsten. På ett par enkla klick kan du lämna in klassificerade resor och dagliga fordonskontroller direkt till din chef.
+ 
+ Som SmarterDriver-förare sparar du tid och krångel på onödigt pappersarbete och kan fokusera på dina resor och ditt jobb.
+ 
+ OBS! För att använda SmarterDriver måste du först ha ett Masternaut Connect-konto. Besök vår webbplats för mer information.";
+
+"last_vehicle_check_view_title" = "Granska din senaste fordonskontroll";
+
+"last_vehicle_check_regnum" = "Fordon";
+
+"last_vehicle_check_date_submitted" = "Inlämnad";
+
+"last_vehicle_check_driver" = "Förare";
+
+"last_vehicle_check_time" = "Tid för kontroll";
+
+"last_vehicle_check_odometer_reading" = "Mätarställning";
+
+"last_vehicle_check_with_defect" = "Med skador";
+
+"last_vehicle_check_no_defect" = "Utan skador";
+
+"last_vehicle_check_report" = "Fordonskontrollrapport";
+
+"vehicle_check_notes" = "Kommentarer";
+
+"KEY" = "SV";
+

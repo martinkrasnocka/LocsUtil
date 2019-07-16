@@ -1,0 +1,10 @@
+"NSLocationWhenInUseUsageDescription" = "SmarterDriver behöver endast aktuell plats för inlämning av fordonskontroller.";
+
+"NSCameraUsageDescription" = "SmarterDriver kräver tillgång till din kamera för att sammanställa kontrolldokument för fordon";
+
+"NSPhotoLibraryUsageDescription" = "SmarterDriver kräver tillgång till ditt fotobibliotek för att sammanställa kontrolldokument för fordon";
+
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "SmarterDriver använder din plats för att beräkna avstånd när du registrerar en körning.";
+
+"NSPhotoLibraryAddUsageDescription" = "Vill du låta SmarterDriver spara foton du tar via appen till ditt fotobibliotek?";
+

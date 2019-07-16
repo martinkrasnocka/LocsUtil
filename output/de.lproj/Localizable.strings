@@ -1,0 +1,864 @@
+"account_locked" = "Ihr Konto wurde blockiert, bitte setzen Sie Ihr Passwort zurück.";
+
+"action_forgot_password" = "Haben Sie Ihr Passwort vergessen?";
+
+"action_sign_in_short" = "Einloggen";
+
+"add" = "Hinzufügen";
+
+"add_justification" = "Fügen Sie hier Ihre häufig verwendeten Fahrtbeschreibungen hinzu";
+
+"add_new_purpose" = "Oder geben Sie eine neue ein";
+
+"agree" = "Akzeptieren";
+
+"agreement" = "Diese Anwendung darf nicht während der Fahrt oder auf eine Art und Weise benutzt werden, die das sichere Führen des Fahrzeugs beeinträchtigt. Sie sind dafür verantwortlich, diese Anwendung so zu verwenden, dass dadurch keine Unfälle, Verletzungen oder Beschädigungen entstehen. Halten Sie sich immer an die Regeln für ein sicheres Fahren.";
+
+"all" = "Alle";
+
+"all_journeys_submitted" = "Alle eingereichten Fahrten.";
+
+"amend_error_number_high" = "Entfernung sollte nicht überschritten werden";
+
+"amend_mileage" = "Entfernung";
+
+"amend_reason" = "Grund für die Änderung";
+
+"app_name_expenses" = "Laufleistung";
+
+"app_name_navigation" = "Navigation";
+
+"app_name_vehicle_checks" = "Fahrzeugprüfung";
+
+"app_ok" = "Ok";
+
+"applet_comming_soon" = "Bald erhältlich";
+
+"applet_expenses" = "LAUFLEISTUNG";
+
+"applet_navigation" = "NAVIGATION";
+
+"applet_score" = "PUNKTEZAHL";
+
+"applet_vehicle_checks" = "FAHRZEUGPRÜFUNG";
+
+"applet_wheres_my_car" = "WO IST MEIN AUTO";
+
+"bluetooth" = "Bluetooth";
+
+"bt_auto_activation" = "Diese Anwendung benötigt Bluetooth für die Verbindung zum Fahrzeug. Möchten Sie die Aktivierung von Bluetooth genehmigen?";
+
+"bt_deactivated_message" = "Sie versuchen, Bluetooth zu deaktivieren. Die Verbindung der Masternaut-App zu Ihrem Fahrzeug  wird abgebrochen.";
+
+"bt_deactivated_title" = "Warnung";
+
+"bt_dialog_info" = "Klicken Sie auf Scannen, um die Verbindung zu trennen und ein anderes Fahrzeug zu suchen.";
+
+"bt_disconnect" = "Verbindung trennen";
+
+"business_journey_purpose" = "Zweck der Geschäftsfahrt";
+
+"business_pls_purpose" = "+ Zweck";
+
+"cancel" = "Abbrechen";
+
+"choose_classification" = "Wählen Sie für diese Fahrt eine Klassifizierung";
+
+"choose_device" = "Bitte wählen Sie zum Fortfahren ein verfügbares Fahrzeug aus";
+
+"classification_forced_message" = "Bitte klassifizieren Sie hier Ihre Fahrten.";
+
+"classification_forced_title" = "Klassifizierung";
+
+"classification_saved" = "Klassifizierung gespeichert.";
+
+"classify" = "Klassifizieren";
+
+"connecting" = "Verbinden";
+
+"connecting_to_mbox" = "Verbindungsaufbau zum Fahrzeug";
+
+"copyright" = "Copyright © 2017 Masternaut. Alle Rechte vorbehalten.";
+
+"currency" = "Währung";
+
+"currency_czech" = "CZK Kč";
+
+"currency_danish" = "DKK kr.";
+
+"currency_euro" = "EUR €";
+
+"currency_great_britain" = "GBP £";
+
+"currency_polish" = "PLN zł";
+
+"currency_swedish" = "SEK kr.";
+
+"currency_swiss" = "CHF";
+
+"dashboard" = "Dashboard";
+
+"data_refreshed" = "Ihre Fahrten wurden mithilfe von Serverdaten aktualisiert";
+
+"detail_amount" = "Menge";
+
+"detail_confirm" = "Bestätigen";
+
+"detail_distance" = "Entfernung";
+
+"detail_journey" = "Fahrt";
+
+"detail_journey_purpose" = "Zweck der Fahrt";
+
+"detail_notes" = "Kommentare";
+
+"detail_notes_optional" = "(optional)";
+
+"detail_rate" = "Rate";
+
+"detail_save_distance_changed" = "Fahrtentfernung";
+
+"detail_save_end_addr_changed" = "Zieladresse";
+
+"detail_save_explanation_msg" = "Bitte geben Sie für diese Änderung einen Grund an.";
+
+"detail_save_modifications" = "Sie haben die ";
+
+"detail_save_start_addr_changed" = "Startadresse modifiziert";
+
+"detail_tap_to_add_end_address" = "Tippen, um Ort einzugeben";
+
+"detail_tap_to_add_note" = "Tippen, um allgemeine Kommentare oder Anmerkungen einzugeben";
+
+"detail_tap_to_add_purpose" = "Tippen, um Fahrtzweck hinzuzufügen";
+
+"detail_tap_to_add_start_address" = "Tippen, um Startposition einzugeben";
+
+"edit_journey" = "Fahrt bearbeiten";
+
+"empty_justifications_warning" = "Fügen Sie Ihre häufig verwendeten Fahrtbeschreibungen im Bereich My Account hinzu.";
+
+"end" = "Ende";
+
+"error_401" = "Sie sind nicht berechtigt, auf diese Anwendung zuzugreifen.";
+
+"error_could_not_connect" = "Verbindung zu Server konnte nicht hergestellt werden.";
+
+"error_field_required" = "Dieses Feld ist ein Pflichtfeld";
+
+"error_generic" = "Ein Fehler ist aufgetreten.";
+
+"error_incorrect_password" = "Falsches Passwort";
+
+"error_incorrect_vehicle" = "Dieses Fahrzeug gehört nicht zu Ihrem Unternehmen!";
+
+"error_invalid_password" = "Passwort zu kurz";
+
+"error_mandatory" = "Dieses Feld ist ein Pflichtfeld";
+
+"error_no_connection_to_mbox" = "Keine Verbindung zum Fahrzeug";
+
+"error_no_result" = "Kein Ergebnis";
+
+"error_offline" = "Keine Internetverbindung.";
+
+"error_settings" = "EINSTELLUNGEN";
+
+"error_vehicle_disconnected" = "Verbindung zum Fahrzeug getrennt!";
+
+"estimated_value_short" = "Geschätzter Wert";
+
+"form_submission_close_app" = "Schließen";
+
+"form_submission_completed" = "Aufgabe abgeschlossen.";
+
+"form_submission_error" = "Ups! Ein Fehler ist aufgetreten.";
+
+"form_submission_note" = "In Kürze noch einmal probieren.";
+
+"form_submission_offline" = "Sie sind offline. Der Bericht wird gesendet, sobald Sie wieder online sind.";
+
+"form_submission_sending" = "Senden.";
+
+"get_masternaut_services" = "Masternaut Services erwerben";
+
+"get_masternaut_services_message" = "Diese Anwendung läuft nur mit Masternaut Services.";
+
+"google_play_missing" = "Google Play kann auf diesem Gerät nicht gefunden werden.";
+
+"help" = "Hilfe";
+
+"item_removed" = "Fahrtzweck wurde entfernt";
+
+"journey_classification" = "Fahrt-Klassifizierung";
+
+"journey_purpose_empty" = "Fahrtzweck darf nicht leer bleiben!";
+
+"journeys" = "Fahrten";
+
+"kilometres_short" = "km";
+
+"last_day_of_month" = "Letzter Tag des Monats";
+
+"last_month" = "Letzter Monat";
+
+"last_seven_days" = "Letzte 7 Tage";
+
+"last_submission" = "Letzte Einreichung %1$@";
+
+"login_slogan_masternaut_bold" = "masternaut";
+
+"login_slogan_the_regular" = "| the";
+
+"login_slogan_the_smarter_bold" = "smarter";
+
+"login_slogan_the_fleet_platform_regular" = "fleet platform";
+
+"mbox_connection_error" = "Die Anwendung kann keine Verbindung zu Ihrem Fahrzeug herstellen. Bitte gehen Sie näher ans Fahrzeug oder prüfen Sie, ob Ihr Fahrzeug bereits mit einem anderen Gerät verbunden ist.";
+
+"menu_features" = "Merkmale";
+
+"menu_feedback" = "Ihr Feedback";
+
+"menu_feedback_subject" = "SmarterDriver App Feedback Experience";
+
+"menu_home" = "Home Screen";
+
+"menu_my_account" = "Mein Konto";
+
+"menu_sign_out" = "Ausloggen";
+
+"miles_short" = "Meilen";
+
+"modify_selection" = "Auswahl modifizieren";
+
+"navigation_drawer_close" = "Navigationsfach schließen";
+
+"navigation_drawer_open" = "Navigationsfach öffnen";
+
+"need_classification_message" = "Sie haben %1$@ unklassifizierte Fahrten (insgesamt %2$@). Vor dem Einreichen klassifizieren?";
+
+"new_journey" = "Neue Fahrt";
+
+"new_journey_detail" = "Fahrtdetail";
+
+"new_journey_error" = "Bitte füllen Sie die rot markierten Felder aus.";
+
+"new_journey_reason" = "Gründe für manuelle Eingabe";
+
+"new_journey_start_date" = "Datum des Starts";
+
+"new_journey_start_time" = "Startzeit";
+
+"news_feed_journey_completed" = "Fahrt abgeschlossen";
+
+"news_feed_tip_header" = "Tipps";
+
+"news_feed_tip_message" = "Um Zeit zu sparen, können Sie in der Liste Ihre persönlichen häufig genutzten Fahrtzwecke hinzufügen und bearbeiten. Einfach im Hauptmenü auf My Account gehen und dort verwalten.";
+
+"news_feed_tip_title" = "Modifizierung der Reisezweck-Liste";
+
+"news_feed_title" = "Neuigkeiten und Aktualisierungen";
+
+"no_device_found" = "No vehicle found. Please move in range and scan again.";
+
+"no_journeys" = "Sie haben keine %1$@ Fahrten.";
+
+"onboard_1_message" = "SmarterDriver bringt alle Laufleistungs-<br>Daten direkt auf das Smartphone. <br> <b><font color=\"#105995\">Klassifizieren, einreichen und Geld sparen!</font></b>";
+
+"onboard_1_tip" = "<b>Tipp:</b> Auf dem Home Screen werden die neusten Aktualisierungen angezeigt und es wird Zugang zu den verschiedenen Funktionen ermöglicht.";
+
+"onboard_1_title" = "Herzlich Willkommen, Smart Driver!";
+
+"onboard_2_message" = "Erhalten Sie eine Übersicht über all Ihre Fahrten.<br> <b><font color=\"#105995\">Klassifizieren, einreichen und Geld sparen.<br></font></b> Nach links und rechts wischen und fertig.";
+
+"onboard_2_tip" = "<b>Tipp:</b> Lange Wischen, um bei Ihrer Fahrtenklassifizierung eine neue Kategorie hinzuzufügen. In den Kontoeinstellungen Kategorien anpassen.";
+
+"onboard_2_title" = "Alles auf einem Bildschirm verwalten";
+
+"onboard_3_message" = "Irgendwas scheint nicht zu stimmen? Kein Problem.<br> Auf Kachel tippen, um Details zur Fahrt einzusehen.<br> <b><font color=\"#105995\">Modifizieren, speichern und fertig!</font>";
+
+"onboard_3_tip" = "<b>Hinweis:</b> Auf der Detail-Oberfläche werden Sie bei Modifizierung der Adresse oder Entfernung nach einem Grund gefragt.";
+
+"onboard_3_title" = "Kontext ermöglicht Kontrolle";
+
+"onboard_4_message" = "Auf dem Monats-Dashboard<br> <b><font color=\"#105995\">werden alle Informationen</font></b><br> zu Ihren Laufleistungskosten gebündelt angezeigt.";
+
+"onboard_4_tip" = "<b>Tipp:</b> Überprüfen oder ändern Sie Ihre persönlichen und beruflichen Fahrten, indem Sie auf das jeweilige Klassifizierungslabel tippen.";
+
+"onboard_4_title" = "Ihr eigener Kontrollturm";
+
+"only_one_account_supported" = "Es wird nur ein Smart-Driver-Konto unterstützt.";
+
+"parser_can_configuration_error" = "CAN-Konfiguration Fehler";
+
+"parser_dataid_configuration_error" = "DataID-Konfiguration Fehler";
+
+"parser_dataid_configuration_success" = "DataID-Konfiguration erfolgreich";
+
+"parser_error_authentication_failed" = "Authentifizierung fehlgeschlagen";
+
+"parser_io_configuration_error" = "IO-Konfiguration Fehler";
+
+"permission_needed" = "Erlaubnis benötigt.";
+
+"personal_journey_purpose" = "Zweck der persönlichen Fahrt";
+
+"personal_pls_purpose" = "+ Zweck";
+
+"placeholder_empty" = "Für diesen Zeitraum haben Sie keine Fahrten";
+
+"prefs_cost_of_unit" = "Erstattungsrate";
+
+"prefs_csv_contains_all" = "Bericht beinhaltet alle Fahrtentypen";
+
+"prefs_csv_contains_business" = "Bericht beinhaltet nur Geschäftsfahrten";
+
+"prefs_email_incorrect" = "Bitte gültige E-Mail-Adresse eingeben!";
+
+"prefs_my_details" = "Meine Details";
+
+"prefs_my_email" = "Meine E-Mail";
+
+"prefs_name" = "Name";
+
+"prefs_reimbursement_rate" = "Erstattungsrate";
+
+"prefs_send_csv" = "Bericht senden";
+
+"prefs_submission_day" = "Monatliches Einreichungsdatum";
+
+"prefs_submission_details" = "Einreichungsdetails";
+
+"prefs_submission_email" = "Einreichungs-E-Mail";
+
+"price_per_unit_part1" = "pro";
+
+"proceed" = "Weiter";
+
+"prompt_password" = "Passwort";
+
+"prompt_username" = "Benutzername";
+
+"ready_to_be_claimed" = "Befreit zur Anforderung";
+
+"reason" = "Grund";
+
+"reimbursement" = "Erstattung";
+
+"reset_now" = "Jetzt zurücksetzen";
+
+"response_authentication_successful" = "Authentifizierung erfolgreich";
+
+"response_device_connected" = "Gerät_verbunden";
+
+"response_device_disconnected" = "Geräteverbindung getrennt";
+
+"response_device_not_bonded" = "Gerät nicht angeschlossen";
+
+"response_from_request_for_data_successful" = "angeforderte Daten-IDs";
+
+"response_reconnection_stopped" = "erneute Verbindung angehalten";
+
+"response_search_finished" = "Suche abgeschlossen";
+
+"response_search_stopped" = "Suche angehalten";
+
+"save_journey" = "Speichern";
+
+"scan" = "Scannen";
+
+"searching_for_mbox" = "Fahrzeug suchen";
+
+"select_journey_purpose" = "Zweck der Fahrt auswählen";
+
+"skip" = "Überspringen";
+
+"start" = "Starten";
+
+"submission_classifying" = "Klassifizieren ...";
+
+"submission_day_numeric_part" = "Tag ist Einreichungstag.";
+
+"submission_day_text_part" = "ist Einreichungstag.";
+
+"submission_error_message" = "Bitte später erneut versuchen";
+
+"submission_error_title" = "Ups! Ein Fehler ist aufgetreten.";
+
+"submission_offline" = "Sie sind offline. Der Bericht wird gesendet, sobald Sie wieder online sind.";
+
+"submission_period" = "Einreichungszeitraum";
+
+"submission_sending" = "Senden ...";
+
+"submission_success_message_old" = "Ihre Forderungen wurden erfolgreich übertragen.";
+
+"submission_success_title" = "Gut gemacht!";
+
+"submission_title" = "Meine Forderungen einreichen";
+
+"submit" = "Einreichen";
+
+"submit_before" = "Vor %1$@ einreichen";
+
+"submit_today" = "Bitte reichen Sie Ihre Fahrten heute ein";
+
+"summary_name_business" = "Geschäft";
+
+"summary_name_personal" = "Privat";
+
+"summary_name_submitted" = "Eingereicht";
+
+"summary_name_unclassified" = "Unklassifiziert";
+
+"no_journeys_business" = "Geschäft";
+
+"no_journeys_personal" = "Privat";
+
+"no_journeys_unclassified" = "Unklassifiziert";
+
+"tae_applet_ready_for_claim" = "muss noch angefordert werden";
+
+"tae_applet_unclassified" = "unklassifiziert";
+
+"this_month" = "dieser Monat";
+
+"title_activity_login" = "Masternaut Login";
+
+"today" = "heute";
+
+"toolbar_settings" = "Einstellungen";
+
+"total_mileage" = "Entfernung";
+
+"unclassified" = "Meine Fahrten klassifizieren";
+
+"undo" = "RÜCKGÄNGIG";
+
+"unknown_device" = "Unbekanntes Gerät";
+
+"vehicle_info_updated" = "Fahrzeuginformationen wurden aktualisiert!";
+
+"version" = "Version";
+
+"welcome_back" = "Willkommen zurück";
+
+"welcome_back_continue" = "Weiter";
+
+"welcome_back_different_login" = "Wenn Sie nicht %1$@ sind, melden Sie sich bitte als ein anderer Benutzer an.";
+
+"welcome_back_sign_in" = "Anmelden";
+
+"yes" = "JA";
+
+"yesterday" = "gestern";
+
+"default_business_purposes_arr_1" = "Kundenbesuch";
+
+"default_business_purposes_arr_2" = "Zwischen Büros";
+
+"default_business_purposes_arr_3" = "Meeting";
+
+"default_business_purposes_arr_4" = "Flughafen/Reise";
+
+"default_business_purposes_arr_5" = "Besorgungen/Lieferungen";
+
+"default_personal_purposes_arr_1" = "Arbeitsweg";
+
+"default_personal_purposes_arr_2" = "Einkaufen";
+
+"default_personal_purposes_arr_3" = "Schule";
+
+"submit_only_business" = "Nur Geschäftsfahrten einreichen";
+
+"journey_plural_zero" = "Fahrten";
+
+"journey_plural_one" = "Fahrt";
+
+"journey_plural_two" = "Fahrten";
+
+"journey_plural_few" = "Fahrten";
+
+"journey_plural_many" = "Fahrten";
+
+"journey_plural_other" = "Fahrten";
+
+"vehicle_check_list_na" = "n.z.";
+
+"vehicle_check_camera_or_library_alert" = "Foto hinzufügen mit";
+
+"app_name" = "SmarterDriver";
+
+"summary_name_business_short" = "Geschäft";
+
+"done" = "Fertig";
+
+"tap_to_enter_reason" = "Tippen, um einen Grund für die Änderung einzugeben.";
+
+"vehicle_check_library_option" = "Galerie";
+
+"vehicle_check_submit_check" = "Prüfung einreichen";
+
+"menu_tutorial" = "Anleitung";
+
+"app_desc_login" = "Masternaut | Die Plattform für den intelligenten Fuhrpark";
+
+"vehicle_check_detail_required" = "* Erforderlich";
+
+"vehicle_check_no_camera" = "Kamera nicht verfügbar.";
+
+"vehicle_check_finish" = "Beenden";
+
+"to_be_claimed" = "%1$@ müssen noch eingefordert werden";
+
+"submitting_journey_detail_failed" = "Einreichen der Fahrten fehlgeschlagen.";
+
+"error_invalid_email" = "Diese E-Mail-Adresse ist ungültig";
+
+"last_pwd_login_dont_match" = "App ist offline. Zuletzt verwendetes Login/Passwort stimmen nicht überein";
+
+"vehicle_check_fail" = "Bericht kann nicht gesendet werden.";
+
+"vehicle_check_driver" = "Fahrer";
+
+"updating_journey_detail_failed" = "Aktualisierung des Fahrtdetails fehlgeschlagen.";
+
+"disabled" = "Deaktiviert";
+
+"keyboard_next" = "Weiter";
+
+"vehicle_check_detail_photo" = "Foto";
+
+"vehicle_check_list_title" = "Fahrzeugprüfung";
+
+"vehicle_check_list_date" = "Datum";
+
+"vehicle_check_camera_option" = "Kamera";
+
+"vehicle_check_odometer_reading" = "Kilometerzählerstand hinzufügen";
+
+"retrieving_person_failed" = "Laden der Einstellungen fehlgeschlagen.";
+
+"vehicle_check_add_comment_placeholder" = "Schreiben Sie Ihren Kommentar";
+
+"getting_journey_detail_failed" = "Abrufen des Fahrtdetails fehlgeschlagen.";
+
+"vehicle_check_add_comment" = "Kommentar hinzufügen";
+
+"placeholder_no_journeys_for_period" = "Keine Fahrten in diesem Zeitraum.\n Geben Sie einen anderen Zeitraum ein.";
+
+"prefs_units" = "Maßeinheiten";
+
+"no_mail_service" = "Bitte überprüfen Sie die E-Mail-Einstellungen";
+
+"vehicle_check_date_of_check" = "Datum der Prüfung";
+
+"no_data" = "Keine Daten";
+
+"vehicle_check_vehicle_registration_number_placeholder" = "Fahrzeugregistrierungsnummer eingeben";
+
+"vehicle_check_detail_description" = "Beschreibung";
+
+"vehicle_check_success" = "Bericht der Fahrzeugprüfung wurde eingereicht.";
+
+"dashboard_load_error" = "Bitte überprüfen Sie die Verbindung und wischen Sie, um zu aktualisieren.";
+
+"vehicle_check_list_time" = "Uhrzeit";
+
+"summary_name_personal_short" = "Privat";
+
+"vehicle_check_vehicle_registration_number" = "Fahrzeugregistrierungsnummer";
+
+"vehicle_check_list_nodefect" = "Ohne Defekt";
+
+"vehicle_check_list_withdefect" = "Mit Defekt";
+
+"new_journey_start_location" = "Startort";
+
+"new_journey_end_location" = "Zielort";
+
+"permission_location_services" = "SmarterDriver während der Verwendung der App Zugriff auf Ihren Standort erlauben?";
+
+"new_journey_manually_added" = "Fahrt manuell hinzugefügt";
+
+"journey_detail_reason_for_addition" = "Grund für die Hinzufügung";
+
+"vehicle_check_submission_no_location" = "Standort nicht aktiviert.";
+
+"google_play_services_missing" = "Bitte aktualisieren Sie Google play services.";
+
+"vehicle_list_guest_vehicle" = "Gastfahrzeug";
+
+"vehicle_list_title" = "Fahrzeugliste";
+
+"vehicle" = "Fahrzeug";
+
+"tracking" = "Tracking";
+
+"start_journey" = "Fahrt beginnen";
+
+"perform_vehicle_check" = "Fahrzeugprüfung durchführen";
+
+"end_journey" = "Fahrt beenden";
+
+"all_journeys_classified" = "Alle Fahrten klassifiziert";
+
+"vehicle_check_submitted" = "Fahrzeugprüfung eingereicht";
+
+"all_journeys_classified" = "Alle Fahrten klassifiziert.";
+
+"vehicle_describe_defect" = "Beschreiben Sie den Defekt";
+
+"vehicle_submit_offline" = "Sie sind offline. Bericht kann nicht gesendet werden.";
+
+"vehicle_check_submitted" = "Fahrzeugprüfung eingereicht";
+
+"unclassified_journeys_count_plural_zero" = "%d Fahrten klassifizieren";
+
+"unclassified_journeys_count_plural_one" = "%d Fahrt klassifizieren";
+
+"unclassified_journeys_count_plural_two" = "%d Fahrten klassifizieren";
+
+"unclassified_journeys_count_plural_few" = "%d Fahrten klassifizieren";
+
+"unclassified_journeys_count_plural_many" = "%d Fahrten klassifizieren";
+
+"unclassified_journeys_count_plural_other" = "%d Fahrten klassifizieren";
+
+"track_journey_permission_phone_state" = "SmarterDriver wird die Seriennummer Ihres Handys benutzen, um Fahrten nur für dieses Handy zu identifizieren.";
+
+"applet_track_journey" = "Tracking";
+
+"track_journey_start" = "Fahrt beginnen";
+
+"track_journey_end" = "Fahrt beenden";
+
+"track_journey_permission_disabled" = "Genehmigungen nicht aktiviert.";
+
+"track_journey_backend_401" = "Diese Funktion steht für Ihr Konto nicht zur Verfügung. Bitte wenden Sie sich an Ihren Administrator.";
+
+"track_journey_backend_403" = "Sie sind nicht als Fahrer eingerichtet. Bitte wenden Sie sich an Ihren Administrator.";
+
+"track_journey_offline_error" = "Sie sind offline. Gehen Sie online, um Ihre Fahrt aufzuzeichnen.";
+
+"no_vehicles_message" = "Keine Fahrzeuge Ihrer Gruppe zugeordnet oder Sie sind offline.";
+
+"offline" = "Sie sind offline: Fahrzeugprüfung kann nicht abgeschlossen werden, solange Sie nicht online sind.";
+
+"warning" = "Warnung";
+
+"vch_disabled_new_feature" = "NEUE FUNKTION";
+
+"vch_disabled_new_desc1" = "Fahrzeugprüfung ermöglicht Ihnen, Ihre Checkliste vor der Fahrt gemäß den Regularien durchzuführen und für das Archiv einzureichen.";
+
+"vch_disabled_new_desc2" = "Wenden Sie sich an Ihren Administrator oder Masternaut-Kontomanager, um die Funktion zu aktivieren.";
+
+"onboarding_1_title" = "Willkommen bei SmarterDriver!";
+
+"onboarding_1_text" = "Mit SmarterDriver können Sie Infos über Ihre Fahrten, Fahrzeug und Profil mit Ihrem Handy abrufen.";
+
+"onboarding_2_title" = "Wischgesten bei Listen verwenden";
+
+"onboarding_2_text" = "Wischen Sie auf einer Liste nach links oder rechts um eine schnelle Aktion durchzuführen. Mittels Wischgesten können Sie Ihre Fahrten klassifizieren oder eine Fahrzeugcheckliste durchgehen.";
+
+"onboarding_3_title" = "Mittels langen Wischgesten Details hinzufügen";
+
+"onboarding_3_text" = "Lange wischen, um zusätzliche Informationen hinzuzufügen. Indem Sie länger am Bildschirmrand wischen, können Sie den Zweck der Fahrt hinzufügen.";
+
+"offline" = "Sie sind offline: Fahrzeugprüfung kann nicht abgeschlossen werden, solange Sie nicht online sind.";
+
+"" = "Eine neue Version ist im App Store/ Play Store verfügbar. Bitte laden Sie sich die neueste Version herunter.";
+
+"" = "Ohne Aktualisierung fortfahren";
+
+"error_couldnt_create_dir" = "Das externe Verzeichnis konnte nicht aufgerufen werden.";
+
+"adding_manual_journey_progress" = "Fahrt manuell hinzufügen";
+
+"journey_addition_offline" = "Sie sind offline. Fahrt kann nicht erstellt werden.";
+
+"navigation_not_available" = "Navigation ist auf Ihrem Gerät nicht verfügbar.";
+
+"permission_message_access_fine_location" = "Für einwandfreien Betrieb muss die App auf den GENAUEN STANDORT zugreifen können.";
+
+"permission_message_get_accounts" = "Für einwandfreien Betrieb muss die App auf IHR KONTO zugreifen können.";
+
+"" = "Vereinfachen Sie Ihre Geschäftsfahrten";
+
+"" = "Schaffen Sie sich einen Überblick über Ihre Fahrten";
+
+"" = "Überprüfen Sie Laufleistungskosten";
+
+"" = "Wischen Sie, um Fahrten zu klassifizieren";
+
+"" = "Kategorisieren Sie Fahrten im Handumdrehen";
+
+"" = "Überprüfen und einreichen";
+
+"" = "Führen Sie einfach eine Fahrzeugprüfung aus bevor die Reise losgeht";
+
+"" = "Weiteres (fügen Sie unten eine Beschreibung bei)";
+
+"location_services_dissabled" = "Um eine Fahrt aufzuzeichnen, muss der Standortdienst aktiviert sein.";
+
+"location_permission_invalid_permission" = "Um Fahrten aufzuzeichnen, muss der Zugriff auf die Standortdaten für die App auf 'Immer' gesetzt sein.";
+
+"location_services_switched_off" = "Der Standortdienst wurde abgeschaltet, Fahrt wird beendet.";
+
+"location_services_permission_change" = "Genehmigung für den Standortdienst wurde geändert, Fahrt wird beendet.";
+
+"location_unable_to_get" = "Standort wird nicht erkannt, bitte versuchen Sie es später noch einmal.";
+
+"device_not_found" = "Ihr Gerät ist nicht registriert, Fahrt wird beendet.";
+
+"processing_journey" = "Fahrt wird bearbeitet...";
+
+"creating_journey_slow_connection" = "Langsame Verbindung. Ihre Fahrt wurde aufgezeichnet und wird angezeigt, sobald eine bessere Verbindung besteht.";
+
+"pull_to_refresh_offline" = "Verbindungsproblem; nach unten ziehen, um zu aktualisieren, wenn eine bessere Verbindung besteht.";
+
+"update_prompt_title" = "Eine neue Version ist im App Store verfügbar.";
+
+"update_prompt_subtitle" = "Bitte laden Sie sich die neueste Version herunter.";
+
+"update_prompt_update_button" = "Aktualisierung";
+
+"update_prompt_continue_button" = "Ohne Aktualisierung fortfahren";
+
+"vch_no_checklist_for_account" = "Für Ihr Konto ist keine Fahrzeug-Checkliste verfügbar.";
+
+"enter_other_purpose" = "Weiteres (fügen Sie unten eine Beschreibung bei)";
+
+"submission_email_empty_question" = "Wer soll Ihre Einreichung erhalten?";
+
+"submission_email_info" = "Sie können diese E-Mail-Adresse später in den Kontoeinstellungen ändern.";
+
+"journey_distance_validation_error" = "Bitte geben Sie einen Wert ein der größer ist als 0.";
+
+"try_again" = "Versuchen Sie es noch einmal";
+
+"login_placeholder_message" = "Sie können nicht einloggen, so lange Sie offline sind.";
+
+"you_are_still_offline" = "Sie sind noch offline. Bitte versuchen Sie es erneut, wenn Sie online sind.";
+
+"last_seven_days" = "Letzte 7 Tage";
+
+"hours" = "hrs";
+
+"smoother" = "Ruhiger";
+
+"good_job" = "Gut gemacht!";
+
+"better_next_time" = "Nächstes Mal können Sie es besser!";
+
+"harsh_more" = "%@ mehr grobe Vorfälle pro 100 %@ als letzte Woche.";
+
+"harsh_less" = "%@ weniger grobe Vorfälle pro 100 %@ als letzte Woche.";
+
+"driving_behavior" = "Ihr Fahrverhalten";
+
+"safer" = "Sicherer";
+
+"speeding_more" = "%@ Prozentpunkte Steigerung der Geschwindigkeitsüberschreitungen gegenüber letzter Woche.";
+
+"speeding_less" = "%@ Prozentpunkte Steigerung des Fahrens mit sicherer Geschwindigkeit gegenüber letzter Woche.";
+
+"cleaner" = "Sauberer";
+
+"idling_more" = "%@ Prozentpunkte Steigerung der Leerlaufzeit gegenüber letzter Woche.";
+
+"idling_less" = "%@ Prozentpunkte Steigerung des Fahrens ohne Leerlaufzeit gegenüber letzter Woche.";
+
+"smoother_description" = "Sanftes Beschleunigen und Abbremsen sind sicherer für Sie und besser für das Fahrzeug. Hier können Sie sehen, wie oft Sie zu schnell beschleunigt oder gebremst haben. Angezeigt wird der Gesamtwert pro 100 %@.";
+
+"my_average" = "Mein Durchschnitt";
+
+"in_group" = "in der Gruppe";
+
+"in_company" = "in der Firma";
+
+"safer_description" = "Für ein sichereres Fahren empfehlen wir, die Geschwindigkeitsbegrenzung einzuhalten. Hier wird Ihnen angezeigt, wie viel Prozent Ihrer Fahrten bei sicherer Geschwindigkeit durchgeführt wurden (mit bis zu 10% Toleranz).";
+
+"average_events" = "Meine durchschnittlichen Ereignise pro 100 %@";
+
+"cleaner_description" = "Verringern Sie Emissionen für eine sauberere Umwelt, indem Sie Leerlaufzeiten vermeiden. Hier können Sie sehen, wie lange Sie tatsächlich gefahren sind, während der Motor lief. Die Prozentzahl verringert sich, je länger der Motor im Leerlauf läuft.";
+
+"recommended_and_above" = "Empfohlen sind %@%% oder mehr.";
+
+"recommended_per_100" = "Empfohlen sind %@ pro 100 %@ oder weniger.";
+
+"graph_popup_title" = "Was bedeutet diese Zahl?";
+
+"smoother_popup_desc1" = "Dieser Wert basiert auf dem durchschnittlichen Masternaut Connect Leiferwagenfahrer.";
+
+"smoother_popup_desc2" = "Für LKW ist dieser Wert %1$@ Ereignisse pro 100 %2$@.";
+
+"smoother_popup_desc3" = "Für PKW ist dieser Wert %1$@ Ereignisse pro 100 %2$@.";
+
+"metrics_no_data_both_weeks" = "Los geht‘s!";
+
+"metrics_no_data_this_week" = "Fahren Sie heute schon los, um Ihren Trend anzuzeigen!";
+
+"metrics_no_data_last_week" = "Fahren Sie weiter, um Ihren Trend bald anzeigen zu lassen!";
+
+"metrics_no_data_last_week_smoother" = "Erfahren Sie mehr über Ihr ruhiges Fahrverhalten!";
+
+"metrics_no_data_last_week_safer" = "Erfahren Sie mehr über Ihre Geschwindigkeitsüberschreitungen!";
+
+"metrics_no_data_last_week_cleaner" = "Erfahren Sie mehr über Ihre Leerlaufzeit!";
+
+"safer_popup_desc1" = "Dieser Wert basiert auf dem durchschnittlichen Masternaut Connect Leiferwagenfahrer.";
+
+"safer_popup_desc2" = "Für LKW ist dieser Wert %1$@%%.";
+
+"safer_popup_desc3" = "Für PKW ist dieser Wert %1$@%%.";
+
+"cleaner_popup_desc1" = "Dieser Wert basiert auf dem durchschnittlichen Masternaut Connect Leiferwagenfahrer.";
+
+"cleaner_popup_desc2" = "Für LKW ist dieser Wert %1$@%%.";
+
+"cleaner_popup_desc3" = "Für PKW ist dieser Wert %1$@%%.";
+
+"submission_success_message" = "Einreichung erfolgreich.";
+
+"and" = "und";
+
+"submission_success_message_subtitle" = "Vergessen Sie die Fahrten vom %1$@ nicht!";
+
+"menu_company_hotline" = "Hotline meiner Firma";
+
+"recall_no_longer_pending" = "Fahrt(en) nicht länger ausstehend.";
+
+"summary_name_pending" = "Ausstehend";
+
+"summary_name_approved" = "Genehmigt";
+
+"recall_action" = "Zurückrufen";
+
+"google_signin_generic_error" = "Beim Google-Login ist ein Fehler aufgetreten. Bitte versuchen Sie es noch einmal oder nutzen Sie das Standard Connect-Login (E-Mail/Passwort).";
+
+"max_photos_per_defect" = "(maximal 1 pro Defekt)";
+
+"total_photos_per_report" = "Gesamt Fotos %1$@ pro Bericht";
+
+"photos_attached" = "Fotos angefügt";
+
+"" = "Minimieren Sie die Probleme bei Geschäftsfahrten und konzentrieren Sie sich auf das Wesentliche.";
+
+"" = "Bringen Sie Ihre geschäftlichen Fahrten mit der App von Masternaut SmarterDriver unter Kontrolle. Prüfen Sie Ihre Fahrten, die automatisch über Ihr Masternaut Tracking-Gerät synchronisiert werden, und klassifizieren Sie sie als Geschäfts- oder Privatfahrten. Mit einigen wenigen Clicks können Sie die klassifizierten Fahrten und die täglichen Fahrzeugprüfungen direkt an Ihren Manager schicken. 
+ 
+ Als Smarter Driver sparen Sie Zeit und Ärger der Papiereinreichungen, damit Sie sich auf das Fahren und Ihre Arbeit konzentrieren können.
+ 
+ Hinweis: Um SmarterDriver nutzen zu können, benötigen Sie ein Masternaut Connect-Konto. Besuchen Sie unsere Webseite für weiterführende Informationen.";
+
+"last_vehicle_check_date_submitted" = "Eingereicht";
+
+"last_vehicle_check_driver" = "Fahrer";
+
+"last_vehicle_check_with_defect" = "Mit Defekt";
+
+"last_vehicle_check_no_defect" = "Ohne Defekt";
+
+"KEY" = "DE";
+

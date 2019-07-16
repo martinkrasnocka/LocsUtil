@@ -1,0 +1,10 @@
+"NSLocationWhenInUseUsageDescription" = "SmarterDriver potrzebuje Twojej aktualnej lokalizacji jedynie do przesłania raportu z kontroli pojazdu.";
+
+"NSCameraUsageDescription" = "SmarterDriver potrzebuje dostępu do aparatu w zakresie dokumentacji z kontroli pojazdu";
+
+"NSPhotoLibraryUsageDescription" = "SmarterDriver potrzebuje dostępu do biblioteki zdjęć w zakresie dokumentacji z kontroli pojazdu";
+
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "SmarterDriver wykorzysta Twoją lokalizację do obliczenia kilometrażu podczas nagrywania kursu.";
+
+"NSPhotoLibraryAddUsageDescription" = "Zezwolić SmarterDriver na zapisywanie zdjęć, które robisz w aplikacji do biblioteki zdjęć?";
+
