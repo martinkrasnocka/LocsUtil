@@ -18,30 +18,30 @@
 ## Installation and Setup
 
 1. Run ./build.sh located in the root directory. Compiled executable will be placed under bin/locsutil.
-```
+
 <cd into project root directory>
 ./build.sh
-```
+
 2. Copy bin/locsutil to /usr/bin/locsutil.
-```
+
 sudo cp bin/locsutil /usr/local/bin/locsutil
-```
+
 3. Make it executable.
-```
+
 chmod +x /usr/local/bin/locsutil
-```
+
 
 ## Usage & Examples
 
 ### Running
-```
+
 locsutil <inputXslxFile> <outputDir> <configPlist>
 
 Parameters:
     inputXslxFile - path to XLSX document
     outputDir - path to output dir
     configPlist - path to configuration plist file (optional)
-```
+
 See example.sh
 
 ### XLSX document format
@@ -50,17 +50,17 @@ See example.sh
 - Translation keys are specified in the A column.
 
 If you want to change this configuration, alter these lines in LocsGenerator.swift and rebuild.
-```
+
 let langRowIndex = 0 // Language definitions - row index in XSLSX document
 let keyColumnId = "A" // Key definitions - column index in XSLSX document
-```
+
 Example XSLX document can be found at LocsUtil/input/localizations.xlsx
 
 ### Config plist (optional)
 Use .plist file to generate additional string resource files, for example for localising Info.plist strings.
 
 Example:
-```
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -80,20 +80,20 @@ Example:
     </dict>
 </dict>
 </plist>
-```
+
 Keys specified here will be put into "InfoPlist.plist" file. For example, "permission_location_services_explanation" will result into:
-```
+
 "NSLocationWhenInUseUsageDescription" = "Some translation";
-```
+
 Example config can be found in LocsUtil/input/config.plist
 
 ## Pro tip
 Set the output directory directly to your project. Then it is easy to see changes from the XLXS in your version control tool.
 
 ## Removal
-```
+
 rm /usr/local/bin/locsutil
-```
+
 
 ## Third-Party Libraries
 
