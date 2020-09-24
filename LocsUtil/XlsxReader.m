@@ -94,9 +94,9 @@
         if (![self loadSheetRows:@"sheet1"]) {
             return nil;
         }
-        if (![self loadSheetRows:@"sheet2"]) {
-            return nil;
-        }
+//        if (![self loadSheetRows:@"sheet2"]) {
+//            return nil;
+//        }
         return _xlsx_ROWS;
     }
 }

@@ -31,20 +31,21 @@
 		3D30423F1F729C170028A3B5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30423E1F729C170028A3B5 /* main.swift */; };
 		3D3042461F729C2A0028A3B5 /* CsvReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3042451F729C2A0028A3B5 /* CsvReader.swift */; };
 		3D3042481F729E000028A3B5 /* LocsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3042471F729E000028A3B5 /* LocsGenerator.swift */; };
-		3DDD4E181F78EAD000459AAE /* LocsUtil in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D30423B1F729C170028A3B5 /* LocsUtil */; };
+		3DDD4E181F78EAD000459AAE /* locsutil in Copy Files */ = {isa = PBXBuildFile; fileRef = 3D30423B1F729C170028A3B5 /* locsutil */; };
 		3DDD4E1A1F78ED6400459AAE /* AppArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDD4E191F78ED6400459AAE /* AppArguments.swift */; };
 		3DDD4E421F7A3BA400459AAE /* config.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3DDD4E411F7A394000459AAE /* config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3D3042391F729C170028A3B5 /* CopyFiles */ = {
+		3D3042391F729C170028A3B5 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
 			dstPath = "$(SRCROOT)/bin";
 			dstSubfolderSpec = 0;
 			files = (
-				3DDD4E181F78EAD000459AAE /* LocsUtil in CopyFiles */,
+				3DDD4E181F78EAD000459AAE /* locsutil in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3DDD4E1B1F78F1BB00459AAE /* CopyFiles */ = {
@@ -103,7 +104,7 @@
 		3D01B7FD1F95E3320004BB8F /* XlsxReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XlsxReader.h; sourceTree = "<group>"; };
 		3D01B7FE1F95E3320004BB8F /* XlsxReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XlsxReader.m; sourceTree = "<group>"; };
 		3D01B8001F95EA3A0004BB8F /* localizations.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = localizations.xlsx; sourceTree = "<group>"; };
-		3D30423B1F729C170028A3B5 /* LocsUtil */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LocsUtil; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D30423B1F729C170028A3B5 /* locsutil */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = locsutil; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D30423E1F729C170028A3B5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3D3042451F729C2A0028A3B5 /* CsvReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CsvReader.swift; sourceTree = "<group>"; };
 		3D3042471F729E000028A3B5 /* LocsGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocsGenerator.swift; sourceTree = "<group>"; };
@@ -224,7 +225,7 @@
 		3D30423C1F729C170028A3B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D30423B1F729C170028A3B5 /* LocsUtil */,
+				3D30423B1F729C170028A3B5 /* locsutil */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -263,7 +264,7 @@
 			buildPhases = (
 				3D3042371F729C170028A3B5 /* Sources */,
 				3D3042381F729C170028A3B5 /* Frameworks */,
-				3D3042391F729C170028A3B5 /* CopyFiles */,
+				3D3042391F729C170028A3B5 /* Copy Files */,
 				3DDD4E1B1F78F1BB00459AAE /* CopyFiles */,
 				3DDD4E451F7A65C700459AAE /* ShellScript */,
 			);
@@ -273,7 +274,7 @@
 			);
 			name = LocsUtil;
 			productName = LocsUtil;
-			productReference = 3D30423B1F729C170028A3B5 /* LocsUtil */;
+			productReference = 3D30423B1F729C170028A3B5 /* locsutil */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -483,7 +484,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 94KX2WEGFD;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = locsutil;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/LocsUtil/objc-bridge.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.2;
@@ -495,7 +496,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = 94KX2WEGFD;
 				GCC_OPTIMIZATION_LEVEL = s;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = locsutil;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/LocsUtil/objc-bridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;

@@ -1,25 +1,91 @@
 # LocsUtil
 
-LocsUtil is a simple utility for generating string resources for iOS projects. It uses XLSX file as an input, so it makes it very flexible to distribute it to managers, agencies, etc.
+LocsUtil is a simple utility for generating string resources for iOS projects. It uses XLSX document as an input, so it makes it very flexible to distribute it to managers, agencies, etc.
 
 ## Features
 
-- MacOS application
+- MacOS command line application
 - Generates string resource files for iOS project
-- Supports localising permission plist
-- Uses XLSX file as an input
-- Works with Google spreadsheets when exported (or synced) as an excel file
+- Supports localising permissions plist
+- Uses XLSX document as an input
+- Works with Google spreadsheets when exported (or synced) as an excel document
 - MIT license
+
+## Prerequsities
+- Supports MacOS 10.9 or higher
+- Needs xcodebuild to be installed (XCode command line tools)
 
 ## Installation and Setup
 
-*Supports MacOS 10.9 or higher*
+1. Run ./build.sh located in the root directory. Compiled executable will be placed under bin/locsutil.
+```
+<cd into project root directory>
+./build.sh
+```
+2. Copy bin/locsutil to /usr/bin/locsutil.
+```
+sudo cp bin/locsutil /usr/local/bin/locsutil
+```
+3. Make it executable.
+```
+chmod +x /usr/local/bin/locsutil
+```
 
+## Usage & Examples
 
+### Running
+```
+locsutil <inputFile> <outputDir> <config>
+```
+See example.sh
 
+### XLSX document format
+- LocsUtil expects to find resources in the first sheet.
+- Language identifiers are expected to be on the first line. A1 cell is skipped, as this column serves for keys. From B1, lanugages should be speficied, like "EN", "FR", etc.
+- Translation keys are specified in the A column.
 
-## Usage
+If you want to change this configuration, alter these lines in LocsGenerator.swift and rebuild.
+```
+let langRowIndex = 0 // Language definitions - row index in XSLSX document
+let keyColumnId = "A" // Key definitions - column index in XSLSX document
+```
+Example XSLX document can be found at LocsUtil/input/localizations.xlsx
 
+### Config plist (optional)
+Use .plist file to generate additional string resource files, for example for localising Info.plist strings.
+
+Example:
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>InfoPlist</key>
+    <dict>
+        <key>track_journey_permission_location</key>
+        <string>NSLocationAlwaysAndWhenInUseUsageDescription</string>
+        <key>permission_location_services_explanation</key>
+        <string>NSLocationWhenInUseUsageDescription</string>
+        <key>permission_camera_explanation</key>
+        <string>NSCameraUsageDescription</string>
+        <key>permission_photo_library_explanation</key>
+        <string>NSPhotoLibraryUsageDescription</string>
+        <key>permission_add_photo_to_library</key>
+        <string>NSPhotoLibraryAddUsageDescription</string>
+    </dict>
+</dict>
+</plist>
+```
+Keys specified here will be put into "InfoPlist.plist" file. For example, "permission_location_services_explanation" will result into:
+```
+"NSLocationWhenInUseUsageDescription" = "Some translation";
+```
+Example config can be found in LocsUtil/input/config.plist
+
+## Removal
+```
+rm /usr/local/bin/locsutil
+```
 
 ## Third-Party Libraries
 

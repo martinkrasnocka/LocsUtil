@@ -4,9 +4,7 @@
 <dict>
 	<key>InfoPlist</key>
 	<dict>
-		<key>track_journey_permission_location</key>
-		<string>NSLocationAlwaysAndWhenInUseUsageDescription</string>
-		<key>permission_location_services_explanation</key>
+		<key>permission_location_services</key>
 		<string>NSLocationWhenInUseUsageDescription</string>
 		<key>permission_camera_explanation</key>
 		<string>NSCameraUsageDescription</string>

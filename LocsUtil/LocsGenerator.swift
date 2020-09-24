@@ -15,8 +15,9 @@ class LocsGenerator: NSObject {
 
 //    var csvReader: CsvReader
     var xlsxReader: XlsxReader
-    let langRowIndex = 0
-    let keyColumnId = "B"
+    let langRowIndex = 0 // Language definitions - row index in XSLSX document
+    let keyColumnId = "A" // Key definitions - column index in XSLSX document
+    let version = "2.45"
     
     override init() {
 //        csvReader = CsvReader()
@@ -27,23 +28,37 @@ class LocsGenerator: NSObject {
     
     func generate(args: AppArguments!) {
         
+        print("LocsUtil version: \(version). Homepage: https://github.com/martinkrasnocka/LocsUtil\n")
+        
         if args == nil {
-            NSLog("Usage: LocsUtil <inputFile> <outputDir> <config>")
+            print("Usage: locsutil <inputXslxFile> <outputDir> <configPlist>\n")
+            print("Parameters:\n\n\tinputFile - path to XLSX document")
+            print("\n\toutputDir - path to output dir")
+            print("\n\tconfig - path to configuration plist file (optional)\n")
+            print("")
             return
         }
+        
+        print("Current directory: \(args.appPath ?? "none")")
+        print("Input file path: \(args.inputFile ?? "none")")
+        print("Output directory: \(args.outputDir ?? "none")")
+        print("Config file: \(args.configFile ?? "<none>")")
         
         let nowDate = Date()
         
         let xlsxContent = xlsxReader.loadXlsxFromFile(atPath: args.inputFile) as? XlsxFile
         guard let xlsx = xlsxContent else {
-            NSLog("unable to parse xlsx file")
+            print("unable to parse inputFile file")
             exit(1)
         }
         
         let langColumnsDict = xlsx[langRowIndex]
         locKeys = readColumnWithId(keyColumnId, xlsx: xlsx)
         
-        let config = NSDictionary(contentsOfFile: args.configFile)!
+        var config: NSDictionary? = nil
+        if args.configFile != nil {
+            config = NSDictionary(contentsOfFile: args.configFile)
+        }
 //        let androidSpecificKeys = config.value(forKey: "android_specific_keys") as? [String]
 //        let iosSpecificLocalizations = config.value(forKey: "ios_specific_localizations") as? NSDictionary
         
@@ -70,7 +85,7 @@ class LocsGenerator: NSObject {
             
             var plistsOutputStrings = Dictionary<String, Any>()
             
-            for plistName in config.allKeys {
+            for plistName in config?.allKeys ?? [] {
                 plistsOutputStrings[plistName as! String] = NSMutableString()
             }
             
@@ -113,10 +128,10 @@ class LocsGenerator: NSObject {
                 try FileManager.default.createDirectory(atPath: path, withIntermediateDirectories: true, attributes: nil)
                 
                 let filePath = path + "/Localizable.strings"
-                NSLog("Writing output file: " + filePath)
+                print("Writing output file: " + filePath)
                 try outputString.write(toFile: filePath, atomically: true, encoding: String.Encoding.utf8.rawValue)
             } catch {
-                NSLog("unable to save Localizable.strings file")
+                print("unable to save Localizable.strings file")
                 exit(1)
             }
             
@@ -127,22 +142,22 @@ class LocsGenerator: NSObject {
                     try FileManager.default.createDirectory(atPath: path, withIntermediateDirectories: true, attributes: nil)
                     
                     let filePath = path + "/\(plistName).strings"
-                    NSLog("Writing output file: " + filePath)
+                    print("Writing output file: " + filePath)
                     try plistOutputString.write(toFile: filePath, atomically: true, encoding: String.Encoding.utf8.rawValue)
                 } catch {
-                    NSLog("unable to save file \(plistName).strings")
+                    print("unable to save file \(plistName).strings")
                     exit(1)
                 }
             }
 
         }
-        NSLog("Finished in " + String(format: "%.2f", -nowDate.timeIntervalSinceNow) + " seconds.")
+        print("Finished in " + String(format: "%.2f", -nowDate.timeIntervalSinceNow) + " seconds.")
     }
     
-    private func appendLineToSpecificOutput(keyString: String, valueString: String, defaultOutput: NSMutableString, plistOutputs: Dictionary<String, Any>, config: NSDictionary) {
+    private func appendLineToSpecificOutput(keyString: String, valueString: String, defaultOutput: NSMutableString, plistOutputs: Dictionary<String, Any>, config: NSDictionary?) {
         var addedToPlist = false
-        for plistName in config.allKeys {
-            let plistConfig = config.object(forKey: plistName) as! NSDictionary
+        for plistName in config?.allKeys ?? [] {
+            let plistConfig = config!.object(forKey: plistName) as! NSDictionary
             for key in plistConfig.allKeys {
                 if (key as! String) == keyString {
                     let line = String(format:"\"%@\" = \"%@\";\n\n", plistConfig.object(forKey: key) as! String, valueString)

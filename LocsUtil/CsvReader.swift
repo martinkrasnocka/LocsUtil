@@ -21,7 +21,7 @@ class CsvReader: NSObject {
             contents = cleanRows(file: contents)
             return contents
         } catch {
-            NSLog("File Read Error for file \(filePath)")
+            print("File Read Error for file \(filePath)")
             exit(1)
         }
     }
