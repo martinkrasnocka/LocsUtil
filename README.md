@@ -24,7 +24,7 @@ LocsUtil is a simple utility for generating string resources for iOS projects. I
 ## Third-Party Libraries
 
 |Project|License|Comments|
-|-|-|-|-|
+|-|-|-|
 |[ZipArchive](https://code.google.com/archive/p/ziparchive/)|[MIT](http://www.opensource.org/licenses/mit-license.php)|ZipArchive is an Objective-C class to compress or uncompress zip files, which is base on open source code "MiniZip".|
 [TouchXML](https://github.com/TouchCode/TouchXML)|[FreeBSD License](https://www.freebsd.org/copyright/freebsd-license.html)|TouchXML is a lightweight replacement for Cocoa's NSXML* cluster of classes. It is based on the commonly available Open Source libxml2 library.|
 
