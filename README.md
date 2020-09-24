@@ -35,7 +35,12 @@ chmod +x /usr/local/bin/locsutil
 
 ### Running
 ```
-locsutil <inputFile> <outputDir> <config>
+locsutil <inputXslxFile> <outputDir> <configPlist>
+
+Parameters:
+    inputXslxFile - path to XLSX document
+    outputDir - path to output dir
+    configPlist - path to configuration plist file (optional)
 ```
 See example.sh
 
@@ -81,6 +86,9 @@ Keys specified here will be put into "InfoPlist.plist" file. For example, "permi
 "NSLocationWhenInUseUsageDescription" = "Some translation";
 ```
 Example config can be found in LocsUtil/input/config.plist
+
+## Pro tip
+Set the output directory directly to your project. Then it is easy to see changes from the XLXS in your version control tool.
 
 ## Removal
 ```

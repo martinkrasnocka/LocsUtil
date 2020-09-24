@@ -32,9 +32,9 @@ class LocsGenerator: NSObject {
         
         if args == nil {
             print("Usage: locsutil <inputXslxFile> <outputDir> <configPlist>\n")
-            print("Parameters:\n\n\tinputFile - path to XLSX document")
+            print("Parameters:\n\n\tinputXslxFile - path to XLSX document")
             print("\n\toutputDir - path to output dir")
-            print("\n\tconfig - path to configuration plist file (optional)\n")
+            print("\n\tconfigPlist - path to configuration plist file (optional)\n")
             print("")
             return
         }
