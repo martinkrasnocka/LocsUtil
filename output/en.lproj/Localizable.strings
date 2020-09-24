@@ -759,9 +759,9 @@ Masternaut account manager to activate.";
 
 "better_next_time" = "You'll do better next time!";
 
-"harsh_more" = "%@ point decrease in your smooth driving compared to last week.";
+"harsh_more" = "%@ more harsh events per 100 %@ than last week.";
 
-"harsh_less" = "%@ point increase in your smooth driving compared to last week.";
+"harsh_less" = "%@ fewer harsh events per 100 %@ than last week.";
 
 "driving_behavior" = "Your driving behaviour";
 
@@ -777,7 +777,7 @@ Masternaut account manager to activate.";
 
 "idling_less" = "%@ point increase in driving without idling than last week.";
 
-"smoother_description" = "Here you can see how smoothly you are driving. Your score goes down when you accelerate or brake harshly. As a guide, 100 means 0 harsh events, 80 means 1 harsh event per 100 %@, and 50 means 4 harsh events per 100 %@.";
+"smoother_description" = "Smooth transitions into accelerating and braking keep you safer and are better for the vehicle. Here, you can see the number of times you accelerated or braked too quickly. This value is shown as a total per 100 %@.";
 
 "my_average" = "My average";
 
@@ -793,15 +793,15 @@ Masternaut account manager to activate.";
 
 "recommended_and_above" = "Recommended is %@%% or above.";
 
-"recommended_per_100" = "Recommended is %@%% or below.";
+"recommended_per_100" = "Recommended is %@ per 100 %@ or below.";
 
 "graph_popup_title" = "What’s this number?";
 
 "smoother_popup_desc1" = "This value is based on the average Masternaut Connect van driver.";
 
-"smoother_popup_desc2" = "For HGVs, this value is %1$@ %%.";
+"smoother_popup_desc2" = "For HGVs, this value is %1$@ events per 100 %2$@.";
 
-"smoother_popup_desc3" = "For cars, this value is %1$@ %%.";
+"smoother_popup_desc3" = "For cars, this value is %1$@ events per 100 %2$@.";
 
 "metrics_no_data_both_weeks" = "Let's get going!";
 

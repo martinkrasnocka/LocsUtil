@@ -758,9 +758,9 @@
 
 "better_next_time" = "Vous pouvez faire mieux!";
 
-"harsh_more" = "%@ points de moins sur votre score de fluidité en une semaine.";
+"harsh_more" = "%@ d'événements brusques en plus par 100 %@ par rapport à la semaine dernière.";
 
-"harsh_less" = "%@ points de plus sur votre score de fluidité en une semaine.";
+"harsh_less" = "%@ d'événements brusques en moins par 100 %@ par rapport à la semaine dernière.";
 
 "driving_behavior" = "Vos comportements de conduite";
 
@@ -776,7 +776,7 @@
 
 "idling_less" = "%@ d'attente moteur tournant en plus par rapport à la semaine dernière.";
 
-"smoother_description" = "Votre score de Fluidité est présenté ci-dessous. Votre score diminue lorsque vous accélérez ou freinez brusquement. A titre indicatif, 100 correspond à une conduite sans événement brusque, 80 à un événement par 150 %@ et 50 à quatre événements par 150 %@ environ.";
+"smoother_description" = "Une conduite souple est plus sûre, plus économique et réduit l'usure du véhicule. Vous trouverez ci-dessous le nombre d'accélérations et freinages brusques par 100 %@.";
 
 "my_average" = "Ma moyenne";
 
@@ -792,15 +792,15 @@
 
 "recommended_and_above" = "Idéalement, %@%% au moins";
 
-"recommended_per_100" = "Idéalement, %@%% au plus";
+"recommended_per_100" = "Idéalement, %@ incident(s) par 100 %@ au plus";
 
 "graph_popup_title" = "Que représente cette valeur?";
 
 "smoother_popup_desc1" = "Cette valeur est la moyenne des conducteurs de VUL sur Masternaut Connect";
 
-"smoother_popup_desc2" = "Pour les poids lourds, cette valeur est %1$@ %%.";
+"smoother_popup_desc2" = "Pour les poids lourds, cette valeur est %1$@ incident(s) par 100 %2$@";
 
-"smoother_popup_desc3" = "Pour les voitures, cette valeur est %1$@ %%.";
+"smoother_popup_desc3" = "Pour les voitures, cette valeur est %1$@ incident(s) par 100 %2$@";
 
 "metrics_no_data_both_weeks" = "N'attendez pas, lancez-vous!";
 
