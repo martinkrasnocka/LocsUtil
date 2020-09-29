@@ -11,7 +11,7 @@ LocsUtil is a simple utility for generating string resources for iOS projects. I
 - Works with Google spreadsheets when exported (or synced) as an excel document
 - MIT license
 
-## Prerequsities
+## Prerequisites
 - Supports MacOS 10.9 or higher
 - Needs xcodebuild to be installed (XCode command line tools)
 
