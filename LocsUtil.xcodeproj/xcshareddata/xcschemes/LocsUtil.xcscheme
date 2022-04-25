@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D30423A1F729C170028A3B5"
-               BuildableName = "LocsUtil"
+               BuildableName = "locsutil"
                BlueprintName = "LocsUtil"
                ReferencedContainer = "container:LocsUtil.xcodeproj">
             </BuildableReference>
@@ -31,7 +31,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D30423A1F729C170028A3B5"
-            BuildableName = "LocsUtil"
+            BuildableName = "locsutil"
             BlueprintName = "LocsUtil"
             ReferencedContainer = "container:LocsUtil.xcodeproj">
          </BuildableReference>
@@ -54,7 +54,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D30423A1F729C170028A3B5"
-            BuildableName = "LocsUtil"
+            BuildableName = "locsutil"
             BlueprintName = "LocsUtil"
             ReferencedContainer = "container:LocsUtil.xcodeproj">
          </BuildableReference>
@@ -85,7 +85,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D30423A1F729C170028A3B5"
-            BuildableName = "LocsUtil"
+            BuildableName = "locsutil"
             BlueprintName = "LocsUtil"
             ReferencedContainer = "container:LocsUtil.xcodeproj">
          </BuildableReference>
