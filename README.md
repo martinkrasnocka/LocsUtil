@@ -87,6 +87,30 @@ Keys specified here will be put into "InfoPlist.plist" file. For example, "permi
 ```
 Example config can be found in LocsUtil/input/config.plist
 
+## Plurals
+Plurals plist files (Localizable.stringsdict) will be generated automatically if you follow these rules:
+
+- You must provide six variants of the same translation with these suffixes:
+```
+"_zero", "_one", "_two", "_few", "_many", "_other"
+```
+Example:
+```
+assigned_jobs_zero = 'You have %d new assigned jobs'
+assigned_jobs_one = 'You have %d new assigned job'
+assigned_jobs_two = 'You have %d new assigned jobs'
+assigned_jobs_few = 'You have %d new assigned jobs'
+assigned_jobs_many = 'You have %d new assigned jobs'
+assigned_jobs_other = 'You have %d new assigned jobs'
+```
+Usage in code:
+```
+let localisedStringFormat = NSLocalizedString("assigned_jobs", tableName: nil, bundle: Bundle.main, value: "", comment: "")
+let pluralString = String.localizedStringWithFormat(localisedStringFormat, assignedJobCount, assignedJobCount))
+```
+Note:
+The first 'assignedJobCount' applies to the first %d format string and the second to the plural word itself.
+
 ## Pro tip
 Set the output directory directly to your project. Then it is easy to see changes from the XLXS in your version control tool.
 

@@ -58,4 +58,19 @@ class AppArguments {
 
         return output
     }
+    
+    func printNoArgumetsHelp() {
+        print("Usage: locsutil <inputXslxFile> <outputDir> <configPlist>\n")
+        print("Parameters:\n\n\tinputXslxFile - path to XLSX document")
+        print("\n\toutputDir - path to output dir")
+        print("\n\tconfigPlist - path to configuration plist file (optional)\n")
+        print("")
+    }
+    
+    func printArguments() {
+        print("Current directory: \(appPath ?? "none")")
+        print("Input file path: \(inputFile ?? "none")")
+        print("Output directory: \(outputDir ?? "none")")
+        print("Config file: \(configFile ?? "<none>")")
+    }
 }

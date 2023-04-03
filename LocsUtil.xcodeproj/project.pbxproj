@@ -28,6 +28,8 @@
 		3D01B7FC1F95DB8E0004BB8F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D01B7FB1F95DB8E0004BB8F /* Cocoa.framework */; };
 		3D01B7FF1F95E3320004BB8F /* XlsxReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D01B7FE1F95E3320004BB8F /* XlsxReader.m */; };
 		3D01B8011F95EA410004BB8F /* localizations.xlsx in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D01B8001F95EA3A0004BB8F /* localizations.xlsx */; };
+		3D113FD229D6BCEE00AB9E27 /* FileOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D113FD129D6BCEE00AB9E27 /* FileOutput.swift */; };
+		3D113FD429D6BECD00AB9E27 /* PluralsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D113FD329D6BECD00AB9E27 /* PluralsHelper.swift */; };
 		3D30423F1F729C170028A3B5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30423E1F729C170028A3B5 /* main.swift */; };
 		3D3042461F729C2A0028A3B5 /* CsvReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3042451F729C2A0028A3B5 /* CsvReader.swift */; };
 		3D3042481F729E000028A3B5 /* LocsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3042471F729E000028A3B5 /* LocsGenerator.swift */; };
@@ -104,6 +106,8 @@
 		3D01B7FD1F95E3320004BB8F /* XlsxReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XlsxReader.h; sourceTree = "<group>"; };
 		3D01B7FE1F95E3320004BB8F /* XlsxReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XlsxReader.m; sourceTree = "<group>"; };
 		3D01B8001F95EA3A0004BB8F /* localizations.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = localizations.xlsx; sourceTree = "<group>"; };
+		3D113FD129D6BCEE00AB9E27 /* FileOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileOutput.swift; sourceTree = "<group>"; };
+		3D113FD329D6BECD00AB9E27 /* PluralsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluralsHelper.swift; sourceTree = "<group>"; };
 		3D30423B1F729C170028A3B5 /* locsutil */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = locsutil; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D30423E1F729C170028A3B5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3D3042451F729C2A0028A3B5 /* CsvReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CsvReader.swift; sourceTree = "<group>"; };
@@ -239,6 +243,8 @@
 				3D3042451F729C2A0028A3B5 /* CsvReader.swift */,
 				3D3042471F729E000028A3B5 /* LocsGenerator.swift */,
 				3DDD4E191F78ED6400459AAE /* AppArguments.swift */,
+				3D113FD129D6BCEE00AB9E27 /* FileOutput.swift */,
+				3D113FD329D6BECD00AB9E27 /* PluralsHelper.swift */,
 				3D01B7BD1F95D9DD0004BB8F /* objc-bridge.h */,
 				3D01B7FD1F95E3320004BB8F /* XlsxReader.h */,
 				3D01B7FE1F95E3320004BB8F /* XlsxReader.m */,
@@ -336,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D01B7F11F95DA5F0004BB8F /* CXMLNode_PrivateExtensions.m in Sources */,
+				3D113FD429D6BECD00AB9E27 /* PluralsHelper.swift in Sources */,
 				3D01B7FF1F95E3320004BB8F /* XlsxReader.m in Sources */,
 				3DDD4E1A1F78ED6400459AAE /* AppArguments.swift in Sources */,
 				3D01B7F41F95DA5F0004BB8F /* mztools.c in Sources */,
@@ -344,6 +351,7 @@
 				3D01B7E81F95DA5F0004BB8F /* CXMLNode_CreationExtensions.m in Sources */,
 				3D30423F1F729C170028A3B5 /* main.swift in Sources */,
 				3D01B7EB1F95DA5F0004BB8F /* CXMLDocument_PrivateExtensions.m in Sources */,
+				3D113FD229D6BCEE00AB9E27 /* FileOutput.swift in Sources */,
 				3D01B7EE1F95DA5F0004BB8F /* CXMLElement_ElementTreeExtensions.m in Sources */,
 				3D01B7EA1F95DA5F0004BB8F /* CXMLDocument.m in Sources */,
 				3D01B7EC1F95DA5F0004BB8F /* CXMLElement.m in Sources */,
