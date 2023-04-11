@@ -17,7 +17,7 @@ class LocsGenerator: NSObject {
     var xlsxReader: XlsxReader
     let langRowIndex = 0 // Language definitions - row index in XSLSX document
     let keyColumnId = "A" // Key definitions - column index in XSLSX document
-    let version = "2.46"
+    let version = "2.47"
     
     override init() {
 //        csvReader = CsvReader()

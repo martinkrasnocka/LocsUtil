@@ -108,7 +108,9 @@ func computePlurals(pluralKeyValues: [String: String]) -> [Plural] {
             print("Skipping plural for \(pluralKey) key")
         }
     }
-    return plurals
+    return plurals.sorted { pl1, pl2 in
+        pl1.key < pl2.key
+    }
 }
 
 func generatePluralsFile(pluralKeyValues: [String: String]) -> String? {
