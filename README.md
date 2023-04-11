@@ -130,6 +130,7 @@ cd /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchai
 git clone https://github.com/kamyarelyasi/Libarclite-Files.git
 sudo chmod +x *
 ln -s Libarclite-Files arc
+```
 
 ## Third-Party Libraries
 
