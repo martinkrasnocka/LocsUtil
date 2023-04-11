@@ -119,6 +119,18 @@ Set the output directory directly to your project. Then it is easy to see change
 rm /usr/local/bin/locsutil
 ```
 
+## Xcode 14.3 archiving issue
+If you are having this issue during the build process:
+```
+ld: file not found: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_macosx.a
+```
+follow these steps:
+```
+cd /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib
+git clone https://github.com/kamyarelyasi/Libarclite-Files.git
+sudo chmod +x *
+ln -s Libarclite-Files arc
+
 ## Third-Party Libraries
 
 |Project|License|Comments|
@@ -130,7 +142,7 @@ rm /usr/local/bin/locsutil
 
 [LocsUtil](https://github.com/martinkrasnocka/LocsUtil) is protected under the [MIT license](http://www.opensource.org/licenses/mit-license.php)
 
-Copyright 2020 Martin Krasnočka
+Copyright 2023 Martin Krasnočka
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
