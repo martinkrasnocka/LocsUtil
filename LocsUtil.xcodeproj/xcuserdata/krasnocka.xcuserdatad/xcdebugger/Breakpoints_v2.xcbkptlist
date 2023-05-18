@@ -34,7 +34,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "129"
             endingLineNumber = "129"
-            landmarkName = "generate(args:)"
+            landmarkName = "readColumnWithId(_:xlsx:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -244,7 +244,7 @@
             startingLineNumber = "101"
             endingLineNumber = "101"
             landmarkName = "appendLineToOutput(keyString:valueString:defaultOutput:plistOutputs:config:)"
-            landmarkType = "9">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -321,8 +321,8 @@
             filePath = "LocsUtil/PluralsHelper.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "126"
-            endingLineNumber = "126"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
             landmarkName = "generatePluralsFile(pluralKeyValues:)"
             landmarkType = "9">
          </BreakpointContent>
