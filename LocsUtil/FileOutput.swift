@@ -8,9 +8,20 @@
 
 import Foundation
 
+func fixLangFolderCase(_ input: String) -> String {
+    if input.contains("-") {
+        // lang with locale
+        let components = input.components(separatedBy: "-")
+        return "\(components[0].lowercased())-\(components[1].uppercased())"
+    } else {
+        // lang only
+        return input.lowercased()
+    }
+}
+
 func saveToLocalizableStringsFile(outputDir: String, lang: String, outputString: String) {
     do {
-        let path = outputDir + "/" + lang.lowercased() + ".lproj"
+        let path = outputDir + "/" + fixLangFolderCase(lang) + ".lproj"
         try FileManager.default.createDirectory(atPath: path, withIntermediateDirectories: true, attributes: nil)
         
         let filePath = path + "/Localizable.strings"
@@ -26,7 +37,7 @@ func saveToInfoPlistFile(outputDir: String, lang: String, plistsOutputStrings: [
     for plistName in plistsOutputStrings.keys {
         do {
             let plistOutputString = plistsOutputStrings[plistName] as! NSString
-            let path = outputDir + "/" + lang.lowercased() + ".lproj"
+            let path = outputDir + "/" + fixLangFolderCase(lang) + ".lproj"
             try FileManager.default.createDirectory(atPath: path, withIntermediateDirectories: true, attributes: nil)
             
             let filePath = path + "/\(plistName).strings"
@@ -41,7 +52,7 @@ func saveToInfoPlistFile(outputDir: String, lang: String, plistsOutputStrings: [
 
 func saveToLocalizableStringsDictFile(outputDir: String, lang: String, pluralsFile: String) {
     do {
-        let path = outputDir + "/" + lang.lowercased() + ".lproj"
+        let path = outputDir + "/" + fixLangFolderCase(lang) + ".lproj"
         try FileManager.default.createDirectory(atPath: path, withIntermediateDirectories: true, attributes: nil)
         
         let filePath = path + "/Localizable.stringsdict"
