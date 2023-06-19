@@ -17,7 +17,7 @@ class LocsGenerator: NSObject {
     var xlsxReader: XlsxReader
     let langRowIndex = 0 // Language definitions - row index in XSLSX document
     let keyColumnId = "A" // Key definitions - column index in XSLSX document
-    let version = "2.49"
+    let version = "2.50"
     
     override init() {
 //        csvReader = CsvReader()
@@ -59,6 +59,10 @@ class LocsGenerator: NSObject {
             }
             if columnId == keyColumnId {
                 // column with translation keys
+                continue
+            }
+            if !isLangFormatValid(lang) {
+                print("Skipping \"\(columnId)\" column. \"\(lang)\" is not a valid language identifier.")
                 continue
             }
             
@@ -146,5 +150,19 @@ class LocsGenerator: NSObject {
         output = output.replacingOccurrences(of: "%.1f %", with: "%@")
         
         return output
+    }
+    
+    private func isLangFormatValid(_ lang: String?) -> Bool {
+        guard let lang else {
+            return false
+        }
+        if lang.count == 2 {
+            return true
+        }
+        if lang.count == 5 {
+            let components = lang.components(separatedBy: "-")
+            return components.count == 2 && components[0].count == 2 && components[1].count == 2
+        }
+        return false
     }
 }
