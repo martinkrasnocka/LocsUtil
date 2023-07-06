@@ -107,7 +107,7 @@ class LocsGenerator: NSObject {
             } else {
                 if let pluralsFile = generatePluralsFileAndroid(pluralKeyValues: pluralKeyValues) {
                     outputString.append(pluralsFile)
-                }                
+                }
                 saveToAndroidStringsFile(outputDir: args.outputDir, lang: lang, outputString: outputString as String)
             }
                 
@@ -162,6 +162,14 @@ class LocsGenerator: NSObject {
     private func cleanValueAndroid(input: String) -> String {
         var output = input
         output = output.replacingOccurrences(of: "\"", with: "\\\"")
+        
+        // General character esacping needed for Android
+        output = output.replacingOccurrences(of: "&", with: "&amp;")
+        
+        // Remove escaped ones first...
+        output = output.replacingOccurrences(of: "\\'", with: "'")
+        // ... to then just be able to do all of them blindly and catch cases of ones that were missed off in the sheet
+        output = output.replacingOccurrences(of: "'", with: "\\\'")
 
         var i = 1 // i will be the increasing parameter number throughout the string
 

@@ -41,7 +41,7 @@ func saveToAndroidStringsFile(outputDir: String, lang: String, outputString: Str
 
 """
         
-        var footerText = "\n\n<resources>"
+        var footerText = "\n\n</resources>"
         
         var fullOutput = headerText
         fullOutput.append(outputString)
