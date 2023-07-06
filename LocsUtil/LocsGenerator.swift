@@ -101,11 +101,14 @@ class LocsGenerator: NSObject {
             if (args.platform=="ios") {
                 saveToLocalizableStringsFile(outputDir: args.outputDir, lang: lang, outputString: outputString as String)
                 saveToInfoPlistFile(outputDir: args.outputDir, lang: lang, plistsOutputStrings: plistsOutputStrings)
-                if let pluralsFile = generatePluralsFile(pluralKeyValues: pluralKeyValues) {
+                if let pluralsFile = generatePluralsFileiOS(pluralKeyValues: pluralKeyValues) {
                     saveToLocalizableStringsDictFile(outputDir: args.outputDir, lang: lang, pluralsFile: pluralsFile)
                 }
             } else {
                 saveToAndroidStringsFile(outputDir: args.outputDir, lang: lang, outputString: outputString as String)
+                if let pluralsFile = generatePluralsFileAndroid(pluralKeyValues: pluralKeyValues) {
+//                    saveAndroidPlurals(outputDir: args.outputDir, lang: lang, pluralsFile: pluralsFile)
+                }
             }
                 
         }
