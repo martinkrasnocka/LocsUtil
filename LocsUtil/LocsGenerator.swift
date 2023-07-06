@@ -105,10 +105,10 @@ class LocsGenerator: NSObject {
                     saveToLocalizableStringsDictFile(outputDir: args.outputDir, lang: lang, pluralsFile: pluralsFile)
                 }
             } else {
-                saveToAndroidStringsFile(outputDir: args.outputDir, lang: lang, outputString: outputString as String)
                 if let pluralsFile = generatePluralsFileAndroid(pluralKeyValues: pluralKeyValues) {
-//                    saveAndroidPlurals(outputDir: args.outputDir, lang: lang, pluralsFile: pluralsFile)
-                }
+                    outputString.append(pluralsFile)
+                }                
+                saveToAndroidStringsFile(outputDir: args.outputDir, lang: lang, outputString: outputString as String)
             }
                 
         }

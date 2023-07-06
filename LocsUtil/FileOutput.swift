@@ -27,7 +27,27 @@ func saveToAndroidStringsFile(outputDir: String, lang: String, outputString: Str
         
         let filePath = path + "/strings.xml"
         print("Writing output file: " + filePath)
-        try outputString.write(toFile: filePath, atomically: true, encoding: .utf8)
+        
+        
+        var headerText =
+"""
+<!--
+~ Copyright (c) 2023. Masternaut UK Ltd.
+~ All Rights Reserved.
+-->
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">"
+
+
+"""
+        
+        var footerText = "\n\n<resources>"
+        
+        var fullOutput = headerText
+        fullOutput.append(outputString)
+        fullOutput.append(footerText)
+        
+        try fullOutput.write(toFile: filePath, atomically: true, encoding: .utf8)
     } catch {
         print("unable to save Localizable.strings file")
         exit(1)
@@ -78,3 +98,4 @@ func saveToLocalizableStringsDictFile(outputDir: String, lang: String, pluralsFi
         exit(1)
     }
 }
+

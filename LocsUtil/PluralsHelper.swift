@@ -220,30 +220,28 @@ func generatePluralsFileAndroid(pluralKeyValues: [String: String]) -> String? {
         guard plural.zero != nil || plural.one != nil || plural.two != nil || plural.few != nil || plural.many != nil || plural.other != nil else {
             continue
         }
-        output.append("\t<plurals name=\"\(plural.key)\">\n")
+        output.append("<plurals name=\"\(plural.key)\">\n")
      
         if let value = plural.zero {
-            output.append("\t\t\t<item quantity=\"zero\">\(value)</item>\n")
+            output.append("\t<item quantity=\"zero\">\(value)</item>\n")
         }
         if let value = plural.one {
-            output.append("\t\t\t<item quantity=\"one\">\(value)</item>\n")
+            output.append("\t<item quantity=\"one\">\(value)</item>\n")
         }
         if let value = plural.two {
-            output.append("\t\t\t<item quantity=\"two\">\(value)</item>\n")
+            output.append("\t<item quantity=\"two\">\(value)</item>\n")
         }
         if let value = plural.few {
-            output.append("\t\t\t<item quantity=\"few\">\(value)</item>\n")
+            output.append("\t<item quantity=\"few\">\(value)</item>\n")
         }
         if let value = plural.many {
-            output.append("\t\t\t<item quantity=\"many\">\(value)</item>\n")
+            output.append("\t<item quantity=\"many\">\(value)</item>\n")
         }
         if let value = plural.other {
-            output.append("\t\t\t<item quantity=\"other\">\(value)</item>\n")
+            output.append("\t<item quantity=\"other\">\(value)</item>\n")
         }
-        output.append("\t</plurals>\n")
+        output.append("</plurals>\n")
     }    
-    
-    print("plurals: \"\(output)\" :")
     
     return output as String
 }
