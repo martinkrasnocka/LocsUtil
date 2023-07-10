@@ -171,11 +171,9 @@ class LocsGenerator: NSObject {
         // ... to then just be able to do all of them blindly and catch cases of ones that were missed off in the sheet
         output = output.replacingOccurrences(of: "'", with: "\\\'")
         
-        // Escape stand alone percentage symbols for safety
-        output = output.replacingOccurrences(of: " % ", with: "\\%")
-        // And also cases where "% a" will be picked up as a parameter lint issue
-        output = output.replacingOccurrences(of: "% a", with: "\\% a")
-
+        // Escape any trailing percentage symbol that is followed by a space
+        output = output.replacingOccurrences(of: "% ", with: "\\% ")
+        
         var i = 1 // i will be the increasing parameter number throughout the string
 
         // Convert bare %s string value
