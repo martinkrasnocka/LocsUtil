@@ -5,7 +5,7 @@ LocsUtil is a simple utility for generating string resources for iOS projects. I
 ## Features
 
 - MacOS command line application
-- Generates string resource files for iOS project
+- Generates string resource files for iOS project and Android strings.xml resources
 - Supports localising permissions plist
 - Uses XLSX document as an input
 - Works with Google spreadsheets when exported (or synced) as an excel document
@@ -35,9 +35,10 @@ chmod +x /usr/local/bin/locsutil
 
 ### Running
 ```
-locsutil <inputXslxFile> <outputDir> <configPlist>
+locsutil <platform> <inputXslxFile> <outputDir> <configPlist>
 
 Parameters:
+    platform - ios or android platform
     inputXslxFile - path to XLSX document
     outputDir - path to output dir
     configPlist - path to configuration plist file (optional)

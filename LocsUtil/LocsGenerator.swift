@@ -165,11 +165,16 @@ class LocsGenerator: NSObject {
         
         // General character esacping needed for Android
         output = output.replacingOccurrences(of: "&", with: "&amp;")
-        
+            
         // Remove escaped ones first...
         output = output.replacingOccurrences(of: "\\'", with: "'")
         // ... to then just be able to do all of them blindly and catch cases of ones that were missed off in the sheet
         output = output.replacingOccurrences(of: "'", with: "\\\'")
+        
+        // Escape stand alone percentage symbols for safety
+        output = output.replacingOccurrences(of: " % ", with: "\\%")
+        // And also cases where "% a" will be picked up as a parameter lint issue
+        output = output.replacingOccurrences(of: "% a", with: "\\% a")
 
         var i = 1 // i will be the increasing parameter number throughout the string
 
