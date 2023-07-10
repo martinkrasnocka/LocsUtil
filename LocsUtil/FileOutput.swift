@@ -36,7 +36,7 @@ func saveToAndroidStringsFile(outputDir: String, lang: String, outputString: Str
 ~ All Rights Reserved.
 -->
 
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">"
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,ImpliedQuantity">"
 
 
 """
