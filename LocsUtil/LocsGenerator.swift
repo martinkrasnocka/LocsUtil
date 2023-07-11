@@ -172,7 +172,10 @@ class LocsGenerator: NSObject {
         output = output.replacingOccurrences(of: "'", with: "\\\'")
         
         // Escape any trailing percentage symbol that is followed by a space
-        output = output.replacingOccurrences(of: "% ", with: "\\% ")
+        output = output.replacingOccurrences(of: "% ", with: "%% ")
+        
+        // Replace "..." with single character "..." &#8230;
+        output = output.replacingOccurrences(of: "...", with: "&#8230;")
         
         var i = 1 // i will be the increasing parameter number throughout the string
 
