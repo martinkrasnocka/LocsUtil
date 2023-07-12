@@ -212,6 +212,15 @@ class LocsGenerator: NSObject {
     private func cleanValueiOS(input: String) -> String {
         var output = input
         output = output.replacingOccurrences(of: "\"", with: "\\\"")
+                
+        // Individual " % " signs with spaces should not be escapped to %%, so initially change them to something else
+        output = output.replacingOccurrences(of: " % ", with: " 😱 ")
+        
+        // Escape any trailing percentage symbol that is followed by a space to unicode version
+        output = output.replacingOccurrences(of: "% ", with: "%% ")
+        
+        // Now put back any " % " as they were.
+        output = output.replacingOccurrences(of: " 😱 ", with: " % ")
 
         var i = 1
         while let range = output.range(of: "%s", options: .regularExpression) {
@@ -223,8 +232,8 @@ class LocsGenerator: NSObject {
             output = output.replacingOccurrences(of: String(format: "%%%d$s", i), with: String(format: "%%%d$@", i))
         }
         
-        output = output.replacingOccurrences(of: "(%.1f%)%", with: "%@")
-        output = output.replacingOccurrences(of: "%.1f %", with: "%@")
+//        output = output.replacingOccurrences(of: "(%.1f%)%", with: "%@")
+//        output = output.replacingOccurrences(of: "%.1f %", with: "%@")
         
         return output
     }
