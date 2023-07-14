@@ -174,6 +174,9 @@ class LocsGenerator: NSObject {
         // Escape any trailing percentage symbol that is followed by a space
         output = output.replacingOccurrences(of: "% ", with: "%% ")
         
+        // ...or any trailing percentage symbol that is followed by a dash as in some German cases
+        output = output.replacingOccurrences(of: "%-", with: "%%-")
+        
         // Replace "..." with single character "..." &#8230;
         output = output.replacingOccurrences(of: "...", with: "&#8230;")
         
@@ -231,9 +234,6 @@ class LocsGenerator: NSObject {
         for i in 1..<10 {
             output = output.replacingOccurrences(of: String(format: "%%%d$s", i), with: String(format: "%%%d$@", i))
         }
-        
-//        output = output.replacingOccurrences(of: "(%.1f%)%", with: "%@")
-//        output = output.replacingOccurrences(of: "%.1f %", with: "%@")
         
         return output
     }
