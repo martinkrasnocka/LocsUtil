@@ -193,22 +193,17 @@ class LocsGenerator: NSObject {
             output = output.replacingCharacters(in: range, with: String(format: "%%%d$d", i))
             i += 1
         }
-
+        
+        // Numerate multiple strings
+        while let range = output.range(of: "%@", options: .regularExpression) {
+            output = output.replacingCharacters(in: range, with: String(format: "%%%d$s", i))
+            i += 1
+        }
+        
         // Some generic conversions - these might not always be true in current strings...
         output = output.replacingOccurrences(of: "%1$@", with: "%1$s")
         output = output.replacingOccurrences(of: "%2$@", with: "%2$s")
-        
-        output = output.replacingOccurrences(of: "%@", with: "%1$s")
-        
-        
-        // Convert bare %@ floating point with formatted xx.x%
-//        while let range = output.range(of: "%@", options: .regularExpression) {
-//            output = output.replacingCharacters(in: range, with: String(format: "%.1f%", i))
-//            i += 1
-//        }
-//        output = output.replacingOccurrences(of: "%@", with: "%.1f%%")
-                
-        
+                        
         return output
     }
     
