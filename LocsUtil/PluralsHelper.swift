@@ -52,14 +52,23 @@ extension Array where Element == String {
             }
         }
         
-        if let distinctIndex = distinctIndex, let components = allComponents.first {
-            var mutatedComponents = components
-            
-            let pluralWords = allComponents.map { components in
-                components[distinctIndex]
+        if let components = allComponents.first {
+            if let distinctIndex = distinctIndex {
+                var mutatedComponents = components
+                
+                let pluralWords = allComponents.map { components in
+                    components[distinctIndex]
+                }
+                mutatedComponents[distinctIndex] = "%#@\(pluralFormatPlaceholder)@"
+                return (mutatedComponents.joined(separator: " "), pluralWords)
+            } else {
+                // there's no distinctIndex - every form of the plural string is the same
+                var emptyPlurals = [String]()
+                for _ in 0..<allComponents.count {
+                    emptyPlurals.append("")
+                }
+                return (components.joined(separator: " ") + "%#@\(pluralFormatPlaceholder)@", emptyPlurals)
             }
-            mutatedComponents[distinctIndex] = "%#@\(pluralFormatPlaceholder)@"
-            return (mutatedComponents.joined(separator: " "), pluralWords)
         } else {
             return nil
         }
