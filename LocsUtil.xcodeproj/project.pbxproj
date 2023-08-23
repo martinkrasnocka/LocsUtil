@@ -33,6 +33,9 @@
 		3D30423F1F729C170028A3B5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30423E1F729C170028A3B5 /* main.swift */; };
 		3D3042461F729C2A0028A3B5 /* CsvReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3042451F729C2A0028A3B5 /* CsvReader.swift */; };
 		3D3042481F729E000028A3B5 /* LocsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3042471F729E000028A3B5 /* LocsGenerator.swift */; };
+		3DDBF9F92A30797100786326 /* LocsComparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDBF9F82A30797100786326 /* LocsComparison.swift */; };
+		3DDBF9FC2A307BD000786326 /* ParsingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDBF9FB2A307BD000786326 /* ParsingHelper.swift */; };
+		3DDBF9FD2A307CCB00786326 /* localizations2.xlsx in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3DDBF9FA2A307B5800786326 /* localizations2.xlsx */; };
 		3DDD4E181F78EAD000459AAE /* locsutil in Copy Files */ = {isa = PBXBuildFile; fileRef = 3D30423B1F729C170028A3B5 /* locsutil */; };
 		3DDD4E1A1F78ED6400459AAE /* AppArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDD4E191F78ED6400459AAE /* AppArguments.swift */; };
 		3DDD4E421F7A3BA400459AAE /* config.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3DDD4E411F7A394000459AAE /* config.plist */; };
@@ -56,6 +59,7 @@
 			dstPath = input;
 			dstSubfolderSpec = 16;
 			files = (
+				3DDBF9FD2A307CCB00786326 /* localizations2.xlsx in CopyFiles */,
 				3D01B8011F95EA410004BB8F /* localizations.xlsx in CopyFiles */,
 				3DDD4E421F7A3BA400459AAE /* config.plist in CopyFiles */,
 			);
@@ -114,6 +118,9 @@
 		3D3042471F729E000028A3B5 /* LocsGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocsGenerator.swift; sourceTree = "<group>"; };
 		3D98A5FF251C8B1100C0E0FC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3D98A600251C8E9F00C0E0FC /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		3DDBF9F82A30797100786326 /* LocsComparison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocsComparison.swift; sourceTree = "<group>"; };
+		3DDBF9FA2A307B5800786326 /* localizations2.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = localizations2.xlsx; sourceTree = "<group>"; };
+		3DDBF9FB2A307BD000786326 /* ParsingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsingHelper.swift; sourceTree = "<group>"; };
 		3DDD4E191F78ED6400459AAE /* AppArguments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppArguments.swift; sourceTree = "<group>"; };
 		3DDD4E411F7A394000459AAE /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -242,9 +249,11 @@
 				3D30423E1F729C170028A3B5 /* main.swift */,
 				3D3042451F729C2A0028A3B5 /* CsvReader.swift */,
 				3D3042471F729E000028A3B5 /* LocsGenerator.swift */,
+				3DDBF9F82A30797100786326 /* LocsComparison.swift */,
 				3DDD4E191F78ED6400459AAE /* AppArguments.swift */,
 				3D113FD129D6BCEE00AB9E27 /* FileOutput.swift */,
 				3D113FD329D6BECD00AB9E27 /* PluralsHelper.swift */,
+				3DDBF9FB2A307BD000786326 /* ParsingHelper.swift */,
 				3D01B7BD1F95D9DD0004BB8F /* objc-bridge.h */,
 				3D01B7FD1F95E3320004BB8F /* XlsxReader.h */,
 				3D01B7FE1F95E3320004BB8F /* XlsxReader.m */,
@@ -255,6 +264,7 @@
 		3DDD4E1C1F78F1E800459AAE /* input */ = {
 			isa = PBXGroup;
 			children = (
+				3DDBF9FA2A307B5800786326 /* localizations2.xlsx */,
 				3D01B8001F95EA3A0004BB8F /* localizations.xlsx */,
 				3DDD4E411F7A394000459AAE /* config.plist */,
 			);
@@ -349,6 +359,7 @@
 				3D01B7E71F95DA5F0004BB8F /* CXMLDocument_CreationExtensions.m in Sources */,
 				3D01B7F21F95DA5F0004BB8F /* CXMLNode_XPathExtensions.m in Sources */,
 				3D01B7E81F95DA5F0004BB8F /* CXMLNode_CreationExtensions.m in Sources */,
+				3DDBF9FC2A307BD000786326 /* ParsingHelper.swift in Sources */,
 				3D30423F1F729C170028A3B5 /* main.swift in Sources */,
 				3D01B7EB1F95DA5F0004BB8F /* CXMLDocument_PrivateExtensions.m in Sources */,
 				3D113FD229D6BCEE00AB9E27 /* FileOutput.swift in Sources */,
@@ -362,6 +373,7 @@
 				3D01B7E91F95DA5F0004BB8F /* CXHTMLDocument.m in Sources */,
 				3D01B7F71F95DA5F0004BB8F /* ZipArchive.mm in Sources */,
 				3D01B7ED1F95DA5F0004BB8F /* CXMLElement_CreationExtensions.m in Sources */,
+				3DDBF9F92A30797100786326 /* LocsComparison.swift in Sources */,
 				3D3042461F729C2A0028A3B5 /* CsvReader.swift in Sources */,
 				3D01B7F31F95DA5F0004BB8F /* ioapi.c in Sources */,
 				3D01B7F01F95DA5F0004BB8F /* CXMLNode.m in Sources */,

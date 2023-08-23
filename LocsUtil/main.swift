@@ -7,4 +7,5 @@
 //
 
 import Foundation
-LocsGenerator().generate(args: AppArguments())
+//LocsGenerator().generate(args: AppArguments())
+LocsComparison().generate(args: AppArguments())

@@ -24,23 +24,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E06680AA-7AA0-448F-ADCB-31D76F233D58"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LocsUtil/LocsGenerator.swift"
-            timestampString = "568112073.127511"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "129"
-            endingLineNumber = "129"
-            landmarkName = "readColumnWithId(_:xlsx:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "D618308C-33E0-4B39-8F8A-B92243F31691"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -501,6 +484,117 @@
             endingLineNumber = "108"
             landmarkName = "computePlurals(pluralKeyValues:)"
             landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B51BAC6-32E6-4835-A20A-D2099933DF97"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocsUtil/LocsComparison.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "generate(args:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6A0B2E5-B565-4276-81D7-DE7F0839BA46"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocsUtil/LocsComparison.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "generate(args:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F6A0B2E5-B565-4276-81D7-DE7F0839BA46 - fa39e9fba2792af3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "locsutil.LocsComparison.generate(args: Swift.Optional&lt;locsutil.AppArguments&gt;) -&gt; ()"
+                  moduleName = "locsutil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krasnocka/Documents/devel-private/LocsUtil/LocsUtil/LocsComparison.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "3908">
+               </Location>
+               <Location
+                  uuid = "F6A0B2E5-B565-4276-81D7-DE7F0839BA46 - 8bd66b2a1c48c25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (Swift.String, Swift.String) -&gt; Swift.Optional&lt;Swift.Array&lt;Swift.String&gt;&gt; in locsutil.LocsComparison.generate(args: Swift.Optional&lt;locsutil.AppArguments&gt;) -&gt; ()"
+                  moduleName = "locsutil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krasnocka/Documents/devel-private/LocsUtil/LocsUtil/LocsComparison.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "F6A0B2E5-B565-4276-81D7-DE7F0839BA46 - fa39e9fba2792a94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "locsutil.LocsComparison.generate(args: Swift.Optional&lt;locsutil.AppArguments&gt;) -&gt; ()"
+                  moduleName = "locsutil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krasnocka/Documents/devel-private/LocsUtil/LocsUtil/LocsComparison.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "3916">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F896FCEE-14AE-48F1-8D69-C537594A4EEF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocsUtil/LocsComparison.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "generate(args:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F21E60DA-2577-434D-94BD-D8A1A7EAF814"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocsUtil/LocsComparison.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "generate(args:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
