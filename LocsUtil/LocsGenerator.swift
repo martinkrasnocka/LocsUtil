@@ -170,13 +170,7 @@ class LocsGenerator: NSObject {
         output = output.replacingOccurrences(of: "\\'", with: "'")
         // ... to then just be able to do all of them blindly and catch cases of ones that were missed off in the sheet
         output = output.replacingOccurrences(of: "'", with: "\\\'")
-        
-        // Escape any trailing percentage symbol that is followed by a space
-        output = output.replacingOccurrences(of: "% ", with: "%% ")
-        
-        // ...or any trailing percentage symbol that is followed by a dash as in some German cases
-        output = output.replacingOccurrences(of: "%-", with: "%%-")
-        
+                
         // Replace "..." with single character "..." &#8230;
         output = output.replacingOccurrences(of: "...", with: "&#8230;")
         
@@ -210,15 +204,6 @@ class LocsGenerator: NSObject {
     private func cleanValueiOS(input: String) -> String {
         var output = input
         output = output.replacingOccurrences(of: "\"", with: "\\\"")
-                
-        // Individual " % " signs with spaces should not be escapped to %%, so initially change them to something else
-        output = output.replacingOccurrences(of: " % ", with: " 😱 ")
-        
-        // Escape any trailing percentage symbol that is followed by a space to unicode version
-        output = output.replacingOccurrences(of: "% ", with: "%% ")
-        
-        // Now put back any " % " as they were.
-        output = output.replacingOccurrences(of: " 😱 ", with: " % ")
 
         var i = 1
         while let range = output.range(of: "%s", options: .regularExpression) {
