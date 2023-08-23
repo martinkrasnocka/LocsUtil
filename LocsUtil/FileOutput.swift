@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 func fixLangFolderCase(_ input: String) -> String {
     if input.contains("-") {
         // lang with locale
@@ -16,6 +17,40 @@ func fixLangFolderCase(_ input: String) -> String {
     } else {
         // lang only
         return input.lowercased()
+    }
+}
+
+func saveToAndroidStringsFile(outputDir: String, lang: String, outputString: String) {
+    do {
+        let path = outputDir + "/values-" + fixLangFolderCase(lang)
+        try FileManager.default.createDirectory(atPath: path, withIntermediateDirectories: true, attributes: nil)
+        
+        let filePath = path + "/strings.xml"
+        print("Writing output file: " + filePath)
+        
+        
+        var headerText =
+"""
+<!--
+~ Copyright (c) 2023. Masternaut UK Ltd.
+~ All Rights Reserved.
+-->
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,ImpliedQuantity">"
+
+
+"""
+        
+        var footerText = "\n\n</resources>"
+        
+        var fullOutput = headerText
+        fullOutput.append(outputString)
+        fullOutput.append(footerText)
+        
+        try fullOutput.write(toFile: filePath, atomically: true, encoding: .utf8)
+    } catch {
+        print("unable to save Localizable.strings file")
+        exit(1)
     }
 }
 
@@ -63,3 +98,4 @@ func saveToLocalizableStringsDictFile(outputDir: String, lang: String, pluralsFi
         exit(1)
     }
 }
+

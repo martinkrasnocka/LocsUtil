@@ -42,7 +42,10 @@ class LocsGenerator: NSObject {
         }
         
         let langColumnsDict = xlsx[langRowIndex]
-        let locKeys = readColumnWithId(keyColumnId, xlsx: xlsx)
+        
+        // print("langColumnsDict \"\(langColumnsDict)\" ")
+        
+        let locKeys = readColumnWithId(keyColumnId, xlsx: xlsx, args: args)
         
         var config: NSDictionary? = nil
         if args.configFile != nil {
@@ -66,7 +69,7 @@ class LocsGenerator: NSObject {
                 continue
             }
             
-            let langValues = readColumnWithId(columnId, xlsx: xlsx)
+            let langValues = readColumnWithId(columnId, xlsx: xlsx, args: args)
             let outputString = NSMutableString()
             
             var plistsOutputStrings = Dictionary<String, Any>()
@@ -88,19 +91,38 @@ class LocsGenerator: NSObject {
                 if keyString.isPluralKey() && !valueString.isEmpty {
                     pluralKeyValues[keyString] = valueString
                 }
-                appendLineToOutput(keyString: keyString, valueString: valueString, defaultOutput: outputString, plistOutputs: plistsOutputStrings, config: config)
+                if (args.platform=="ios") {
+                    appendLineToOutputiOS(keyString: keyString, valueString: valueString, defaultOutput: outputString, plistOutputs: plistsOutputStrings, config: config)
+                } else {
+                    appendLineToOutputAndroid(keyString: keyString, valueString: valueString, defaultOutput: outputString, plistOutputs: plistsOutputStrings, config: config)
+                }
             }
             
-            saveToLocalizableStringsFile(outputDir: args.outputDir, lang: lang, outputString: outputString as String)
-            saveToInfoPlistFile(outputDir: args.outputDir, lang: lang, plistsOutputStrings: plistsOutputStrings)
-            if let pluralsFile = generatePluralsFile(pluralKeyValues: pluralKeyValues) {
-                saveToLocalizableStringsDictFile(outputDir: args.outputDir, lang: lang, pluralsFile: pluralsFile)
+            if (args.platform=="ios") {
+                saveToLocalizableStringsFile(outputDir: args.outputDir, lang: lang, outputString: outputString as String)
+                saveToInfoPlistFile(outputDir: args.outputDir, lang: lang, plistsOutputStrings: plistsOutputStrings)
+                if let pluralsFile = generatePluralsFileiOS(pluralKeyValues: pluralKeyValues) {
+                    saveToLocalizableStringsDictFile(outputDir: args.outputDir, lang: lang, pluralsFile: pluralsFile)
+                }
+            } else {
+                if let pluralsFile = generatePluralsFileAndroid(pluralKeyValues: pluralKeyValues) {
+                    outputString.append(pluralsFile)
+                }
+                saveToAndroidStringsFile(outputDir: args.outputDir, lang: lang, outputString: outputString as String)
             }
+                
         }
         print("Finished in " + String(format: "%.2f", -nowDate.timeIntervalSinceNow) + " seconds.")
     }
     
-    private func appendLineToOutput(keyString: String, valueString: String, defaultOutput: NSMutableString, plistOutputs: Dictionary<String, Any>, config: NSDictionary?) {
+    private func appendLineToOutputAndroid(keyString: String, valueString: String, defaultOutput: NSMutableString, plistOutputs: Dictionary<String, Any>, config: NSDictionary?) {
+        if valueString.count > 0 {
+            let line = String(format:"<string name=\"%@\">%@</string>\n", keyString, valueString)
+            defaultOutput.append(line)
+        }
+    }
+    
+    private func appendLineToOutputiOS(keyString: String, valueString: String, defaultOutput: NSMutableString, plistOutputs: Dictionary<String, Any>, config: NSDictionary?) {
         var addedToPlist = false
         for plistName in config?.allKeys ?? [] {
             let plistConfig = config!.object(forKey: plistName) as! NSDictionary
@@ -120,22 +142,84 @@ class LocsGenerator: NSObject {
         }
     }
     
-    func readColumnWithId(_ columnId: String, xlsx: XlsxFile) -> [String] {
+    func readColumnWithId(_ columnId: String, xlsx: XlsxFile, args: AppArguments!) -> [String] {
         var result = [String]()
         for (index, row) in xlsx.enumerated() {
             if index == 0 {
                 continue
             }
+            // print("readColumnWithId \"\(index)\" row \"\(row)\" ... ")
             let value = row[columnId] ?? ""
-            result.append(cleanValue(input: value))
+            if (args.platform=="ios") {
+                result.append(cleanValueiOS(input: value))
+            } else {
+                result.append(cleanValueAndroid(input: value))
+            }
         }
         return result
     }
 
-    private func cleanValue(input: String) -> String {
+    private func cleanValueAndroid(input: String) -> String {
         var output = input
         output = output.replacingOccurrences(of: "\"", with: "\\\"")
         
+        // General character esacping needed for Android
+        output = output.replacingOccurrences(of: "&", with: "&amp;")
+            
+        // Remove escaped ones first...
+        output = output.replacingOccurrences(of: "\\'", with: "'")
+        // ... to then just be able to do all of them blindly and catch cases of ones that were missed off in the sheet
+        output = output.replacingOccurrences(of: "'", with: "\\\'")
+        
+        // Escape any trailing percentage symbol that is followed by a space
+        output = output.replacingOccurrences(of: "% ", with: "%% ")
+        
+        // ...or any trailing percentage symbol that is followed by a dash as in some German cases
+        output = output.replacingOccurrences(of: "%-", with: "%%-")
+        
+        // Replace "..." with single character "..." &#8230;
+        output = output.replacingOccurrences(of: "...", with: "&#8230;")
+        
+        var i = 1 // i will be the increasing parameter number throughout the string
+
+        // Convert bare %s string value
+        while let range = output.range(of: "%s", options: .regularExpression) {
+            output = output.replacingCharacters(in: range, with: String(format: "%%%d$s", i))
+            i += 1
+        }
+
+        // Convert bare %d decimal value
+        while let range = output.range(of: "%d", options: .regularExpression) {
+            output = output.replacingCharacters(in: range, with: String(format: "%%%d$d", i))
+            i += 1
+        }
+        
+        // Numerate multiple strings
+        while let range = output.range(of: "%@", options: .regularExpression) {
+            output = output.replacingCharacters(in: range, with: String(format: "%%%d$s", i))
+            i += 1
+        }
+        
+        // Some generic conversions - these might not always be true in current strings...
+        output = output.replacingOccurrences(of: "%1$@", with: "%1$s")
+        output = output.replacingOccurrences(of: "%2$@", with: "%2$s")
+                        
+        return output
+    }
+    
+    private func cleanValueiOS(input: String) -> String {
+        var output = input
+        output = output.replacingOccurrences(of: "\"", with: "\\\"")
+                
+        // Individual " % " signs with spaces should not be escapped to %%, so initially change them to something else
+        output = output.replacingOccurrences(of: " % ", with: " 😱 ")
+        
+        // Escape any trailing percentage symbol that is followed by a space to unicode version
+        output = output.replacingOccurrences(of: "% ", with: "%% ")
+        
+        // Now put back any " % " as they were.
+        output = output.replacingOccurrences(of: " 😱 ", with: " % ")
+
         var i = 1
         while let range = output.range(of: "%s", options: .regularExpression) {
             output = output.replacingCharacters(in: range, with: String(format: "%%%d$@", i))
@@ -146,9 +230,6 @@ class LocsGenerator: NSObject {
             output = output.replacingOccurrences(of: String(format: "%%%d$s", i), with: String(format: "%%%d$@", i))
         }
         
-        output = output.replacingOccurrences(of: "(%.1f%)%", with: "%@")
-        output = output.replacingOccurrences(of: "%.1f %", with: "%@")
-        
         return output
     }
     
@@ -156,6 +237,7 @@ class LocsGenerator: NSObject {
         guard let lang else {
             return false
         }
+        // print("isLangFormatValid :\"\(lang)\" ")
         if lang.count == 2 {
             return true
         }

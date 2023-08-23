@@ -14,29 +14,32 @@ class AppArguments {
     var inputFile: String!
     var outputDir: String!
     var configFile: String!
+    var platform: String!
     
     init?() {
         let args = CommandLine.arguments
-        if args.count < 3 || args.count > 4 {
+        if args.count < 4 || args.count > 5 {
             return nil
         }
         
         appPath = shell(launchPath: "/bin/pwd", arguments: [])?.replacingOccurrences(of: "\n", with: "")
         
-        inputFile = args[1]
+        platform = args[1]
+        
+        inputFile = args[2]
         if !inputFile.hasPrefix("/") {
             // relative path
             inputFile = (appPath as NSString).appendingPathComponent(inputFile)
         }
         
-        outputDir = args[2]
+        outputDir = args[3]
         if !outputDir.hasPrefix("/") {
             // relative path
             outputDir = (appPath as NSString).appendingPathComponent(outputDir)
         }
         
-        if args.count > 3 {
-            configFile = args[3]
+        if args.count > 4 {
+            configFile = args[4]
             if !configFile.hasPrefix("/") {
                 // relative path
                 configFile = (appPath as NSString).appendingPathComponent(configFile)
@@ -60,8 +63,9 @@ class AppArguments {
     }
     
     func printNoArgumetsHelp() {
-        print("Usage: locsutil <inputXslxFile> <outputDir> <configPlist>\n")
-        print("Parameters:\n\n\tinputXslxFile - path to XLSX document")
+        print("Usage: locsutil <platform> <inputXslxFile> <outputDir> <configPlist>\n")
+        print("Parameters:\n\tplatform - android / ios")
+        print("\n\tinputXslxFile - path to XLSX document")
         print("\n\toutputDir - path to output dir")
         print("\n\tconfigPlist - path to configuration plist file (optional)\n")
         print("")

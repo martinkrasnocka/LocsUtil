@@ -104,6 +104,7 @@ func computePlurals(pluralKeyValues: [String: String]) -> [Plural] {
                                   few: formatStringInfo.1[3],
                                   many: formatStringInfo.1[4],
                                   other: formatStringInfo.1[5]))
+            
         } else {
             print("Skipping plural for \(pluralKey) key")
         }
@@ -113,7 +114,41 @@ func computePlurals(pluralKeyValues: [String: String]) -> [Plural] {
     }
 }
 
-func generatePluralsFile(pluralKeyValues: [String: String]) -> String? {
+func computePluralsAndroid(pluralKeyValues: [String: String]) -> [Plural] {
+    var pluralKeys = [String]()
+    for key in pluralKeyValues.keys {
+        let pluralKey = key.removePluralSuffix()
+        if !pluralKeys.contains(pluralKey) {
+            pluralKeys.append(pluralKey)
+        }
+    }
+    var plurals = [Plural]()
+    for pluralKey in pluralKeys {
+        var allValueStringsForKey = [String]()
+        for suffix in String.pluralSuffixes {
+            if let value = pluralKeyValues[pluralKey + suffix] {
+                allValueStringsForKey.append(value)
+            }
+        }
+        
+        
+        plurals.append(Plural(key: pluralKey,
+                              formatString: "",
+                              pluralStringKey: pluralFormatPlaceholder,
+                              zero: allValueStringsForKey[0],
+                              one: allValueStringsForKey[1],
+                              two: allValueStringsForKey[2],
+                              few: allValueStringsForKey[3],
+                              many: allValueStringsForKey[4],
+                              other: allValueStringsForKey[5]))
+
+    }
+    return plurals.sorted { pl1, pl2 in
+        pl1.key < pl2.key
+    }
+}
+
+func generatePluralsFileiOS(pluralKeyValues: [String: String]) -> String? {
     let output = NSMutableString()
     output.append("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n")
     output.append("<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n")
@@ -169,6 +204,44 @@ func generatePluralsFile(pluralKeyValues: [String: String]) -> String? {
     }
     output.append("</dict>\n")
     output.append("</plist>\n")
+    
+    return output as String
+}
+
+func generatePluralsFileAndroid(pluralKeyValues: [String: String]) -> String? {
+    let output = NSMutableString()
+    
+    let plurals = computePluralsAndroid(pluralKeyValues: pluralKeyValues)
+    guard !plurals.isEmpty else {
+        return nil
+    }
+    
+    for plural in plurals {
+        guard plural.zero != nil || plural.one != nil || plural.two != nil || plural.few != nil || plural.many != nil || plural.other != nil else {
+            continue
+        }
+        output.append("<plurals name=\"\(plural.key)\">\n")
+     
+        if let value = plural.zero {
+            output.append("\t<item quantity=\"zero\">\(value)</item>\n")
+        }
+        if let value = plural.one {
+            output.append("\t<item quantity=\"one\">\(value)</item>\n")
+        }
+        if let value = plural.two {
+            output.append("\t<item quantity=\"two\">\(value)</item>\n")
+        }
+        if let value = plural.few {
+            output.append("\t<item quantity=\"few\">\(value)</item>\n")
+        }
+        if let value = plural.many {
+            output.append("\t<item quantity=\"many\">\(value)</item>\n")
+        }
+        if let value = plural.other {
+            output.append("\t<item quantity=\"other\">\(value)</item>\n")
+        }
+        output.append("</plurals>\n")
+    }    
     
     return output as String
 }
