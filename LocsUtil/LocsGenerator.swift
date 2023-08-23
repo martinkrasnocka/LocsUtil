@@ -174,6 +174,9 @@ class LocsGenerator: NSObject {
         // Replace "..." with single character "..." &#8230;
         output = output.replacingOccurrences(of: "...", with: "&#8230;")
         
+        // Escape any trailing percentage symbol that is followed by a space with unicode character to avoid breaking based on following characters
+        output = output.replacingOccurrences(of: "% ", with: "\\u0025 ")
+        
         var i = 1 // i will be the increasing parameter number throughout the string
 
         // Convert bare %s string value
