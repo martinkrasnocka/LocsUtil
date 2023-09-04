@@ -15,31 +15,43 @@ class AppArguments {
     var outputDir: String!
     var configFile: String!
     var platform: String!
+    var disablePlurals = false
     
     init?() {
         let args = CommandLine.arguments
-        if args.count < 4 || args.count > 5 {
+        if args.count < 4 || args.count > 6 {
+            return nil
+        }
+        appPath = shell(launchPath: "/bin/pwd", arguments: [])?.replacingOccurrences(of: "\n", with: "")
+        
+        var argIndex = 1
+        platform = args[argIndex].lowercased()
+        if platform != "ios" && platform != "android" {
             return nil
         }
         
-        appPath = shell(launchPath: "/bin/pwd", arguments: [])?.replacingOccurrences(of: "\n", with: "")
+        argIndex += 1
+        if args[argIndex].lowercased() == "disablePlurals".lowercased() {
+            disablePlurals = true
+            argIndex += 1
+        }
         
-        platform = args[1]
-        
-        inputFile = args[2]
+        inputFile = args[argIndex]
         if !inputFile.hasPrefix("/") {
             // relative path
             inputFile = (appPath as NSString).appendingPathComponent(inputFile)
         }
         
-        outputDir = args[3]
+        argIndex += 1
+        outputDir = args[argIndex]
         if !outputDir.hasPrefix("/") {
             // relative path
             outputDir = (appPath as NSString).appendingPathComponent(outputDir)
         }
         
-        if args.count > 4 {
-            configFile = args[4]
+        argIndex += 1
+        if argIndex < args.count {
+            configFile = args[argIndex]
             if !configFile.hasPrefix("/") {
                 // relative path
                 configFile = (appPath as NSString).appendingPathComponent(configFile)
@@ -62,9 +74,10 @@ class AppArguments {
         return output
     }
     
-    func printNoArgumetsHelp() {
-        print("Usage: locsutil <platform> <inputXslxFile> <outputDir> <configPlist>\n")
+    static func printNoArgumetsHelp() {
+        print("Usage: locsutil <platform> <disablePlurals> <inputXslxFile> <outputDir> <configPlist>\n")
         print("Parameters:\n\tplatform - android / ios")
+        print("\n\tdisablePlurals - specify 'disablePlurals' as an argument to disable plurals")
         print("\n\tinputXslxFile - path to XLSX document")
         print("\n\toutputDir - path to output dir")
         print("\n\tconfigPlist - path to configuration plist file (optional)\n")
@@ -73,6 +86,8 @@ class AppArguments {
     
     func printArguments() {
         print("Current directory: \(appPath ?? "none")")
+        print("Platform: \(platform ?? "none")")
+        print("Disable plurals: \(disablePlurals)")
         print("Input file path: \(inputFile ?? "none")")
         print("Output directory: \(outputDir ?? "none")")
         print("Config file: \(configFile ?? "<none>")")

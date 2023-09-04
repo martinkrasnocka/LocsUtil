@@ -32,9 +32,9 @@
             timestampString = "568112073.127511"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "129"
-            endingLineNumber = "129"
-            landmarkName = "readColumnWithId(_:xlsx:)"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "appendLineToOutputiOS(keyString:valueString:defaultOutput:plistOutputs:config:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -113,8 +113,8 @@
             filePath = "LocsUtil/AppArguments.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "init?()"
             landmarkType = "7">
          </BreakpointContent>
@@ -138,22 +138,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "2B146CFF-0F91-47EC-A751-E016A606F3FF"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LocsUtil/AppArguments.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "init?()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "B7949AA2-A87B-4AFC-80DE-59E034F3E45A"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -161,8 +145,8 @@
             filePath = "LocsUtil/AppArguments.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
             landmarkName = "init?()"
             landmarkType = "7">
          </BreakpointContent>
@@ -193,8 +177,8 @@
             filePath = "LocsUtil/AppArguments.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "shell(launchPath:arguments:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -209,8 +193,8 @@
             filePath = "LocsUtil/AppArguments.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
             landmarkName = "init?()"
             landmarkType = "7">
          </BreakpointContent>
@@ -243,7 +227,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "101"
             endingLineNumber = "101"
-            landmarkName = "appendLineToOutput(keyString:valueString:defaultOutput:plistOutputs:config:)"
+            landmarkName = "generate(args:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -307,7 +291,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "55"
             endingLineNumber = "55"
-            landmarkName = "saveToLocalizableStringsDictFile(outputDir:lang:pluralsFile:)"
+            landmarkName = "saveToAndroidStringsFile(outputDir:lang:outputString:)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -321,9 +305,9 @@
             filePath = "LocsUtil/PluralsHelper.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128"
-            landmarkName = "generatePluralsFile(pluralKeyValues:)"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "computePluralsAndroid(pluralKeyValues:)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -337,8 +321,8 @@
             filePath = "LocsUtil/PluralsHelper.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
             landmarkName = "computePlurals(pluralKeyValues:)"
             landmarkType = "9">
          </BreakpointContent>
@@ -433,26 +417,10 @@
             filePath = "LocsUtil/PluralsHelper.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
             landmarkName = "computePlurals(pluralKeyValues:)"
             landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3BB7726D-EA31-460C-B8E8-B8B3EF906265"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LocsUtil/PluralsHelper.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "computeFormatString()"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -465,26 +433,10 @@
             filePath = "LocsUtil/PluralsHelper.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
             landmarkName = "computePlurals(pluralKeyValues:)"
             landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "628FA54A-DF7D-4706-ABE1-B6D2596D9B26"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LocsUtil/PluralsHelper.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "computeFormatString()"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -497,10 +449,405 @@
             filePath = "LocsUtil/PluralsHelper.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
             landmarkName = "computePlurals(pluralKeyValues:)"
             landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57F695D2-597A-46D1-AC42-44CC02DEB1D2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocsUtil/PluralsHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "computePlurals(pluralKeyValues:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "57F695D2-597A-46D1-AC42-44CC02DEB1D2 - 63943855a151a302"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (locsutil.Plural, locsutil.Plural) -&gt; Swift.Bool in locsutil.computePlurals(pluralKeyValues: Swift.Dictionary&lt;Swift.String, Swift.String&gt;) -&gt; Swift.Array&lt;locsutil.Plural&gt;"
+                  moduleName = "locsutil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krasnocka/Documents/devel-private/LocsUtil/LocsUtil/PluralsHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "57F695D2-597A-46D1-AC42-44CC02DEB1D2 - 72728bafb4eecc4d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "locsutil.computePlurals(pluralKeyValues: Swift.Dictionary&lt;Swift.String, Swift.String&gt;) -&gt; Swift.Array&lt;locsutil.Plural&gt;"
+                  moduleName = "locsutil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krasnocka/Documents/devel-private/LocsUtil/LocsUtil/PluralsHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "2140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9EC0312F-4798-489B-B797-BC0912C6F9AF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocsUtil/PluralsHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "computeFormatString()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9EC0312F-4798-489B-B797-BC0912C6F9AF - 7fb853d956554502"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.Array&lt;&#x3c4;_0_0 where &#x3c4;_0_0 == Swift.String&gt;.computeFormatString() -&gt; Swift.Optional&lt;(Swift.String, Swift.Array&lt;Swift.String&gt;)&gt;"
+                  moduleName = "locsutil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krasnocka/Documents/devel-private/LocsUtil/LocsUtil/PluralsHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "540">
+               </Location>
+               <Location
+                  uuid = "9EC0312F-4798-489B-B797-BC0912C6F9AF - 7fb853d956554502"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.Array&lt;&#x3c4;_0_0 where &#x3c4;_0_0 == Swift.String&gt;.computeFormatString() -&gt; Swift.Optional&lt;(Swift.String, Swift.Array&lt;Swift.String&gt;)&gt;"
+                  moduleName = "locsutil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krasnocka/Documents/devel-private/LocsUtil/LocsUtil/PluralsHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "816">
+               </Location>
+               <Location
+                  uuid = "9EC0312F-4798-489B-B797-BC0912C6F9AF - 7fb853d956554502"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.Array&lt;&#x3c4;_0_0 where &#x3c4;_0_0 == Swift.String&gt;.computeFormatString() -&gt; Swift.Optional&lt;(Swift.String, Swift.Array&lt;Swift.String&gt;)&gt;"
+                  moduleName = "locsutil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krasnocka/Documents/devel-private/LocsUtil/LocsUtil/PluralsHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "944">
+               </Location>
+               <Location
+                  uuid = "9EC0312F-4798-489B-B797-BC0912C6F9AF - 3099f7cf94f1fd3a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.Array&lt;&#x3c4;_0_0 where &#x3c4;_0_0 == Swift.String&gt;.computeFormatString() -&gt; Swift.Optional&lt;(Swift.String, Swift.Array&lt;Swift.String&gt;)&gt;"
+                  moduleName = "LocsUtilTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krasnocka/Documents/devel-private/LocsUtil/LocsUtil/PluralsHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "904">
+               </Location>
+               <Location
+                  uuid = "9EC0312F-4798-489B-B797-BC0912C6F9AF - 3099f7cf94f1fd3a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.Array&lt;&#x3c4;_0_0 where &#x3c4;_0_0 == Swift.String&gt;.computeFormatString() -&gt; Swift.Optional&lt;(Swift.String, Swift.Array&lt;Swift.String&gt;)&gt;"
+                  moduleName = "LocsUtilTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krasnocka/Documents/devel-private/LocsUtil/LocsUtil/PluralsHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1032">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8A96123-06F5-4B32-A88E-D56AB6A91D84"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocsUtil/PluralsHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "computeFormatString()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A8A96123-06F5-4B32-A88E-D56AB6A91D84 - 7fb853d956554899"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.Array&lt;&#x3c4;_0_0 where &#x3c4;_0_0 == Swift.String&gt;.computeFormatString() -&gt; Swift.Optional&lt;(Swift.String, Swift.Array&lt;Swift.String&gt;)&gt;"
+                  moduleName = "locsutil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krasnocka/Documents/devel-private/LocsUtil/LocsUtil/PluralsHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "2264">
+               </Location>
+               <Location
+                  uuid = "A8A96123-06F5-4B32-A88E-D56AB6A91D84 - 7fb853d956554878"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.Array&lt;&#x3c4;_0_0 where &#x3c4;_0_0 == Swift.String&gt;.computeFormatString() -&gt; Swift.Optional&lt;(Swift.String, Swift.Array&lt;Swift.String&gt;)&gt;"
+                  moduleName = "locsutil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krasnocka/Documents/devel-private/LocsUtil/LocsUtil/PluralsHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "2076">
+               </Location>
+               <Location
+                  uuid = "A8A96123-06F5-4B32-A88E-D56AB6A91D84 - 7fb853d956554878"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.Array&lt;&#x3c4;_0_0 where &#x3c4;_0_0 == Swift.String&gt;.computeFormatString() -&gt; Swift.Optional&lt;(Swift.String, Swift.Array&lt;Swift.String&gt;)&gt;"
+                  moduleName = "locsutil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krasnocka/Documents/devel-private/LocsUtil/LocsUtil/PluralsHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "2100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "793D60DA-106C-4ED5-8FA3-2DC904188020"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocsUtil/PluralsHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "computeFormatString()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "793D60DA-106C-4ED5-8FA3-2DC904188020 - 7fb853d956554943"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.Array&lt;&#x3c4;_0_0 where &#x3c4;_0_0 == Swift.String&gt;.computeFormatString() -&gt; Swift.Optional&lt;(Swift.String, Swift.Array&lt;Swift.String&gt;)&gt;"
+                  moduleName = "locsutil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krasnocka/Documents/devel-private/LocsUtil/LocsUtil/PluralsHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "2368">
+               </Location>
+               <Location
+                  uuid = "793D60DA-106C-4ED5-8FA3-2DC904188020 - 7fb853d956554943"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.Array&lt;&#x3c4;_0_0 where &#x3c4;_0_0 == Swift.String&gt;.computeFormatString() -&gt; Swift.Optional&lt;(Swift.String, Swift.Array&lt;Swift.String&gt;)&gt;"
+                  moduleName = "locsutil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krasnocka/Documents/devel-private/LocsUtil/LocsUtil/PluralsHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "2640">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C2526A2-C31D-4475-9DCD-C67669B749DD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocsUtilTests/PluralsTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "testPlurals()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F9EB6D7-43A8-42D7-9ACF-292142CA58CA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocsUtil/PluralsHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "computeFormatString()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B718CBAC-7936-4662-9794-2FA6E49B4E8E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocsUtil/PluralsHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "computeFormatString()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B718CBAC-7936-4662-9794-2FA6E49B4E8E - 7fb853d9565545a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.Array&lt;&#x3c4;_0_0 where &#x3c4;_0_0 == Swift.String&gt;.computeFormatString() -&gt; Swift.Optional&lt;(Swift.String, Swift.Array&lt;Swift.String&gt;)&gt;"
+                  moduleName = "locsutil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krasnocka/Documents/devel-private/LocsUtil/LocsUtil/PluralsHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "636">
+               </Location>
+               <Location
+                  uuid = "B718CBAC-7936-4662-9794-2FA6E49B4E8E - 3099f7cf94f1fd9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.Array&lt;&#x3c4;_0_0 where &#x3c4;_0_0 == Swift.String&gt;.computeFormatString() -&gt; Swift.Optional&lt;(Swift.String, Swift.Array&lt;Swift.String&gt;)&gt;"
+                  moduleName = "LocsUtilTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krasnocka/Documents/devel-private/LocsUtil/LocsUtil/PluralsHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "512">
+               </Location>
+               <Location
+                  uuid = "B718CBAC-7936-4662-9794-2FA6E49B4E8E - 7fb853d9565545a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.Array&lt;&#x3c4;_0_0 where &#x3c4;_0_0 == Swift.String&gt;.computeFormatString() -&gt; Swift.Optional&lt;(Swift.String, Swift.Array&lt;Swift.String&gt;)&gt;"
+                  moduleName = "locsutil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krasnocka/Documents/devel-private/LocsUtil/LocsUtil/PluralsHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "500">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9102565-25D6-4EEE-B057-229EC9FE84DC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocsUtil/AppArguments.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "init?()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C9102565-25D6-4EEE-B057-229EC9FE84DC - 4d8c8b3ba25f16ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "locsutil.AppArguments.shell(launchPath: Swift.String, arguments: Swift.Array&lt;Swift.String&gt;) -&gt; Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "locsutil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krasnocka/Documents/devel-private/LocsUtil/LocsUtil/AppArguments.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "C9102565-25D6-4EEE-B057-229EC9FE84DC - 39f4d988f6a7aaa1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "locsutil.AppArguments.init() -&gt; Swift.Optional&lt;locsutil.AppArguments&gt;"
+                  moduleName = "locsutil"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krasnocka/Documents/devel-private/LocsUtil/LocsUtil/AppArguments.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "3300">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

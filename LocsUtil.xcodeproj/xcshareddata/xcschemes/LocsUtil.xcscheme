@@ -37,6 +37,16 @@
          </BuildableReference>
       </MacroExpansion>
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3DDD1AD22AA0A09600EA2C8D"
+               BuildableName = "LocsUtilTests.xctest"
+               BlueprintName = "LocsUtilTests"
+               ReferencedContainer = "container:LocsUtil.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -62,6 +72,10 @@
       <CommandLineArguments>
          <CommandLineArgument
             argument = "ios"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "disablePlurals"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument

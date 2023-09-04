@@ -32,6 +32,15 @@ extension Array where Element == String {
     func computeFormatString() -> (String, [String])? {
         let allComponents = map { $0.components(separatedBy: " ") }
         
+//        print("[\(map { "\"\($0)\"" }.joined(separator: ", "))],")
+//        let hasSameNumberOfComponents = allComponents.allSatisfy({ components in
+//            components.count == allComponents.first?.count ?? 0
+//        })
+//
+//        if !hasSameNumberOfComponents {
+//            print("!hasSameNumberOfComponents: [\(map { "\"\($0)\"" }.joined(separator: ", "))],")
+//        }
+        
         var distinctIndex: Int?
         let componentCount = allComponents.first?.count ?? 0
         for i in 0..<componentCount {

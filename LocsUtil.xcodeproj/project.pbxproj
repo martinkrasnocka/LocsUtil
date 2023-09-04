@@ -33,6 +33,8 @@
 		3D30423F1F729C170028A3B5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30423E1F729C170028A3B5 /* main.swift */; };
 		3D3042461F729C2A0028A3B5 /* CsvReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3042451F729C2A0028A3B5 /* CsvReader.swift */; };
 		3D3042481F729E000028A3B5 /* LocsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3042471F729E000028A3B5 /* LocsGenerator.swift */; };
+		3DDD1AD62AA0A09600EA2C8D /* PluralsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDD1AD52AA0A09600EA2C8D /* PluralsTests.swift */; };
+		3DDD1ADA2AA0A32700EA2C8D /* PluralsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D113FD329D6BECD00AB9E27 /* PluralsHelper.swift */; };
 		3DDD4E181F78EAD000459AAE /* locsutil in Copy Files */ = {isa = PBXBuildFile; fileRef = 3D30423B1F729C170028A3B5 /* locsutil */; };
 		3DDD4E1A1F78ED6400459AAE /* AppArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDD4E191F78ED6400459AAE /* AppArguments.swift */; };
 		3DDD4E421F7A3BA400459AAE /* config.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3DDD4E411F7A394000459AAE /* config.plist */; };
@@ -114,6 +116,8 @@
 		3D3042471F729E000028A3B5 /* LocsGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocsGenerator.swift; sourceTree = "<group>"; };
 		3D98A5FF251C8B1100C0E0FC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3D98A600251C8E9F00C0E0FC /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		3DDD1AD32AA0A09600EA2C8D /* LocsUtilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocsUtilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DDD1AD52AA0A09600EA2C8D /* PluralsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluralsTests.swift; sourceTree = "<group>"; };
 		3DDD4E191F78ED6400459AAE /* AppArguments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppArguments.swift; sourceTree = "<group>"; };
 		3DDD4E411F7A394000459AAE /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,6 +129,13 @@
 			files = (
 				3D01B7FC1F95DB8E0004BB8F /* Cocoa.framework in Frameworks */,
 				3D01B7FA1F95DB230004BB8F /* libxml2.2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDD1AD02AA0A09600EA2C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +232,7 @@
 				3D98A600251C8E9F00C0E0FC /* LICENSE.txt */,
 				3D98A5FF251C8B1100C0E0FC /* README.md */,
 				3D30423D1F729C170028A3B5 /* LocsUtil */,
+				3DDD1AD42AA0A09600EA2C8D /* LocsUtilTests */,
 				3D30423C1F729C170028A3B5 /* Products */,
 				3D01B7F81F95DB220004BB8F /* Frameworks */,
 			);
@@ -230,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				3D30423B1F729C170028A3B5 /* locsutil */,
+				3DDD1AD32AA0A09600EA2C8D /* LocsUtilTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -250,6 +263,14 @@
 				3D01B7FE1F95E3320004BB8F /* XlsxReader.m */,
 			);
 			path = LocsUtil;
+			sourceTree = "<group>";
+		};
+		3DDD1AD42AA0A09600EA2C8D /* LocsUtilTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DDD1AD52AA0A09600EA2C8D /* PluralsTests.swift */,
+			);
+			path = LocsUtilTests;
 			sourceTree = "<group>";
 		};
 		3DDD4E1C1F78F1E800459AAE /* input */ = {
@@ -283,13 +304,30 @@
 			productReference = 3D30423B1F729C170028A3B5 /* locsutil */;
 			productType = "com.apple.product-type.tool";
 		};
+		3DDD1AD22AA0A09600EA2C8D /* LocsUtilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DDD1AD92AA0A09600EA2C8D /* Build configuration list for PBXNativeTarget "LocsUtilTests" */;
+			buildPhases = (
+				3DDD1ACF2AA0A09600EA2C8D /* Sources */,
+				3DDD1AD02AA0A09600EA2C8D /* Frameworks */,
+				3DDD1AD12AA0A09600EA2C8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocsUtilTests;
+			productName = LocsUtilTests;
+			productReference = 3DDD1AD32AA0A09600EA2C8D /* LocsUtilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		3D3042331F729C170028A3B5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Martin Krasnocka";
 				TargetAttributes = {
@@ -297,6 +335,10 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 94KX2WEGFD;
 						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+					};
+					3DDD1AD22AA0A09600EA2C8D = {
+						CreatedOnToolsVersion = 14.3.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -315,9 +357,20 @@
 			projectRoot = "";
 			targets = (
 				3D30423A1F729C170028A3B5 /* LocsUtil */,
+				3DDD1AD22AA0A09600EA2C8D /* LocsUtilTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DDD1AD12AA0A09600EA2C8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		3DDD4E451F7A65C700459AAE /* ShellScript */ = {
@@ -365,6 +418,15 @@
 				3D3042461F729C2A0028A3B5 /* CsvReader.swift in Sources */,
 				3D01B7F31F95DA5F0004BB8F /* ioapi.c in Sources */,
 				3D01B7F01F95DA5F0004BB8F /* CXMLNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDD1ACF2AA0A09600EA2C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DDD1AD62AA0A09600EA2C8D /* PluralsTests.swift in Sources */,
+				3DDD1ADA2AA0A32700EA2C8D /* PluralsHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +574,51 @@
 			};
 			name = Release;
 		};
+		3DDD1AD72AA0A09600EA2C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krasnocka.LocsUtilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3DDD1AD82AA0A09600EA2C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krasnocka.LocsUtilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -529,6 +636,15 @@
 			buildConfigurations = (
 				3D3042431F729C170028A3B5 /* Debug */,
 				3D3042441F729C170028A3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DDD1AD92AA0A09600EA2C8D /* Build configuration list for PBXNativeTarget "LocsUtilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DDD1AD72AA0A09600EA2C8D /* Debug */,
+				3DDD1AD82AA0A09600EA2C8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

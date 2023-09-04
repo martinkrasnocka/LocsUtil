@@ -17,7 +17,7 @@ class LocsGenerator: NSObject {
     var xlsxReader: XlsxReader
     let langRowIndex = 0 // Language definitions - row index in XSLSX document
     let keyColumnId = "A" // Key definitions - column index in XSLSX document
-    let version = "2.51"
+    let version = "2.52"
     
     override init() {
 //        csvReader = CsvReader()
@@ -28,7 +28,7 @@ class LocsGenerator: NSObject {
         print("LocsUtil version: \(version). Homepage: https://github.com/martinkrasnocka/LocsUtil\n")
         
         if args == nil {
-            args.printNoArgumetsHelp()
+            AppArguments.printNoArgumetsHelp()
             return
         }
         args.printArguments()
@@ -101,12 +101,16 @@ class LocsGenerator: NSObject {
             if (args.platform=="ios") {
                 saveToLocalizableStringsFile(outputDir: args.outputDir, lang: lang, outputString: outputString as String)
                 saveToInfoPlistFile(outputDir: args.outputDir, lang: lang, plistsOutputStrings: plistsOutputStrings)
-                if let pluralsFile = generatePluralsFileiOS(pluralKeyValues: pluralKeyValues) {
-                    saveToLocalizableStringsDictFile(outputDir: args.outputDir, lang: lang, pluralsFile: pluralsFile)
+                if !args.disablePlurals {
+                    if let pluralsFile = generatePluralsFileiOS(pluralKeyValues: pluralKeyValues) {
+                        saveToLocalizableStringsDictFile(outputDir: args.outputDir, lang: lang, pluralsFile: pluralsFile)
+                    }
                 }
             } else {
-                if let pluralsFile = generatePluralsFileAndroid(pluralKeyValues: pluralKeyValues) {
-                    outputString.append(pluralsFile)
+                if !args.disablePlurals {
+                    if let pluralsFile = generatePluralsFileAndroid(pluralKeyValues: pluralKeyValues) {
+                        outputString.append(pluralsFile)
+                    }
                 }
                 saveToAndroidStringsFile(outputDir: args.outputDir, lang: lang, outputString: outputString as String)
             }
