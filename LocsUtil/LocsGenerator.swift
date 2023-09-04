@@ -17,7 +17,7 @@ class LocsGenerator: NSObject {
     var xlsxReader: XlsxReader
     let langRowIndex = 0 // Language definitions - row index in XSLSX document
     let keyColumnId = "A" // Key definitions - column index in XSLSX document
-    let version = "2.52"
+    let version = "2.53"
     
     override init() {
 //        csvReader = CsvReader()
@@ -222,6 +222,12 @@ class LocsGenerator: NSObject {
             output = output.replacingOccurrences(of: String(format: "%%%d$s", i), with: String(format: "%%%d$@", i))
         }
         
+        for i in 1..<10 {
+            output = output.replacingOccurrences(of: String(format: "%%%ds", i), with: String(format: "%%%d$@", i))
+        }
+        for i in 1..<10 {
+            output = output.replacingOccurrences(of: String(format: "%%%dd", i), with: String(format: "%%%d$d", i))
+        }
         return output
     }
     
