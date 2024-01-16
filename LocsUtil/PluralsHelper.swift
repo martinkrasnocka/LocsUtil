@@ -149,16 +149,19 @@ func computePluralsAndroid(pluralKeyValues: [String: String]) -> [Plural] {
             }
         }
         
-        
-        plurals.append(Plural(key: pluralKey,
-                              formatString: "",
-                              pluralStringKey: pluralFormatPlaceholder,
-                              zero: allValueStringsForKey[0],
-                              one: allValueStringsForKey[1],
-                              two: allValueStringsForKey[2],
-                              few: allValueStringsForKey[3],
-                              many: allValueStringsForKey[4],
-                              other: allValueStringsForKey[5]))
+        if allValueStringsForKey.count == 6 {
+            plurals.append(Plural(key: pluralKey,
+                                  formatString: "",
+                                  pluralStringKey: pluralFormatPlaceholder,
+                                  zero: allValueStringsForKey[0],
+                                  one: allValueStringsForKey[1],
+                                  two: allValueStringsForKey[2],
+                                  few: allValueStringsForKey[3],
+                                  many: allValueStringsForKey[4],
+                                  other: allValueStringsForKey[5]))
+        } else {
+            print("Skipping plural for \(pluralKey) key")
+        }
 
     }
     return plurals.sorted { pl1, pl2 in
