@@ -17,7 +17,7 @@ class LocsGenerator: NSObject {
     var xlsxReader: XlsxReader
     let langRowIndex = 0 // Language definitions - row index in XSLSX document
     let keyColumnId = "A" // Key definitions - column index in XSLSX document
-    let version = "2.54"
+    let version = "2.55"
     
     override init() {
 //        csvReader = CsvReader()
@@ -180,6 +180,9 @@ class LocsGenerator: NSObject {
         
         // Escape any trailing percentage symbol that is followed by a space with unicode character to avoid breaking based on following characters
         output = output.replacingOccurrences(of: "% ", with: "\\u0025 ")
+        
+        // Replace newlines with \n string
+        output = output.replacingOccurrences(of: "\n", with: "\\n")
         
         var i = 1 // i will be the increasing parameter number throughout the string
 
