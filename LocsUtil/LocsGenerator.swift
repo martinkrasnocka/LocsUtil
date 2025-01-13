@@ -17,7 +17,7 @@ class LocsGenerator: NSObject {
     var xlsxReader: XlsxReader
     let langRowIndex = 0 // Language definitions - row index in XSLSX document
     let keyColumnId = "A" // Key definitions - column index in XSLSX document
-    let version = "2.55"
+    let version = "2.56"
     
     override init() {
 //        csvReader = CsvReader()
@@ -207,7 +207,13 @@ class LocsGenerator: NSObject {
         // Some generic conversions - these might not always be true in current strings...
         output = output.replacingOccurrences(of: "%1$@", with: "%1$s")
         output = output.replacingOccurrences(of: "%2$@", with: "%2$s")
-                        
+
+        // To catch the individual plural strings that have some parameters in iOS format
+        output = output.replacingOccurrences(of: "%1d", with: "%1$d")
+        output = output.replacingOccurrences(of: "%2d", with: "%2$d")
+        output = output.replacingOccurrences(of: "%1s", with: "%1$s")
+        output = output.replacingOccurrences(of: "%2s", with: "%2$s")
+        
         return output
     }
     
